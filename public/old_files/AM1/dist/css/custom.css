@@ -1,0 +1,120 @@
+
+
+	  
+	
+.table thead th {
+  font-size: 15px;
+  line-height:18px;
+}
+
+.table-bordered td, .table-bordered th {
+      font-size: 15px;
+	  line-height:18px;
+}
+
+
+.card-custom{
+		  background-color: #b62159;	
+	  }
+
+	  .modal-body{
+		background-color: #FFFFFF;  
+	  }
+
+
+.modal-title-custom {
+    margin-bottom: 0;
+    line-height: 1.5;
+	
+}
+/*.btn-secondary {
+    color: #fff;
+    background-color: #0979d8;
+    border-color: #0979d8;
+    box-shadow: none;
+}*/
+
+.small-box {
+    margin-bottom: 0;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .small-box a {
+        transform: translateY(0) !important;
+    }
+}
+/*----------New Css-------------*/
+.app-main {
+    background-color: #fbe9f0 !important;
+}
+.card-primary.card-outline {
+    border-top: 3px solid #b62159;	 
+} 
+.bg-body-custom {
+    opacity: 1;
+    background-color: #b62159 !important;
+}
+.nav-link{	
+    color: #fff !important;
+}
+.nav-link.active{
+	background-color:#fff !important;
+    color: #831740 !important;
+}
+.sidebar-brand .brand-text {
+    margin-left: 0.5rem;
+    color: #fff !important;
+	font-weight: 600 !important;
+    transition: flex 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+.btn-custom{
+		  background-color: #b62159 !important;
+		  color:#fff !important;
+	  }
+
+.btn-custom1{
+          background-color: #fff !important;
+          color:#b62159 !important;
+      }
+
+.dt-button-gap {
+    margin-right: 10px; /* Adjust the margin value as needed */
+    border-radius: 5px !important;
+    background-color: #b62159; /* Change the background color */
+    color: #fff; /* Change the text color */
+    border: 2px solid #b62159; /* Change the border color, width, and style */
+}
+
+.card-header-custom {
+    background-color: #b62159;
+	color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 0.75rem 1.25rem;
+    position: relative;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #b62159;
+    border-color: #b62159;
+}
+.modal-header-custom
+{
+	display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-modal-header-padding);
+    border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+background-color: #b62159;
+	color: #fff;
+}
+.modal-body-custom {
+    background-color: #fbe9f0 !important;
+}
+

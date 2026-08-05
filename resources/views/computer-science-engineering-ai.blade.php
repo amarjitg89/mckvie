@@ -1,0 +1,1012 @@
+@extends('layout.master-template')
+
+@section('title','B.Tech in Computer Science and Engineering (Artificial Intelligence & Machine Learning) - MCKV Institute of Engineering')
+
+@section('content')
+     <!--##########  Banner Start ############# -->   
+ 
+ 
+ @include('layout.inc.inner-banner')
+ 
+ 
+ 
+ <!--##########  Banner End ############# -->  
+ 
+ 
+ 
+  <!--##########  Body Start ############# --> 
+  
+ 
+  
+  
+  
+  
+  
+   
+  
+
+ <!--##########  Course Overview Start ############# -->   
+  
+ 
+ <section>
+     
+     <div class="mainbody_div">
+         
+         <div class="container">
+             <div class="row m-0 justify-content-start align-items-end">
+          
+           
+              <div class="col-xl-7 col-lg-7 col-md-8 col-12 mb-sm-0 mb-2 ps-sm-0 pe-sm-3 ps-0 pe-0 ">
+                  
+                 
+                  <div class="red mainhome_title mb-3 text-start">Course <span class="fw-normal">Overview</span></div>
+                  <div class="home_about_txt text-start text-md-justify mb-3">
+              B.Tech in Computer Science & Engineering with specialization in Artificial Intelligence & Machine Learning is an architect of Sentient System and transformative frontier that prompts machines to think, empowers analytical minds to innovate, and delineates the hem between computational logic and human hunch.</br></br>
+              
+              Graduates in the field of <b>CSE(AI&ML)</b> are not only just "<b>programmers</b>", they are the “<b>architects of intelligence</b>”.</div> 
+                  
+                 <div class="home_about_txt text-start text-md-justify mb-sm-0 mb-3 w-100">  
+                      <!-- ====== START OF REPLICA ====== -->
+                    <div class="container-fluid p-0 replica-container">
+                        <!-- First Row: Intake & Affiliated -->
+                        <div class="row g-0 align-items-stretch">
+                            <div class="col-md-6 d-flex flex-column justify-content-center info-box box-intake">
+                                <div class="box-label">Intake Capacity</div>
+                                <div class="box-value">60</div>
+                            </div>
+                            <div class="col-md-6 d-flex flex-column justify-content-center info-box box-affiliation">
+                                <div class="box-label">Affiliated to</div>
+                                <div class="box-value">MAKAUT</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Second Row: Approved & Accredited -->
+                        <div class="row g-0 align-items-stretch">
+                            <div class="col-md-4 d-flex flex-column justify-content-center info-box box-approval">
+                                <div class="box-label">Approved by</div>
+                                <div class="box-value">AICTE</div>
+                            </div>
+                            <!-- Accredited section gets slightly wider layout naturally (col-md-8) to accommodate the long subtext cleanly -->
+                            <div class="col-md-8 d-flex flex-column justify-content-center info-box box-accreditation">
+                                <div class="box-label">Accredited by</div>
+                                <div class="box-value">NAAC</div>
+                                <div class="box-subtext">"A" grade Autonomous Institute under UGC Act. 1956</div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>  
+                  
+                  
+                  
+              </div>
+           
+           <div class="col-xl-5 col-lg-5 col-md-4 col-12 ps-sm-4 pe-0 ps-0">
+               
+         
+               
+          
+@include('render-course-enquiry')
+
+               
+               
+               
+           </div>
+           
+           
+           
+             </div>
+         </div>
+         
+     </div>
+     
+     
+ </section>
+ 
+  <!--##########  Course Overview End ############# --> 
+  
+ 
+ <!--##########  Eligibility Criteria for Admission Start ############# -->   
+  
+  
+ <section class="package">
+     
+     <div class="mainbody_div mainbody_div2 bgcolor1" >
+         
+         <div class="container">
+             <div class="row m-0  justify-content-center">
+                 
+                 
+   
+                 
+                 
+           <div class="col-lg-12 col-md-12 col-12">
+               
+                
+              <div class="mainhome_title text-center mb-sm-5 mb-3">
+                  
+               
+                  
+                   <span class="red">Eligibility Criteria  <span class="fw-normal">for Admission</span></span></div>     
+                
+              
+           </div> 
+           
+          
+             </div>
+             
+      <div class="row m-0 justify-content-center">
+                  
+               <div class="col-xl-5 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0">
+                   
+  <img src="{{asset('images/ai-eligibility.webp')}}" alt="" class="w-100 prinsiple">
+                   
+                   
+               </div>   
+                  
+             <div class="col-xl-7 col-lg-8 col-md-8 col-12  px-sm-3 px-0">
+             <div class="col-12">
+              
+              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+
+
+ <ul>
+            <li>Candidates must have valid WBJEE / JEE (Main) Score.</li>
+            
+            <li> Candidates must have passed the qualifying examination (10+2) with <b>Physics</b> and <b>Mathematics</b> along with <b>Chemistry / Biotechnology / Biology / Computer Science / Computer Applications / Technical Vocational</b> subjects with individual pass marks (in both theory and practical, wherever applicable) in all three subjects as stated above <b>in regular class mode</b>.
+</li>
+            
+            
+            <li>Candidates must have obtained <b>at least 45% marks</b> (40% in case of SC, ST, OBC, PwD) in all the three subjects taken together. As mentioned in Table 8.4 in AICTE Approval Process Handbook-2024, and as annexed (Appendix-7).</li>
+            
+            
+            <li>Candidates must have passed English in “10+2” examination with at least 30% marks.</li>
+            
+            
+            <li>The board of qualifying examination must be recognized either by the Central or State Government.</li>
+            
+            <li><b>Both B.Sc. Candidates and Diploma holders in Engineering & Technology</b> will also be eligible for admission to the 1st year Engineering Degree Courses, subject to vacancies in the 1st year classes in case the vacancies as lateral entry at second year are exhausted. However, the admission shall be based <b>strictly</b> on the eligibility criteria as mentioned above.
+</li>
+                
+                
+                
+            </ul>
+              
+              
+              </div>
+              
+               
+              
+              
+              
+                 
+                  
+                  
+                  
+          </div>      
+  
+                   
+                   
+               </div>  
+               
+               
+                  
+              </div>
+              
+              
+          
+             
+             
+         </div>
+         
+     </div>
+     
+     
+ </section>  
+  
+  
+  
+  
+   <!--##########  Eligibility Criteria for Admission End ############# --> 
+ 
+ 
+ 
+ 
+  
+  
+<!--##########  Mission & Vision Start ############# -->  
+  
+  
+<section>
+     
+     <div class="mainbody_div py-0">
+         
+         <div class="container-fluid p-0 m-0">
+             <div class="row m-0 align-items-center" id="counter">
+                 
+                 
+   <div class="col-lg-12 col-md-12 col-12  p-0">
+   <div class="mission_bg">
+      <div class="container"> 
+   <div class="row m-0 p-0  justify-content-center">
+       
+   <div class="col-xl-12 col-lg-12 col-sm-12 col-12 px-0">
+       
+      <div class="row m-0">
+          <div class="col-12 px-0">
+              <div class="mainhome_title mb-3 text-white"><span class="fw-normal">Our</span> Vision</div>
+          </div>
+          
+     
+
+<div class="col-xl-12 col-lg-12 col-sm-12 col-12 mb-sm-4 mb-3 px-0">
+<div class="home_about_txt text-justify text-white text-start">
+             To be a well-recognized department by providing students with an excellent environment for academics and research in the realm of Computer Science.
+                      
+                  </div>
+    
+  
+    
+</div>
+
+
+
+ <div class="col-12 px-0">
+              <div class="mainhome_title mb-3 text-white"><span class="fw-normal">Our</span> Mission</div>
+          </div>
+
+<div class="col-xl-12 col-lg-12 col-sm-12 col-12 px-0">
+<div class="home_about_txt text-start text-white">
+<ul>
+    <li>To provide a conducive atmosphere for the teaching learning process.</li>
+    <li>To make the students understand the role of Computer Science in social and global needs.</li>
+    <li>To develop theoretical knowledge of the students and make them skilled professionals by involving them in application-oriented activities, project works and arranging workshops, seminars and industry-oriented programs.</li>
+    <li>To facilitate the students in adapting to the changing technologies and to be successful in their professional and research works.</li>
+    
+</ul>             
+
+                      
+                  </div>
+    
+  
+    
+</div>
+          
+      </div> 
+       
+       
+   </div>    
+       
+     
+       
+       
+   
+       
+   </div>    
+    </div>   
+       
+       
+   </div>              
+                 
+    </div>     
+           
+             
+           
+           
+        
+           
+           
+             </div>
+             
+             
+          
+             
+             
+         </div>
+         
+     </div>
+     
+     
+ </section>  
+  
+  
+<!--##########  Mission & Vision End ############# -->    
+  
+  
+  
+  
+ 
+  
+  
+ 
+  <!--##########  Program Educational Objective Start ############# --> 
+  
+  
+  
+  
+ <section class="package">
+     
+     <div class="mainbody_div mainbody_div2 " >
+         
+         <div class="container">
+             
+      <div class="row m-0 justify-content-center align-items-center">
+          
+          
+          <div class="col-xl-8 col-lg-8 col-md-8 col-12  ps-sm-0 pe-sm-3 ps-0 pe-0 ">
+             <div class="col-12">
+              
+              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+                  
+                  
+ <div class="mainhome_title text-start mb-sm-3 mb-3">
+                  
+               
+                  
+                   <span class="red">Programme Educational  <span class="fw-normal">Objective</span></span></div>                   
+                  
+                  
+
+
+<ul>
+ <li><b>PEO-I:</b>     Graduates of the program will be successful computing professionals especially having the ability to work as AI and ML engineers / specialists.</li>
+  <li><b>PEO-II:</b>   Graduates of the program will pursue for higher education and involve in lifelong learning opportunities to improve and expand their technical and professional skills.</li>  
+   <li><b>PEO-III:</b> Graduates of the program will advance personally and professionally by demonstrating leadership qualities and by accepting professional and societal responsibilities.</li>  
+     
+    
+</ul>
+              
+              
+              </div>
+              
+               
+              
+              
+              
+                 
+                  
+                  
+                  
+          </div>      
+  
+                   
+                   
+               </div> 
+          
+          
+                  
+               <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 px-0  order-first order-md-2">
+                   
+  <img src="{{asset('images/Computer_Program_Educational_Objectiv_ai.webp')}} " alt="" class="w-100">
+                   
+                   
+               </div>   
+                  
+              
+               
+               
+                  
+              </div>
+              
+              
+          
+             
+             
+         </div>
+         
+     </div>
+     
+     
+ </section>   
+
+  
+ 
+ 
+<!--##########  Program Educational Objective End ############# --> 
+
+
+
+
+<!--##########  Programme Outcomes Start ############# --> 
+
+
+
+
+<section class="package">
+     
+     <div class="mainbody_div mainbody_div2 bgcolor1" >
+         
+         <div class="container">
+            
+      <div class="row m-0 justify-content-center">
+                  
+                 
+                  
+             <div class="col-xl-12 col-lg-12 col-md-12 col-12 px-0">
+             <div class="col-12">
+                 
+             <div class="mainhome_title text-start mb-sm-4 mb-3">
+               
+                   <span class="red">Programme <span class="fw-normal">Outcomes</span></span></div>     
+                 
+              
+              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+
+Engineering Graduates will be able to:</br></br>
+
+
+<ul>
+ <li><b>Engineering Knowledge:</b> Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems.</li>
+ 
+  <li><b>Problem Analysis:</b> Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions with consideration for sustainable development. (WK1 to WK4)
+</li>
+
+<li><b>Design/Development of Solutions:</b> Design creative solutions for complex engineering problems and design/develop systems/components/processes to meet identified needs with consideration for the public health and safety, whole-life cost, net zero carbon, culture, society and environment as required. (WK5)
+
+</li>  
+
+
+
+   <li><b>Conduct Investigations of Complex Problems:</b> Conduct investigations of complex engineering problems using research-based knowledge including design of experiments, modelling, analysis & interpretation of data to provide valid conclusions. (WK8).
+</li>  
+    
+     <li><b>Engineering Tool Usage:</b> Create, select and apply appropriate techniques, resources and modern engineering & IT tools, including prediction and modelling recognizing their limitations to solve complex engineering problems. (WK2 and WK6)
+
+</li>  
+      <li><b>The Engineer and The World:</b> Analyze and evaluate societal and environmental aspects while solving complex engineering problems for its impact on sustainability with reference to economy, health, safety, legal framework, culture and environment. (WK1, WK5, and WK7).
+</li> 
+
+<li><b>Ethics:</b> Apply ethical principles and commit to professional ethics, human values, diversity and inclusion; adhere to national & international laws. (WK9)
+
+</li>
+<li><b>Individual and Collaborative Team work:</b> Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams.
+</li>
+
+
+
+
+<li><b>Communication:</b> Communicate effectively and inclusively within the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations considering cultural, language, and learning differences.
+
+</li>
+<li><b>Project Management and Finance:</b> Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments.
+</li>
+<li><b>Life-Long Learning:</b> Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change. (WK8)
+
+</li>
+
+
+    
+</ul>
+              
+              
+              </div>
+              
+               
+              
+              
+              
+                 
+                  
+                  
+                  
+          </div>      
+  
+                   
+                   
+               </div>  
+               
+               
+                  
+              </div>
+              
+              
+          
+             
+             
+         </div>
+         
+     </div>
+     
+     
+ </section>
+
+<!--##########  Programme Outcomes End ############# --> 
+
+
+<!--##########  Program Specific Outcomes Start ############# -->
+
+
+
+
+<section class="package">
+     
+     <div class="mainbody_div mainbody_div2 " >
+         
+         <div class="container">
+             
+      <div class="row m-0 justify-content-center align-items-center">
+          
+         <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0 ">
+                   
+  <img src="{{asset('images/men-by-desk_1098-16320.webp')}}" alt="" class="w-100">
+                   
+                   
+               </div>  
+         
+          
+          <div class="col-xl-8 col-lg-8 col-md-8 col-12 px-sm-3 px-0">
+             <div class="col-12">
+              
+              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+                  
+                  
+ <div class="mainhome_title text-start mb-sm-3 mb-3">
+                  
+               
+                  
+                   <span class="red">Programme Specific <span class="fw-normal">Outcomes</span></span></div>                   
+                  
+                  
+
+
+<ul>
+ <li><b>PSO – I:</b> Students at the time of graduation will be able to design and develop Computer-based systems of varying complexity in the areas related to Artificial Intelligence, Machine Learning and Deep Learning.
+
+</li>
+  <li><b>PSO – II:</b> Students at the time of graduation will be able to apply appropriate technology to find solutions for complex problems.
+
+</li> 
+              
+              
+              </div>
+              
+               
+              
+              
+              
+                 
+                  
+                  
+                  
+          </div>      
+  
+                   
+                   
+               </div> 
+          
+          
+                  
+                
+                  
+              
+               
+               
+                  
+              </div>
+              
+              
+          
+             
+             
+         </div>
+         
+     </div>
+     
+     
+ </section> 
+
+
+
+
+
+<!--##########  Program Specific Outcomes End ############# --> 
+
+
+
+<!--##########  Faculty Members Start ############# -->
+
+ @include('render-faculty')
+
+
+
+
+
+
+
+<!--##########  Faculty Members End ############# -->
+
+
+
+
+<!--##########  Student Achievements Start ############# -->
+
+
+
+@include('render-student-acheivement')   
+
+
+
+
+<!--##########  Student Achievements End ############# -->
+
+
+
+
+<!--##########  Corporate Tie-Ups Start ############# -->
+
+
+@include('render-corporate-tieup')
+
+
+
+<!--##########  Corporate Tie-Ups End ############# -->
+
+
+
+<!--##########  Our Recruiters Start ############# -->
+
+
+@include('render-recruiters')
+
+
+
+<!--##########  Our Recruiters End ############# -->
+
+
+
+
+<!--##########  Success Stories - Alumni Start ############# -->
+
+@include('render-success-stories')
+
+
+
+
+<!--##########  Success Stories - Alumni End ############# -->
+
+
+
+
+<!--##########  Faculty Contributions Start ############# -->
+
+
+<section class="package">
+     
+     <div class="mainbody_div mainbody_div2 lightblue1">
+         
+         <div class="container">
+             
+             
+      <div class="row m-0">
+        
+           <div class="col-lg-12 col-md-12 col-12 px-0">
+               
+                
+              <div class="mainhome_title text-sm-start text-center mb-sm-4 mb-3">
+                  
+               
+                  
+                   <span class="red">Faculty <span class="fw-normal">Contributions</span></span></div>     
+                
+              
+           </div> 
+           
+          
+             </div>       
+             
+             
+             
+             
+      <div class="row m-0 justify-content-start ">
+          
+ <div class="col-xl-12 col-lg-12 col-md-12 col-12 px-0">
+  <div class="home_about_txt text-justify text-md-justify">
+      
+  <span class="fs-5 fw-bold  w-100 mb-3 d-flex blue">1. Research and Development</span>
+  
+   <span class="fs-5 fw-bolder  w-100 mb-3 d-flex red">Publications </br>(Academic Year: 2025 - 2026)</span> 
+
+    <span class="fs-6 fw-bolder  w-100 mb-3 d-flex blue">Conference Publications</span> 
+    
+    <ul>
+        <li>M.K. Das, P. Deb, <b>S.  Goswami</b>.  and A. Baruah (2026), “Nuclei segmentation from cell images using deep learning approach”, In: Giri, D., Ekbal, A., Ray, S., Kouichi, S. (eds) Proceedings of Second International Symposium on Artificial Intelligence. ISAI 2025. Lecture Notes in Networks and Systems, vol 1536. Springer, Singapore. <a href=" https://doi.org/10.1007/978-981-96-9239-2_21" target="_blank">https://doi.org/10.1007/978-981-96-9239-2_21</a>.
+</li>
+        
+        <li><b>M. Sarkar</b>, D. Sarkar and M.Chatterjee, "Modeling trust relationships among influential spreaders based on their interaction with their neighbors in a complex network scenario”, COMSYS 2025, held at Warsaw University of Technology, Poland, from 25th to 27th September 2025. (in press)
+</li>
+        
+        <li><b>P. S. Sen</b>, S. Mitra, and P. K. Mondal, "Detection of lung cancer by using graph convolutional networks (GCN) with MRI data", 5th IEEE International Conference on Power Control and Computing Technologies (ICPC2T-2026) (Hybrid Mode), 11-13 March 2026, NIT Raipur, India.
+</li>
+        
+        <li><b>P. S. Sen</b>, S. Chakrabarty and A. Samaddar, "A study of environmental pollution and its relation with disorders, diseases, and mortality using machine learning, deep learning," 2026 IEEE International Conference on AI Engineering and Innovations (AIEI), NIT Jamshedpur, India, 2026, pp. 1-6, doi: 10.1109/AIEI69164.2026.11496920.
+</li>
+        
+    </ul>
+      
+  </div>   
+     
+     
+     
+ </div>        
+               
+          
+                  
+              </div>
+              
+              
+<div class="row m-0 justify-content-end ">
+   <div class="col-lg-2 col-6 px-0"><a href="{{url('/faculty-contributions-cse-ai')}}"><div class="readmore_btn mt-sm-2 mt-2 w-100">Read More</div></a></div> 
+    
+    </div>              
+              
+              
+              
+              
+          
+             
+             
+         </div>
+         
+     </div>
+     
+     
+ </section>
+
+
+
+
+<!--##########  Faculty Contributions End ############# -->
+
+
+
+
+<!--##########  Classroom Start ############# -->
+
+
+<!--<section class="achivement">
+     
+     <div class="mainbody_div py-0 ">
+         
+         <div class="container-fluid p-0 m-0">
+             <div class="row m-0 align-items-center" id="counter">
+                 
+                 
+   <div class="col-lg-12 col-md-12 col-12 p-0">
+   <div class="mission_bg pb-2 bg-white">
+      <div class="container"> 
+   <div class="row m-0 p-0  justify-content-center">
+       
+   <div class="col-xl-12 col-lg-12 col-sm-12 col-12 px-sm-0">
+       
+      <div class="row m-0">
+          <div class="col-12 px-0">
+              <div class="mainhome_title mb-sm-4 mb-3 red">Classrooms</div>
+          </div>
+          
+     
+
+<div class="col-xl-12 col-lg-12 col-sm-12 col-12 mb-sm-4 mb-3 px-0">
+<div class="owl-carousel owl-theme position-relative" class="owl_main" id="classroom">
+    
+   
+  
+ <div class="item">
+    <a href="{{asset('images/classroom/MON_3715-1536x864.webp')}}" data-fancybox="classroom"> 
+   <div class="image-container">
+                    <img src="{{asset('images/classroom/MON_3715-1536x864.webp')}}" alt="">
+                    <div class="hover-overlay">
+                        <div class="magnify-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>  
+   </a>  
+     
+   
+   
+
+</div>
+
+<div class="item">
+    <a href="{{asset('images/classroom/MON_3768-1536x864.webp')}}" data-fancybox="classroom"> 
+   <div class="image-container">
+                    <img src="{{asset('images/classroom/MON_3768-1536x864.webp')}}" alt="">
+                    <div class="hover-overlay">
+                        <div class="magnify-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>  
+   </a>  
+     
+   
+   
+
+</div>
+
+<div class="item">
+    <a href="{{asset('images/classroom/MON_3783-1536x864.webp')}}" data-fancybox="classroom"> 
+   <div class="image-container">
+                    <img src="{{asset('images/classroom/MON_3783-1536x864.webp')}}" alt="">
+                    <div class="hover-overlay">
+                        <div class="magnify-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>  
+   </a>  
+     
+   
+   
+
+</div>
+
+<div class="item">
+    <a href="{{asset('images/classroom/MON_3781-1536x864.webp')}}" data-fancybox="classroom"> 
+   <div class="image-container">
+                    <img src="{{asset('images/classroom/MON_3781-1536x864.webp')}}" alt="">
+                    <div class="hover-overlay">
+                        <div class="magnify-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>  
+   </a>  
+     
+   
+   
+
+</div>
+
+<div class="item">
+    <a href="{{asset('images/classroom/MON_3725-1536x864.webp')}}" data-fancybox="classroom"> 
+   <div class="image-container">
+                    <img src="{{asset('images/classroom/MON_3725-1536x864.webp')}}" alt="">
+                    <div class="hover-overlay">
+                        <div class="magnify-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>  
+   </a>  
+     
+   
+   
+
+</div>
+
+<div class="item">
+    <a href="{{asset('images/classroom/MON_3716-1536x823.webp')}}" data-fancybox="classroom"> 
+   <div class="image-container">
+                    <img src="{{asset('images/classroom/MON_3716-1536x823.webp')}}" alt="">
+                    <div class="hover-overlay">
+                        <div class="magnify-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>  
+   </a>  
+     
+   
+   
+
+</div>
+    
+</div> 
+    
+  
+    
+</div>
+
+
+
+ 
+          
+      </div> 
+       
+       
+   </div>    
+       
+     
+       
+       
+   
+       
+   </div>    
+    </div>   
+       
+       
+   </div>              
+                 
+    </div>     
+           
+             
+           
+           
+        
+           
+           
+             </div>
+             
+             
+          
+             
+             
+         </div>
+         
+     </div>
+     
+     
+ </section> -->
+
+
+
+<!--##########  Classroom End ############# -->
+
+
+
+
+
+<!--##########  Laboratories Start ############# -->
+
+@include('render-laboratories')
+
+
+
+
+<!--##########  Laboratories End ############# -->
+
+
+
+<!--##########  Latest Events Start ############# -->
+
+@include('render-event')
+
+<!--##########  Latest Events End ############# -->
+
+
+
+
+ 
+  <!--##########  Body End ############# --> 
+  
+  @section('script')
+      
+  @endsection
+@endsection

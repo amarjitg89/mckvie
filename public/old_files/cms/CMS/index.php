@@ -1,0 +1,13 @@
+<?php
+if($_COOKIE['void_user']!='')
+{
+	?>
+<script>window.location.href='welcome.php'</script>
+<?php
+}
+else{
+	?>
+<script>window.location.href='login.php'</script>
+<?php
+}
+?>

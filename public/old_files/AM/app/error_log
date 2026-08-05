@@ -1,0 +1,4 @@
+[10-Jan-2026 08:50:53 America/New_York] PHP Fatal error:  Uncaught Error: Class "Auth" not found in /home/surakshasset/public_html/AM/app/dashboard.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/surakshasset/public_html/AM/app/dashboard.php on line 7
