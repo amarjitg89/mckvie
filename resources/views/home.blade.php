@@ -86,13 +86,13 @@
 	
 	
    <div class="carousel-item active">
-     <img src="{{asset('images/banner/banner1.jpg?v=2')}}" class="d-block w-100" alt="...">
+     <img src="{{asset('images/banner/banner1.webp?v=2')}}" class="d-block w-100" alt="...">
 	
     </div>
     
   
  <div class="carousel-item ">
-    <img src="{{asset('images/banner/banner2-new.jpg?v=2')}}" class="d-block w-100" alt="...">
+    <img src="{{asset('images/banner/banner2-new.webp?v=2')}}" class="d-block w-100" alt="...">
 	
     </div>
 
@@ -131,14 +131,14 @@
   <div class="carousel-inner">
  
     <div class="carousel-item active">
-      <img src="{{asset('images/banner/banner1-mob.jpg')}}" class="d-block w-100" alt="...">
+      <img src="{{asset('images/banner/banner1-mob.jpg?v=1')}}" class="d-block w-100" alt="...">
 		
 		
     </div>
 	
 	
 <div class="carousel-item ">
-      <img src="{{asset('images/banner/banner2-mob-new.jpg')}}" class="d-block w-100" alt="...">
+      <img src="{{asset('images/banner/banner2-mob-new.jpg?v=1')}}" class="d-block w-100" alt="...">
 		
 	
     </div>
@@ -317,7 +317,7 @@
                   
                <div class="home_aboutdiv">
                <div class="row m-0 p-0">
-                   <div class="col-xl-4 col-lg-3 col-sm-4 col-12 p-0"> <img src="{{asset('images/welcome 1.webp')}}" class="eventimg_css" alt="..."></div>
+                   <div class="col-xl-4 col-lg-3 col-sm-4 col-12 p-0"> <img src="{{asset('images/MCKVIE Image.webp')}}" class="eventimg_css" alt="..."></div>
                <div class="col-xl-8 col-lg-9 col-sm-8 col-12 p-3">
                    
                  <div class="subheading text-start fw-bold">About</div>  
@@ -516,14 +516,14 @@
 	 
 	 
          
-         <img src="{{asset('images/course/CSE-course.webp')}}" alt="" class="object-fit-cover " ></div>
+         <img src="{{asset('images/course/CSE Lab 2.webp')}}" alt="" class="object-fit-cover " ></div>
      
      <div class="row m-0 p-3">
          
            
             
        
-       <div class="col-lg-12 p-0 mb-1"><div class="service_subheading lh-sm">B.Tech Computer Science and Engineering</div></div>
+       <div class="col-lg-12 p-0 mb-1"><div class="service_subheading lh-sm">B.Tech in Computer Science and Engineering</div></div>
        
        <div class="col-lg-12 p-0 "><div class="home_about_txt pb-2 course_home_height text-start">The Computer Science and Engineering program provides a strong foundation in core computing principles while progressively introducing students to advanced and emerging technologies.</div></div>
        
@@ -547,14 +547,14 @@
 	 
 	 
          
-         <img src="{{asset('images/course/data-science.jpg')}}" alt="" class="object-fit-cover" ></div>
+         <img src="{{asset('images/course/CSE Lab 4.webp')}}" alt="" class="object-fit-cover" ></div>
      
      <div class="row m-0 p-3">
          
            
             
        
-       <div class="col-lg-12 p-0 mb-1"><div class="service_subheading lh-sm">B.Tech Computer Science and Engineering (Data Science)</div></div>
+       <div class="col-lg-12 p-0 mb-1"><div class="service_subheading lh-sm">B.Tech in Computer Science and Engineering (Data Science)</div></div>
        
        <div class="col-lg-12 p-0 "><div class="home_about_txt pb-2 course_home_height text-start">The Computer Science and Engineering (Data Science) program combines strong foundations in computing with specialized knowledge in Data Science, analytics, and intelligent systems. </div></div>
        
@@ -577,7 +577,7 @@
 	 
 	 
          
-         <img src="{{asset('images/course/ai.jpg')}}" alt="" class="object-fit-cover" ></div>
+         <img src="{{asset('images/course/SJA_0133.jpg')}}" alt="" class="object-fit-cover" ></div>
      
      <div class="row m-0 p-3">
          
@@ -602,19 +602,54 @@
        </div></div> </a>
 </div>
 
+
 <div class="item">
-     <a href="{{url('/course/automobile-engineering')}}" class="text-decoration-none  text-dark "> <div class="package_maindiv "> <div class="department_img position-relative">
+     <a href="{{url('/course/mtech-ai-datascience')}}" class="text-decoration-none  text-dark "> <div class="package_maindiv "> <div class="department_img position-relative">
 	 
 	 
          
-         <img src="{{asset('images/course/automobile-course-new1.webp')}}" alt="" class="object-fit-cover" ></div>
+         <img src="{{asset('images/course/SJA_0106.webp')}}" alt="" class="object-fit-cover" ></div>
      
      <div class="row m-0 p-3">
          
            
             
        
-       <div class="col-lg-12 p-0 mb-1"><div class="service_subheading lh-sm ">Automobile Engineering</div></div>
+       <div class="col-lg-12 p-0 mb-1"><div class="service_subheading lh-sm ">M.Tech in Artificial Intelligence and Data Science</div></div>
+       
+       <div class="col-lg-12 p-0 "><div class="home_about_txt pb-2 course_home_height text-start"> M.Tech in Artificial Intelligence & Data Science (AI & DS) is a two years full time post-graduate degree programme for the graduates who would like to pursue their career in the field of Artificial Intelligence and Data Science. </div></div>
+       
+      
+       
+       
+      <div class="col-lg-12 p-0">
+          <div class="row m-0 align-items-center">
+          
+              <div class="col-lg-6 col-6 px-0"><div class="readmore_btn mt-sm-2 mt-2 w-100">Read More</div></div>
+          </div>
+            </div>
+       
+       
+       </div></div> </a>
+</div>
+
+
+
+
+
+<div class="item">
+     <a href="{{url('/course/automobile-engineering')}}" class="text-decoration-none  text-dark "> <div class="package_maindiv "> <div class="department_img position-relative">
+	 
+	 
+         
+         <img src="{{asset('images/course/IMG_2737.webp')}}" alt="" class="object-fit-cover" ></div>
+     
+     <div class="row m-0 p-3">
+         
+           
+            
+       
+       <div class="col-lg-12 p-0 mb-1"><div class="service_subheading lh-sm ">B.Tech in Automobile Engineering</div></div>
        
        <div class="col-lg-12 p-0 "><div class="home_about_txt pb-2 course_home_height text-start">Automobile Engineering is a dynamic and fast-evolving field focused on product design, functionality, and integrated technologies. The program at MCKV Institute of Engineering offers an industry-oriented curriculum </div></div>
        
@@ -637,7 +672,7 @@
 	 
 	 
          
-         <img src="{{asset('images/course/btech-communication.webp')}}" alt="" class="object-fit-cover" ></div>
+         <img src="{{asset('images/course/Basic Electronics Laboratory.webp')}}" alt="" class="object-fit-cover" ></div>
      
      <div class="row m-0 p-3">
          
@@ -662,12 +697,49 @@
        </div></div> </a>
 </div>
 
+
+<div class="item">
+     <a href="{{url('/course/mtech-electronics-communication-engineering')}}" class="text-decoration-none  text-dark "> <div class="package_maindiv "> <div class="department_img position-relative">
+	 
+	 
+         
+         <img src="{{asset('images/course/SJA_0165.webp')}}" alt="" class="object-fit-cover" ></div>
+     
+     <div class="row m-0 p-3">
+         
+           
+            
+       
+       <div class="col-lg-12 p-0 mb-1"><div class="service_subheading lh-sm ">M.Tech in Electronics and Communications Engineering</div></div>
+       
+       <div class="col-lg-12 p-0 "><div class="home_about_txt pb-2 course_home_height text-start">M.Tech in Electronics and Communication Engineering, (M.TECH ECE-COMM ) is a two years full time post-graduate degree programme to develop trained academic and research personnel in the highly demanding and fast advancing field of communication.</div></div>
+       
+      
+       
+       
+      <div class="col-lg-12 p-0">
+          <div class="row m-0 align-items-center">
+          
+              <div class="col-lg-6 col-6 px-0"><div class="readmore_btn mt-sm-2 mt-2 w-100">Read More</div></div>
+          </div>
+            </div>
+       
+       
+       </div></div> </a>
+</div>
+
+
+
+
+
+
+
 <div class="item">
      <a href="{{url('/course/electrical-engineering')}}" class="text-decoration-none  text-dark "> <div class="package_maindiv "> <div class="department_img position-relative">
 	 
 	 
          
-         <img src="{{asset('images/course/electrical-course.webp')}}" alt="" class="object-fit-cover" ></div>
+         <img src="{{asset('images/course/Power System I Laboratory.webp')}}" alt="" class="object-fit-cover" ></div>
      
      <div class="row m-0 p-3">
          
@@ -697,7 +769,7 @@
 	 
 	 
          
-         <img src="{{asset('images/course/mechanical-course.webp')}}" alt="" class="object-fit-cover" ></div>
+         <img src="{{asset('images/course/SJA_0042.webp')}}" alt="" class="object-fit-cover" ></div>
      
      <div class="row m-0 p-3">
          
@@ -727,14 +799,14 @@
 	 
 	 
          
-         <img src="{{asset('images/course/it-course.webp')}}" alt="" class="object-fit-cover" ></div>
+         <img src="{{asset('images/course/IT Lab3_9_ (1).webp')}}" alt="" class="object-fit-cover" ></div>
      
      <div class="row m-0 p-3">
          
            
             
        
-       <div class="col-lg-12 p-0 mb-1"><div class="service_subheading lh-sm ">Information Technology</div></div>
+       <div class="col-lg-12 p-0 mb-1"><div class="service_subheading lh-sm ">B.Tech in Information Technology</div></div>
        
        <div class="col-lg-12 p-0 "><div class="home_about_txt pb-2 course_home_height text-start">Information TechnologyInformation Technology as a field of study has been playing a very important part of our lives today. While one might think of the typical IT worker employed in a major software company as a software developer, </div></div>
        
@@ -758,7 +830,7 @@
 	 
 	 
          
-         <img src="{{asset('images/course/mba_course_new.webp')}}" alt="" class="object-fit-cover" ></div>
+         <img src="{{asset('images/course/4.webp')}}" alt="" class="object-fit-cover" ></div>
      
      <div class="row m-0 p-3">
          
@@ -788,7 +860,7 @@
 	 
 	 
          
-         <img src="{{asset('images/course/bba-course-new.webp')}}" alt="" class="object-fit-cover" ></div>
+         <img src="{{asset('images/course/management.webp')}}" alt="" class="object-fit-cover" ></div>
      
      <div class="row m-0 p-3">
          
@@ -874,7 +946,7 @@
         <div class="col-xl-8 col-lg-7 col-sm-8 col-6 px-0">
             
          <div class="counter_maindiv">
-              <div class="countdown_number"> <span class="counter count" data-count="2105"> 0</span>+</div>
+              <div class="countdown_number"> <span class="counter count" data-count="2250"> 0</span>+</div>
 
 <div class="coundown_txt lh-sm" >Total No of Students</div>   
                  
@@ -895,7 +967,7 @@
         <div class="col-xl-8 col-lg-7 col-sm-8 col-6 px-0">
             
          <div class="counter_maindiv">
-              <div class="countdown_number"> <span class="counter count" data-count="4112"> 0</span>+</div>
+              <div class="countdown_number"> <span class="counter count" data-count="7500"> 0</span>+</div>
 
 <div class="coundown_txt lh-sm" >Total No of Alumni</div>   
                  
@@ -916,9 +988,9 @@
         <div class="col-xl-8 col-lg-7 col-sm-8 col-6 px-0">
             
          <div class="counter_maindiv">
-              <div class="countdown_number"> <span class="counter count" data-count="300"> 0</span>+</div>
+              <div class="countdown_number"> <span class="counter count" data-count="140"> 0</span>+</div>
 
-<div class="coundown_txt lh-sm" >Total No of Faculty</div>   
+<div class="coundown_txt lh-sm" >Total No of Teaching Staffs</div>   
                  
              </div>   
             
@@ -937,7 +1009,7 @@
         <div class="col-xl-8 col-lg-7 col-sm-8 col-6 px-0">
             
          <div class="counter_maindiv">
-              <div class="countdown_number"> <span class="counter count" data-count="83000"> 0</span>+</div>
+              <div class="countdown_number"> <span class="counter count" data-count="56000"> 0</span>+</div>
 
 <div class="coundown_txt lh-sm" >Total Books & Journals</div>   
                  
@@ -1028,29 +1100,35 @@
                   
                <div class="col-lg-12 col-md-12 col-12 px-sm-0 px-2">
                    
-<div class="owl-carousel owl-theme position-relative" class="owl_main" id="doctors">
+<div class="owl-carousel owl-theme position-relative" class="owl_main" id="accreditations">
     
+  <div class="item">
    
+   <div class="apporved_maindiv"><img src="{{asset('images/aicte-new.jpg')}}" alt="" class="w-100" ></div>
+
+</div> 
+
+<div class="item">
+   
+   <div class="apporved_maindiv"><img src="{{asset('images/makaut-new.jpg')}}" alt="" class="w-100" ></div>
+
+</div>
   
  <div class="item">
    
-   <div class="apporved_maindiv"><img src="{{asset('images/naac-a.png')}}" alt="" class="w-100" ></div>
+   <div class="apporved_maindiv"><img src="{{asset('images/naac-a.jpg')}}" alt="" class="w-100" ></div>
 
 </div>
 
  <div class="item">
    
-   <div class="apporved_maindiv"><img src="{{asset('images/1200px-maulana_abul_kalam_azad_university_of_technology_logo_svg_1.png')}}" alt="" class="w-100" ></div>
+   <div class="apporved_maindiv"><img src="{{asset('images/nba-new.jpg')}}" alt="" class="w-100" ></div>
 
 </div>
 
- <div class="item">
-   
-   <div class="apporved_maindiv"><img src="{{asset('images/all_india_council_for_technical_education_logo.png')}}" alt="" class="w-100" ></div>
+ 
 
-</div>
-
- <div class="item">
+ <!--<div class="item">
    
    <div class="apporved_maindiv"><img src="{{asset('images/ishrae-logo.png')}}" alt="" class="w-100" ></div>
 
@@ -1074,11 +1152,7 @@
 
 </div>
 
- <div class="item">
-   
-   <div class="apporved_maindiv"><img src="{{asset('images/nba.png')}}" alt="" class="w-100" ></div>
-
-</div>
+ 
 
  <div class="item">
    
@@ -1090,7 +1164,7 @@
    
    <div class="apporved_maindiv"><img src="{{asset('images/sae_logo.png')}}" alt="" class="w-100" ></div>
 
-</div>
+</div>-->
     
 </div>    
                    
@@ -1126,7 +1200,7 @@
                   
                <div class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0">
                    
-  <img src="{{asset('images/alahiri.559x0-is.png')}}" alt="" class="w-100 prinsiple">
+  <img src="{{asset('images/principle.webp')}}" alt="" class="w-100 prinsiple">
                    
                    
                </div>   
@@ -1559,7 +1633,7 @@
             <!-- Left Column: Featured Large Card (Cultural Activities) -->
             <div class="col-lg-6">
                 <a href="{{url('/cultural-activities')}}"><div class="activity-card featured">
-                    <img src="{{asset('images/photo-1501281668745-f7f57925c3b4.avif')}}" alt="Cultural Activities">
+                    <img src="{{asset('images/Cultural-Activities.webp')}}" alt="Cultural Activities">
                     <div class="card-overlay">
                         <h3 class="activity-title">Cultural Activities</h3>
                         <p class="activity-description">A few glimpses of cultural events held at college campus.</p>
@@ -1573,7 +1647,7 @@
                     <!-- Games & Sports -->
                    <div class="col-md-6 col-6">
                       <a href="{{url('/games-and-sports')}}">  <div class="activity-card">
-                            <img src="{{asset('images/sports_games.webp')}}" alt="Games & Sports">
+                            <img src="{{asset('images/games.webp')}}" alt="Games & Sports">
                             <div class="card-overlay">
                                 <h3 class="activity-title">Games & Sports</h3>
                             </div>
@@ -1583,7 +1657,7 @@
                     <!-- Student Counseling -->
                   <div class="col-md-6 col-6">
                       <a href="{{url('/student-counselling')}}">   <div class="activity-card">
-                            <img src="{{asset('images/Gemini_Generated_Image_14okp714okp714ok.webp')}}" alt="Seminars & Workshops">
+                            <img src="{{asset('images/student-counselling-new.webp')}}" alt="Seminars & Workshops">
                             <div class="card-overlay">
                                 <h3 class="activity-title">Student Counselling</h3>
                             </div>
@@ -1593,7 +1667,7 @@
                     <!-- Student Chapters -->
                     <div class="col-md-6 col-6">
                        <a href="{{url('/student-chapters')}}">  <div class="activity-card">
-                            <img src="{{asset('images/Gemini_Generated_Image_vemu8ivemu8ivemu.webp')}}" alt="Seminars & Workshops">
+                            <img src="{{asset('images/student-chapter/IIF_1.jpg')}}" alt="Seminars & Workshops">
                             <div class="card-overlay">
                                 <h3 class="activity-title">Student Chapters</h3>
                             </div>
@@ -1603,9 +1677,9 @@
                     <!-- Seminars & Workshops -->
                     <div class="col-md-6 col-6">
                        <a href="{{url('/seminars-workshops')}}">  <div class="activity-card">
-                            <img src="{{asset('images/Gemini_Generated_Image_l9vl2ql9vl2ql9vl (1).webp')}}" alt="Seminars & Workshops">
+                            <img src="{{asset('images/workshop.webp')}}" alt="Seminars & Workshops">
                             <div class="card-overlay">
-                                <h3 class="activity-title">Seminars & Workshops</h3>
+                                <h3 class="activity-title">Eminent Visitors</h3>
                             </div>
                         </div></a>
                     </div>

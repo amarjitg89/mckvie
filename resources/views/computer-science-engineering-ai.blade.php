@@ -40,10 +40,15 @@
                   
                  
                   <div class="red mainhome_title mb-3 text-start">Course <span class="fw-normal">Overview</span></div>
-                  <div class="home_about_txt text-start text-md-justify mb-3">
+                  <div class="home_about_txt text-justify text-md-justify mb-3">
               B.Tech in Computer Science & Engineering with specialization in Artificial Intelligence & Machine Learning is an architect of Sentient System and transformative frontier that prompts machines to think, empowers analytical minds to innovate, and delineates the hem between computational logic and human hunch.</br></br>
               
-              Graduates in the field of <b>CSE(AI&ML)</b> are not only just "<b>programmers</b>", they are the “<b>architects of intelligence</b>”.</div> 
+              Graduates in the field of <b>CSE(AI&ML)</b> are not only just "<b>programmers</b>", they are the “<b>architects of intelligence</b>”.</br></br>
+              
+              The curriculum encompasses diverse domains, including NLP, Computer Vision, Healthcare, Cyber Intelligence, Text Mining and many more. Furthermore, students will explore cutting-edge advancements in Autonomous Systems, Generative AI, Explainable AI, Agentic AI and Prompt Engineering, among other emerging fields.
+              
+              
+              </div> 
                   
                  <div class="home_about_txt text-start text-md-justify mb-sm-0 mb-3 w-100">  
                       <!-- ====== START OF REPLICA ====== -->
@@ -139,7 +144,7 @@
                   
                <div class="col-xl-5 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0">
                    
-  <img src="{{asset('images/ai-eligibility.webp')}}" alt="" class="w-100 prinsiple">
+  <img src="{{asset('images/course/SJA_0133.jpg')}}" alt="" class="w-100 prinsiple">
                    
                    
                </div>   
@@ -147,7 +152,7 @@
              <div class="col-xl-7 col-lg-8 col-md-8 col-12  px-sm-3 px-0">
              <div class="col-12">
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm ">
 
 
  <ul>
@@ -240,7 +245,7 @@
      
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 mb-sm-4 mb-3 px-0">
-<div class="home_about_txt text-justify text-white text-start">
+<div class="home_about_txt text-justify text-white">
              To be a well-recognized department by providing students with an excellent environment for academics and research in the realm of Computer Science.
                       
                   </div>
@@ -339,7 +344,7 @@
               <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
                   
                   
- <div class="mainhome_title text-start mb-sm-3 mb-3">
+ <div class="mainhome_title text-justify mb-sm-3 mb-3">
                   
                
                   
@@ -377,7 +382,7 @@
                   
                <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 px-0  order-first order-md-2">
                    
-  <img src="{{asset('images/Computer_Program_Educational_Objectiv_ai.webp')}} " alt="" class="w-100">
+  <img src="{{asset('images/SJA_0144.jpg')}} " alt="" class="w-100">
                    
                    
                </div>   
@@ -430,47 +435,47 @@
                    <span class="red">Programme <span class="fw-normal">Outcomes</span></span></div>     
                  
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm ">
 
 Engineering Graduates will be able to:</br></br>
 
 
 <ul>
- <li><b>Engineering Knowledge:</b> Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems.</li>
+ <li><b>PO-I:</b> <b>Engineering Knowledge:</b> Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems.</li>
  
-  <li><b>Problem Analysis:</b> Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions with consideration for sustainable development. (WK1 to WK4)
+  <li><b>PO-II:</b> <b>Problem Analysis:</b> Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions with consideration for sustainable development. (WK1 to WK4)
 </li>
 
-<li><b>Design/Development of Solutions:</b> Design creative solutions for complex engineering problems and design/develop systems/components/processes to meet identified needs with consideration for the public health and safety, whole-life cost, net zero carbon, culture, society and environment as required. (WK5)
+<li><b>PO-III:</b> <b>Design/Development of Solutions:</b> Design creative solutions for complex engineering problems and design/develop systems/components/processes to meet identified needs with consideration for the public health and safety, whole-life cost, net zero carbon, culture, society and environment as required. (WK5)
 
 </li>  
 
 
 
-   <li><b>Conduct Investigations of Complex Problems:</b> Conduct investigations of complex engineering problems using research-based knowledge including design of experiments, modelling, analysis & interpretation of data to provide valid conclusions. (WK8).
+   <li><b>PO-IV:</b> <b>Conduct Investigations of Complex Problems:</b> Conduct investigations of complex engineering problems using research-based knowledge including design of experiments, modelling, analysis & interpretation of data to provide valid conclusions. (WK8).
 </li>  
     
-     <li><b>Engineering Tool Usage:</b> Create, select and apply appropriate techniques, resources and modern engineering & IT tools, including prediction and modelling recognizing their limitations to solve complex engineering problems. (WK2 and WK6)
+     <li><b>PO-V:</b> <b>Engineering Tool Usage:</b> Create, select and apply appropriate techniques, resources and modern engineering & IT tools, including prediction and modelling recognizing their limitations to solve complex engineering problems. (WK2 and WK6)
 
 </li>  
-      <li><b>The Engineer and The World:</b> Analyze and evaluate societal and environmental aspects while solving complex engineering problems for its impact on sustainability with reference to economy, health, safety, legal framework, culture and environment. (WK1, WK5, and WK7).
+      <li><b>PO-VI:</b> <b>The Engineer and The World:</b> Analyze and evaluate societal and environmental aspects while solving complex engineering problems for its impact on sustainability with reference to economy, health, safety, legal framework, culture and environment. (WK1, WK5, and WK7).
 </li> 
 
-<li><b>Ethics:</b> Apply ethical principles and commit to professional ethics, human values, diversity and inclusion; adhere to national & international laws. (WK9)
+<li><b>PO-VII:</b> <b>Ethics:</b> Apply ethical principles and commit to professional ethics, human values, diversity and inclusion; adhere to national & international laws. (WK9)
 
 </li>
-<li><b>Individual and Collaborative Team work:</b> Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams.
+<li><b>PO-VIII:</b> <b>Individual and Collaborative Team work:</b> Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams.
 </li>
 
 
 
 
-<li><b>Communication:</b> Communicate effectively and inclusively within the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations considering cultural, language, and learning differences.
+<li><b>PO-IX:</b> <b>Communication:</b> Communicate effectively and inclusively within the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations considering cultural, language, and learning differences.
 
 </li>
-<li><b>Project Management and Finance:</b> Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments.
+<li><b>PO-X:</b> <b>Project Management and Finance:</b> Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments.
 </li>
-<li><b>Life-Long Learning:</b> Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change. (WK8)
+<li><b>PO-XI:</b> <b>Life-Long Learning:</b> Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change. (WK8)
 
 </li>
 
@@ -528,7 +533,7 @@ Engineering Graduates will be able to:</br></br>
           
          <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0 ">
                    
-  <img src="{{asset('images/men-by-desk_1098-16320.webp')}}" alt="" class="w-100">
+  <img src="{{asset('images/SJA_0119.jpg')}}" alt="" class="w-100">
                    
                    
                </div>  
@@ -540,7 +545,7 @@ Engineering Graduates will be able to:</br></br>
               <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
                   
                   
- <div class="mainhome_title text-start mb-sm-3 mb-3">
+ <div class="mainhome_title text-justify mb-sm-3 mb-3">
                   
                
                   

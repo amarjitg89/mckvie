@@ -1,6 +1,6 @@
 @extends('layout.master-template')
 
-@section('title','B.Tech Computer Science & Engineering (Data Science) - MCKV Institute of Engineering')
+@section('title','B.Tech in Computer Science and Engineering (Data Science) - MCKV Institute of Engineering')
 
 @section('content')
      <!--##########  Banner Start ############# -->   
@@ -40,7 +40,7 @@
                   
                  
                   <div class="red mainhome_title mb-3 text-start">Course <span class="fw-normal">Overview</span></div>
-                  <div class="home_about_txt text-start text-md-justify mb-3">
+                  <div class="home_about_txt text-justify text-md-justify mb-3">
                MCKV Institute of Engineering offers a future-ready B.Tech in Computer Science & Engineering with Specialization in Data Science, designed to meet the growing demands of the digital era. The programme blends strong computer science fundamentals with advanced technologies such as <b>Machine Learning, Big Data, Cloud Computing, Cyber Security, Data Analytics, Data Visualization</b>, and <b>Business Intelligence</b>. With experienced faculty, modern laboratories, industry collaborations, internships, and hands-on projects, students gain practical exposure and real-world analytical skills. The curriculum focuses on innovation, research, and data-driven problem solving, preparing students for rewarding careers as <b>Data Scientists, Data Analysts, Business Analysts, Software Engineers</b>, and <b>Data Engineering Professionals</b> in leading global industries.</div> 
                   
                  <div class="home_about_txt text-start text-md-justify mb-sm-0 mb-3 w-100">  
@@ -137,7 +137,7 @@
                   
                <div class="col-xl-5 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0">
                    
-  <img src="{{asset('images/data-science-eligibility.webp')}}" alt="" class="w-100 prinsiple">
+  <img src="{{asset('images/course/CSE Lab 4.webp')}}" alt="" class="w-100 prinsiple">
                    
                    
                </div>   
@@ -145,7 +145,7 @@
              <div class="col-xl-7 col-lg-8 col-md-8 col-12  px-sm-3 px-0">
              <div class="col-12">
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm ">
 
 
  <ul>
@@ -348,9 +348,10 @@
 
 
 <ul>
- <li><b>PEO-I:</b>     Graduates of the program will be successful computing professionals especially having the ability to work as AI and ML engineers / specialists.</li>
-  <li><b>PEO-II:</b>   Graduates of the program will pursue for higher education and involve in lifelong learning opportunities to improve and expand their technical and professional skills.</li>  
-   <li><b>PEO-III:</b> Graduates of the program will be successful computing professionals especially having the ability to work as AI and ML engineers / specialists.</li>  
+ <li><b>PEO-I:</b>     Graduates of the program will be successful computing professionals especially will have the ability to work as Data Engineers.</li>
+  <li><b>PEO-II:</b>   Graduates will demonstrate leadership quality in their workspace with consideration for society and the environment.</li>  
+  
+   <li><b>PEO-III:</b> Graduates will demonstrate lifelong learning in their profession and in pursuing higher studies.</li>  
      
     
 </ul>
@@ -376,7 +377,7 @@
                   
                <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 px-0  order-first order-md-2">
                    
-  <img src="{{asset('images/Computer_Program_Educational_Objectiv_data_science.webp')}} " alt="" class="w-100">
+  <img src="{{asset('images/SJA_06.webp')}} " alt="" class="w-100">
                    
                    
                </div>   
@@ -429,48 +430,48 @@
                    <span class="red">Programme <span class="fw-normal">Outcomes</span></span></div>     
                  
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm ">
 
 POs describe what students are expected to know or will be able to do by the time they complete graduation from the program. The Program Outcomes of UG in Computer Science & Engineering are as follows:</br></br>
 
 
 <ul>
- <li><b>Engineering Knowledge:</b> Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems.</li>
+ <li><b>PO-I:</b> <b>Engineering Knowledge:</b> Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems.</li>
  
-  <li><b>Problem Analysis:</b> Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions with consideration for sustainable development. (WK1 to WK4)
+  <li><b>PO-II:</b> <b>Problem Analysis:</b> Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions with consideration for sustainable development. (WK1 to WK4)
 
 </li>
 
-<li><b>Design/Development of Solutions:</b> Design creative solutions for complex engineering problems and design/develop systems/components/processes to meet identified needs with consideration for the public health and safety, whole-life cost, net zero carbon, culture, society and environment as required. (WK5)
+<li><b>PO-III:</b> <b>Design/Development of Solutions:</b> Design creative solutions for complex engineering problems and design/develop systems/components/processes to meet identified needs with consideration for the public health and safety, whole-life cost, net zero carbon, culture, society and environment as required. (WK5)
 
 </li>  
 
 
 
-   <li><b>Conduct Investigations of Complex Problems:</b> Conduct investigations of complex engineering problems using research-based knowledge including design of experiments, modelling, analysis & interpretation of data to provide valid conclusions. (WK8).
+   <li><b>PO-IV:</b> <b>Conduct Investigations of Complex Problems:</b> Conduct investigations of complex engineering problems using research-based knowledge including design of experiments, modelling, analysis & interpretation of data to provide valid conclusions. (WK8).
 </li>  
     
-     <li><b>Engineering Tool Usage:</b> Create, select and apply appropriate techniques, resources and modern engineering & IT tools, including prediction and modelling recognizing their limitations to solve complex engineering problems. (WK2 and WK6)
+     <li><b>PO-V:</b> <b>Engineering Tool Usage:</b> Create, select and apply appropriate techniques, resources and modern engineering & IT tools, including prediction and modelling recognizing their limitations to solve complex engineering problems. (WK2 and WK6)
 
 </li>  
-      <li><b>The Engineer and The World:</b> Analyze and evaluate societal and environmental aspects while solving complex engineering problems for its impact on sustainability with reference to economy, health, safety, legal framework, culture and environment. (WK1, WK5, and WK7).
+      <li><b>PO-VI:</b> <b>The Engineer and The World:</b> Analyze and evaluate societal and environmental aspects while solving complex engineering problems for its impact on sustainability with reference to economy, health, safety, legal framework, culture and environment. (WK1, WK5, and WK7).
 </li> 
 
-<li><b>Ethics:</b> Apply ethical principles and commit to professional ethics, human values, diversity and inclusion; adhere to national & international laws. (WK9)
+<li><b>PO-VII:</b> <b>Ethics:</b> Apply ethical principles and commit to professional ethics, human values, diversity and inclusion; adhere to national & international laws. (WK9)
 
 </li>
-<li><b>Individual and Collaborative Team work:</b> Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams.
+<li><b>PO-VIII:</b> <b>Individual and Collaborative Team work:</b> Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams.
 </li>
 
 
 
 
-<li><b>Communication:</b> Communicate effectively and inclusively within the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations considering cultural, language, and learning differences.
+<li><b>PO-IX:</b> <b>Communication:</b> Communicate effectively and inclusively within the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations considering cultural, language, and learning differences.
 
 </li>
-<li><b>Project Management and Finance:</b> Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments.
+<li><b>PO-X:</b> <b>Project Management and Finance:</b> Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments.
 </li>
-<li><b>Life-Long Learning:</b> Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change. (WK8)
+<li><b>PO-XI:</b> <b>Life-Long Learning:</b> Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change. (WK8)
 
 </li>
 
@@ -528,7 +529,7 @@ POs describe what students are expected to know or will be able to do by the tim
           
          <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0 ">
                    
-  <img src="{{asset('images/men-by-desk_1098-16320.webp')}}" alt="" class="w-100">
+  <img src="{{asset('images/CSE Lab 5.webp')}}" alt="" class="w-100">
                    
                    
                </div>  
@@ -540,7 +541,7 @@ POs describe what students are expected to know or will be able to do by the tim
               <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
                   
                   
- <div class="mainhome_title text-start mb-sm-3 mb-3">
+ <div class="mainhome_title text-justify mb-sm-3 mb-3">
                   
                
                   

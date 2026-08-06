@@ -19,7 +19,7 @@
    <!--##########  Notice Start ############# --> 
 
   
- @include('render-department-notice') 
+  @include('render-department-notice') 
   
   
  <!--##########  Notice End ############# -->  
@@ -46,7 +46,7 @@
                   
                  
                   <div class="red mainhome_title mb-3 text-start">Department <span class="blue fw-normal">Overview</span></div>
-                  <div class="home_about_txt text-start text-md-justify">
+                  <div class="home_about_txt text-justify text-md-justify">
                Amid the rapid advancement of the electrical industry, the global demand for competent and driven engineers continues to rise steadily. Recognizing this need, MCKV Institute of Engineering launched its Electrical Engineering program in the academic session 2010–2011. Since its inception, the department has distinguished itself through a dedicated team of highly qualified and experienced faculty members who are committed to academic excellence and innovation. The department is supported by modern, well-equipped laboratories that offer students extensive hands-on exposure, fostering both practical skills and creative thinking. With access to comprehensive resources and a conducive learning environment, students are encouraged to explore their capabilities, nurture their talents, and strive toward achieving their professional aspirations. In addition to a strong academic foundation, the department emphasizes industry relevance and emerging technological trends. The curriculum is regularly updated to incorporate advancements in areas such as renewable energy systems, smart grids, electric vehicles, power electronics, and automation. Students are encouraged to participate in technical workshops, seminars, internships, and collaborative projects, which help bridge the gap between theoretical knowledge and real-world applications. 
                       
                   </div> 
@@ -57,7 +57,7 @@
                
          
                
-            <img src="{{asset('images/electrical-engineering-overview.webp')}}" class="w-100" alt="...">   
+            <img src="{{asset('images/Power Electronics Laboratory.webp')}}" class="w-100" alt="...">   
                
                
                
@@ -71,7 +71,7 @@
  <div class="row m-0 justify-content-start ">      
              
         <div class="col-12 px-0 mt-4">
-         <div class="home_about_txt text-start text-md-justify">    
+         <div class="home_about_txt text-justify text-md-justify">    
          The department also promotes a culture of research and innovation by motivating students and faculty members to engage in interdisciplinary projects and publish their findings in reputed journals and conferences. Active student involvement in technical clubs and professional societies further enhances leadership qualities, teamwork, and problem-solving abilities. Moreover, strong industry-academia interaction, guest lectures by experts, and industrial visits provide valuable exposure to current engineering practices and challenges. The department takes pride in its alumni, who have excelled in diverse fields including higher education, research, public sector undertakings, and leading multinational companies.</div>   
             
         </div>     
@@ -117,7 +117,7 @@
      
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 mb-sm-4 mb-3 px-0">
-<div class="home_about_txt text-justify text-white text-start">
+<div class="home_about_txt text-justify text-white text-justify">
 To evolve as a centre of excellence in Electrical Engineering Education and research to produce competent and socially responsible graduates rendering relevant services to the nation.
 
                       
@@ -134,7 +134,7 @@ To evolve as a centre of excellence in Electrical Engineering Education and rese
           </div>
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 px-0">
-<div class="home_about_txt text-start text-white">
+<div class="home_about_txt text-justify text-white">
 <ul>
     <li>To produce graduates with relevant applications of fundamental knowledge in solving   Electrical Engineering problems.</li>
     <li>To prepare the electrical engineering graduates synchronous with the work culture and requirements of the industries. </li>
@@ -227,12 +227,12 @@ To evolve as a centre of excellence in Electrical Engineering Education and rese
                <div class="col-lg-12 col-md-12 col-12 px-0">
                 <div class="home_aboutdiv bg-white p-3">
                <div class="row m-0 p-0 align-items-center align-items-md-start  justify-content-start">
-                   <div class="col-xl-4 col-lg-3 col-sm-4 col-12 p-0"> <img src="{{asset('images/course/electrical-course.webp')}}" class="eventimg_css" alt="..."></div>
+                   <div class="col-xl-4 col-lg-3 col-sm-4 col-12 p-0"> <img src="{{asset('images/course/Power System I Laboratory.webp')}}" class="eventimg_css" alt="..."></div>
                <div class="col-xl-8 col-lg-9 col-sm-8 col-12 px-sm-4 py-sm-0 px-0 pt-4">
                    
                   
                   <div class="red maincourse_title mb-3 text-start">B.Tech in Electrical Engineering</div>
-                  <div class="home_about_txt text-start">
+                  <div class="home_about_txt text-justify">
              Since its establishment, the Electrical Engineering Department has consistently contributed to enhancing academic excellence while simultaneously strengthening the infrastructure and facilities available to students. The laboratories are modern, well equipped, and designed to support comprehensive practical learning, with strict adherence to safety standards to ensure a secure working environment for all student users. 
                </br></br>
                
@@ -302,7 +302,7 @@ To evolve as a centre of excellence in Electrical Engineering Education and rese
                   
                <div class="col-xl-2 col-lg-3 col-md-4 col-6 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0">
                    
-  <img src="{{asset('images/faculty/Dr. Tamal Roy.jpg')}}" alt="" class="w-100 prinsiple">
+  <img src="{{asset('images/faculty/Dr. Suchismita Ghosh.jpg')}}" alt="" class="w-100 prinsiple">
                    
                    
                </div>   
@@ -310,9 +310,9 @@ To evolve as a centre of excellence in Electrical Engineering Education and rese
             <div class="col-xl-10 col-lg-9 col-md-8 col-12 8 px-sm-3 px-0">
              <div class="col-12">
               <div class="mainhome_title text-start mb-2 text-white">Message from Head of Department</div>
-              <div class="mainhome_title text-start mb-3 text-white fs-6 fw-bold lh-sm text-start text-md-justify">Dr. Tamal Roy</br>
-              <span class="faculty_designation fw-normal">Associate Professor</br>
-               Ph.D. (Engg.), 20 years</br></br>
+              <div class="mainhome_title mb-3 text-white fs-6 fw-bold lh-sm text-justify text-md-justify">Dr. Suchismita Ghosh</br>
+              <span class="faculty_designation fw-normal">Assistant Professor</br>
+               Electrical Engineering B.Tech, M.Tech in Electrical Engineering, Ph.D. (Tech) </br></br>
 It is a privilege to welcome you to the Department of Electrical Engineering at MCKV Institute of Engineering, an institution dedicated to academic excellence, innovation, and all-round development. Since its inception, the department has played a vital role in shaping skilled engineers with a strong grounding in both theoretical knowledge and practical application.</br></br>
 
 Our curriculum is continuously updated to align with emerging technologies such as power systems, renewable energy, smart grids, electric vehicles, and automation. We emphasize experiential learning through well-equipped laboratories that provide hands-on exposure while maintaining the highest standards of safety and technical competence.</br></br>

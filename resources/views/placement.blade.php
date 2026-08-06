@@ -45,7 +45,7 @@
                
          
                
-            <img src="{{asset('images/about-placement.webp')}}" class="w-100" alt="...">   
+            <img src="{{asset('images/SJA_0075.webp')}}" class="w-100" alt="...">   
                
                
                
@@ -175,7 +175,7 @@
                   
                <div class="col-xl-5 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0">
                    
-  <img src="{{asset('images/Rectangle 176.jpg')}}" alt="" class="w-100 ">
+  <img src="{{asset('images/IMG_3722.webp')}}" alt="" class="w-100 ">
                    
                    
                </div>   

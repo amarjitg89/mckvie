@@ -19,7 +19,7 @@
    <!--##########  Notice Start ############# --> 
 
   
- @include('render-department-notice') 
+  @include('render-department-notice') 
   
   
  <!--##########  Notice End ############# -->  
@@ -46,7 +46,7 @@
                   
                  
                   <div class="red mainhome_title mb-3 text-start">Department <span class="blue fw-normal">Overview</span></div>
-                  <div class="home_about_txt text-start text-md-justify">
+                  <div class="home_about_txt text-justify text-md-justify">
                  Mechanical Engineering continues to be one of the most pioneering branches of core engineering studies in the world. Over the years, it has strengthened itself with the study and use of latest technologies and innovations. It has always been an evergreen branch of engineering, one which offers numerous job opportunities to students in all the industrial segments which are considered to be the most stable job-generators in the corporate world.</br><br>
 Mechanical Engineering Department was established in the year 2008 at MCKV Institute of Engineering. Our faculty members are intellectual leaders in their respective fields of research, and we offer our students the opportunity to work one-to-one with the faculty in advancing the frontiers of knowledge.
                       
@@ -58,7 +58,7 @@ Mechanical Engineering Department was established in the year 2008 at MCKV Insti
                
          
                
-            <img src="{{asset('images/mechanical-department-overview.webp')}}" class="w-100" alt="...">   
+            <img src="{{asset('images/IMG_40831.jpg')}}" class="w-100" alt="...">   
                
                
                
@@ -110,7 +110,7 @@ Mechanical Engineering Department was established in the year 2008 at MCKV Insti
      
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 mb-sm-4 mb-3 px-0">
-<div class="home_about_txt text-justify text-white text-start">
+<div class="home_about_txt text-justify text-white text-justify">
 To be recognized as a center of excellence in mechanical engineering education and research to cater industrial and social needs.
                       
                   </div>
@@ -126,7 +126,7 @@ To be recognized as a center of excellence in mechanical engineering education a
           </div>
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 px-0">
-<div class="home_about_txt text-start text-white">
+<div class="home_about_txt text-justify text-white">
 <ul>
     <li>To provide the students with fundamental knowledge in mechanical engineering discipline.</li>
     <li>To develop core competencies in solving complex problems of mechanical and allied engineering disciplines.</li>
@@ -220,12 +220,12 @@ To be recognized as a center of excellence in mechanical engineering education a
                <div class="col-lg-12 col-md-12 col-12 px-0">
                 <div class="home_aboutdiv bg-white p-3">
                <div class="row m-0 p-0 align-items-center align-items-md-start  justify-content-start">
-                   <div class="col-xl-4 col-lg-3 col-sm-4 col-12 p-0"> <img src="{{asset('images/course/mechanical-course.webp')}}" class="eventimg_css" alt="..."></div>
+                   <div class="col-xl-4 col-lg-3 col-sm-4 col-12 p-0"> <img src="{{asset('images/course/SJA_0042.webp')}}" class="eventimg_css" alt="..."></div>
                <div class="col-xl-8 col-lg-9 col-sm-8 col-12 px-sm-4 py-sm-0 px-0 pt-4">
                    
                   
                   <div class="red maincourse_title mb-3 text-start">B.Tech in Mechanical Engineering</div>
-                  <div class="home_about_txt text-start">
+                  <div class="home_about_txt text-justify">
              We were ready for the Mechanical Engineering course with well equipped laboratories and workshops. The department is committed to the well being and all round development of its students by providing a stimulating environment for the healthy development and free exchange of ideas. Our aim is to prepare students to become top-notch Mechanical Engineers with thorough knowledge both in theory as well as practical skills. We prepare them with the objective of fulfilling the needs of leading positions in industry, academia and government sectors in India and abroad.
                </br></br>
                
@@ -303,8 +303,8 @@ To be recognized as a center of excellence in mechanical engineering education a
             <div class="col-xl-10 col-lg-9 col-md-8 col-12 8 px-sm-3 px-0">
              <div class="col-12">
               <div class="mainhome_title text-start mb-2 text-white">Message from Head of Department</div>
-              <div class="mainhome_title text-start mb-3 text-white fs-6 fw-bold lh-sm text-start text-md-justify">Dr. Abhijit Dutta</br>
-              <span class="faculty_designation fw-normal">Assistant Professor & HOD</br>
+              <div class="mainhome_title mb-3 text-white fs-6 fw-bold lh-sm text-justify text-md-justify">Dr. Abhijit Dutta</br>
+              <span class="faculty_designation fw-normal">Assistant Professor </br>
                B.Tech (Mech. Engg.), ME (Heat Power Engg.), Ph.D (Engg.)</br>
 15 Years of teaching and research experience
 </br></br>

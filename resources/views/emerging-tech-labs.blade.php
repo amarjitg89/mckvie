@@ -44,7 +44,7 @@
           
    
               <div class="col-md-4 col-12">
-           <a href="{{url('/ev-lab')}}"><img src="{{asset('images/EV-lab.jpg')}}" class="w-100" /></a>
+           <a href="{{url('/ev-lab')}}"><img src="{{asset('images/ev-lab-new.webp')}}" class="w-100" /></a>
               <div class="press_name">Emerging Tech Lab (EV Lab)</div>
       
            </div>

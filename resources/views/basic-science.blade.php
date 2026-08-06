@@ -1,6 +1,6 @@
 @extends('layout.master-template')
 
-@section('title','Basic Science & Humanities Department - MCKV Institute of Engineering')
+@section('title','Basic Science and Humanities Department - MCKV Institute of Engineering')
 
 @section('content')
      <!--##########  Banner Start ############# -->   
@@ -19,7 +19,7 @@
    <!--##########  Notice Start ############# --> 
 
   
- @include('render-department-notice') 
+  @include('render-department-notice') 
   
   
  <!--##########  Notice End ############# -->  
@@ -46,7 +46,7 @@
                   
                  
                   <div class="red mainhome_title mb-3 text-start">Department <span class="blue fw-normal">Overview</span></div>
-                  <div class="home_about_txt text-start text-md-justify">
+                  <div class="home_about_txt text-justify text-md-justify">
                 The Basic Science and Humanities Department at MCKV Institute of Engineering comprises the core disciplines of Physics, Chemistry, Mathematics and English. All first-year B.Tech. students are under the guidance and supervision of this department. The primary objective is to instill the foundational principles of Science necessary to enhance students’ basic understanding of Engineering. As Science forms the backbone of any branch of Engineering, the faculty members with all their expertise, relentlessly work to bridge Science and Technology and make unswerving and tireless efforts towards the holistic development of students.</br></br>
               
               Comprising a blend of experienced and dynamic full-time faculty members and laboratory instructors in accordance with AICTE norms, the department prides itself on educators involved in both pedagogical and research pursuits. Their scholarly endeavors manifest through a plethora of publications including books and research articles in esteemed national and international journals, complemented by presentations at prestigious conferences. Noteworthy is the department’s pivotal role in guiding many research scholars towards the successful attainment of their doctoral degrees, coupled with active involvement as Principal Investigators (PI) or Co-PIs in research projects funded by prestigious organizations such as the Science and Engineering Research Board of the Government of India.     
@@ -72,7 +72,7 @@
  <div class="row m-0 justify-content-start ">      
              
         <div class="col-12 px-0 mt-4">
-         <div class="home_about_txt text-start text-md-justify">    
+         <div class="home_about_txt text-justify text-md-justify">    
          Facilities within the department include two well-equipped Physics laboratories, a Chemistry laboratory, and a Polymer Research laboratory. The latter, developed with funding from the Department of Science and Technology (DST) of the Government of India, serves as a hub for pioneering research endeavors, catering to the needs of undergraduate and PhD students alike. The department also boasts of a state-of-the art English Communication Laboratory where teachers encourage progressive and analytical thinking and provide grooming sessions with an aim to enhance professional competence and personality development.</br></br>
        
        At the heart of the department’s ethos lies a commitment to nurturing innovation and fostering lateral thinking among students. Through an assortment of workshops, seminars and projects, the department continuously encourages students to explore and cultivate their innovative potential, equipping them with the skills necessary to thrive in a rapidly evolving global landscape. The department is ever-active in updating teaching methodology on a regular basis to prevent stagnation.</br></br>
@@ -123,7 +123,7 @@
      
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 mb-sm-4 mb-3 px-0">
-<div class="home_about_txt text-justify text-white text-start">
+<div class="home_about_txt text-justify text-white text-justify">
 To emerge as a sustainable center of foundational education, exploring the significance of Science within the realm of Engineering & Technology, while nurturing curiosity and vertical thinking among students for lifelong learning.
                       
                   </div>
@@ -139,7 +139,7 @@ To emerge as a sustainable center of foundational education, exploring the signi
           </div>
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 px-0">
-<div class="home_about_txt text-start text-white">
+<div class="home_about_txt text-justify text-white">
 <ul>
     <li>To strengthen students’ scientific bedrock in the areas of Mathematics, Physics & Chemistry for diverse engineering disciplines and future innovation and research endeavors.</li>
     <li>To develop Soft Skills with a stress on personality development to face a dynamic global scenario.</li>
@@ -237,14 +237,11 @@ To emerge as a sustainable center of foundational education, exploring the signi
                    
                   
                   <div class="red maincourse_title mb-3 text-start">Basic Science & Humanities</div>
-                  <div class="home_about_txt text-start">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+                  <div class="home_about_txt text-justify">
+            The Basic Science and Humanities Department at MCKV Institute of Engineering comprises the core disciplines of Physics, Chemistry, Mathematics and English. All first-year B.Tech. students are under the guidance and supervision of this department. The primary objective is to instill the foundational principles of Science necessary to enhance students’ basic understanding of Engineering. As Science forms the backbone of any branch of Engineering, the faculty members with all their expertise, relentlessly work to bridge Science and Technology and make unswerving and tireless efforts towards the holistic development of students.
                </br></br>
                
-               <ul>
-                   <li>Intake Capacity:  </li>
-                    <!--<li>Affiliated to Maulana Abul Kalam Azad University of Technology (MAKAUT)  </li>-->
-               </ul>
+              
 
                       
                   </div>
@@ -307,7 +304,7 @@ To emerge as a sustainable center of foundational education, exploring the signi
                   
                <div class="col-xl-2 col-lg-3 col-md-4 col-6 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0">
                    
-  <img src="{{asset('images/faculty/Dr. Dipankar Ghosh.jpg')}}" alt="" class="w-100 prinsiple">
+  <img src="{{asset('images/faculty/Ms. Debanjali Chowdhury.jpg')}}" alt="" class="w-100 prinsiple">
                    
                    
                </div>   
@@ -315,12 +312,9 @@ To emerge as a sustainable center of foundational education, exploring the signi
              <div class="col-xl-10 col-lg-9 col-md-8 col-12 8 px-sm-3 px-0">
              <div class="col-12">
               <div class="mainhome_title text-start mb-2 text-white">Message from Head of Department</div>
-              <div class="mainhome_title text-start mb-3 text-white fs-6 fw-bold lh-sm text-start text-md-justify">Dr. Dipankar Ghosh</br>
-              <span class="faculty_designation fw-normal">Associate Professor and HOD
-Basic Science and Humanities
-</br>
-              B.Sc., M.Sc., Ph.D.</br>
-            Teaching Experience: 12.3 years, Research Experience: 17 years  
+              <div class="mainhome_title mb-3 text-white fs-6 fw-bold lh-sm text-justify text-md-justify">Ms. Debanjali Chowdhury</br>
+              <span class="faculty_designation fw-normal">Assistant Professor </br>
+B.Sc., M.Sc.
               
               </br></br>
 It gives me immense pleasure to welcome you to the Department of Basic Science and Humanities at MCKV Institute of Engineering. As the foundation of all engineering disciplines,the department is to instill a sense of scientific curiosity in students and help them appreciate and fully comprehend the need of Mathematics, Physics, Chemistry, and English,as the foundation stone for their future technological assignments. Our aim is to equip every engineering student with the creativity ,confidence and scientific outlook needed to excel in technology and research.</br></br>

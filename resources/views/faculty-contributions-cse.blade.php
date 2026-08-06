@@ -1,6 +1,6 @@
 @extends('layout.master-template')
 
-@section('title','Faculty Contributions B.Tech Computer Science & Engineering - MCKV Institute of Engineering')
+@section('title','Faculty Contributions B.Tech Computer Science and Engineering - MCKV Institute of Engineering')
 
 @section('content')
      <!--##########  Banner Start ############# -->   
@@ -95,6 +95,9 @@
         <li>S. S. Thakur, M. Thakur, S. Thakur, and S. Bandyopadhyay, “Safeguarding crop quality: IoT-enabled pest classification via convolution neural network and transfer learning,” in IoT Security, Academic Press, 2026, pp. 219–242. doi: 10.1016/B978-0-443-34125-0.00004-0.</li>
        
    </ul>
+   
+   
+   
    
    </br></br>
    

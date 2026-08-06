@@ -19,7 +19,7 @@
    <!--##########  Notice Start ############# --> 
 
   
- @include('render-department-notice') 
+  @include('render-department-notice') 
   
   
  <!--##########  Notice End ############# -->  
@@ -46,7 +46,7 @@
                   
                  
                   <div class="red mainhome_title mb-3 text-start">Department <span class="blue fw-normal">Overview</span></div>
-                  <div class="home_about_txt text-start text-md-justify">
+                  <div class="home_about_txt text-justify text-md-justify">
                 Information Technology (IT) is a field that combines computing, communication technologies, and their practical applications in real-world activities, including knowledge management and business processes. Recognizing the importance of integrating computer science with communication technology, the Department of Information Technology was established in 1999 alongside the inception of MCKV Institute of Engineering. With highly qualified faculty and state-of-the-art computer laboratories, the department provides quality education and training, producing skilled software engineers who have demonstrated excellence in industry, higher education, and also in various emerging research fields.    
                   </div> 
                   
@@ -56,7 +56,7 @@
                
          
                
-            <img src="{{asset('images/Department-Overview-it.webp')}}" class="w-100" alt="...">   
+            <img src="{{asset('images/IT lab1_2 (1).webp')}}" class="w-100" alt="...">   
                
                
                
@@ -112,7 +112,7 @@
      
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 mb-sm-4 mb-3 px-0">
-<div class="home_about_txt text-justify text-white text-start">
+<div class="home_about_txt text-justify text-white text-justify">
 The vision of Information Technology department is to be a recognized leader in Information Technology education in support of teaching and learning and to be the preferred source of quality technology education, research and community services delivery for the local, national and international levels.	
                       
                   </div>
@@ -128,7 +128,7 @@ The vision of Information Technology department is to be a recognized leader in 
           </div>
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 px-0">
-<div class="home_about_txt text-start text-white">
+<div class="home_about_txt text-justify text-white">
 <ul>
     <li>To build a quality and cutting edge technology infrastructure.</li>
     <li>To establish and maintain an effective academic environment.</li>
@@ -224,12 +224,12 @@ The vision of Information Technology department is to be a recognized leader in 
                <div class="col-lg-12 col-md-12 col-12 px-0">
                 <div class="home_aboutdiv bg-white p-3">
                <div class="row m-0 p-0 align-items-center align-items-md-start  justify-content-start">
-                   <div class="col-xl-4 col-lg-3 col-sm-4 col-12 p-0"> <img src="{{asset('images/course/it-course.webp')}}" class="eventimg_css" alt="..."></div>
+                   <div class="col-xl-4 col-lg-3 col-sm-4 col-12 p-0"> <img src="{{asset('images/course/IT Lab3_9_ (1).webp')}}" class="eventimg_css" alt="..."></div>
                <div class="col-xl-8 col-lg-9 col-sm-8 col-12 px-sm-4 py-sm-0 px-0 pt-4">
                    
                   
                   <div class="red maincourse_title mb-3 text-start">Information Technology</div>
-                  <div class="home_about_txt text-start">
+                  <div class="home_about_txt text-justify">
             Information Technology as a field of study has been playing a very important part of our lives today. While one might think of the typical IT worker employed in a major software company as a software developer, the reality is that, a significant number of IT workers are found in banks, insurance companies, manufacturing plants or in some other non-IT related business. Thus human resource training and requirement in IT is still high and this stream attracts some of the most talented students who take interest in the field of Engineering and Technology.
                </br></br>
                
@@ -299,7 +299,7 @@ The vision of Information Technology department is to be a recognized leader in 
                   
                <div class="col-xl-2 col-lg-3 col-md-4 col-6 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0">
                    
-  <img src="{{asset('images/faculty/Mr. Sachin Balo.jpg')}}" alt="" class="w-100 prinsiple">
+  <img src="{{asset('images/faculty/Dr. Shampa Sengupta.jpg')}}" alt="" class="w-100 prinsiple">
                    
                    
                </div>   
@@ -307,12 +307,11 @@ The vision of Information Technology department is to be a recognized leader in 
              <div class="col-xl-10 col-lg-9 col-md-8 col-12 8 px-sm-3 px-0">
              <div class="col-12">
               <div class="mainhome_title text-start mb-2 text-white">Message from Head of Department</div>
-              <div class="mainhome_title text-start mb-3 text-white fs-6 fw-bold lh-sm text-start text-md-justify">Mr. Sachin Balo</br>
-              <span class="faculty_designation fw-normal">Assistant Professor and HOD
-Information Technology
+              <div class="mainhome_title mb-3 text-white fs-6 fw-bold lh-sm text-justify text-md-justify">Dr. Shampa Sengupta</br>
+              <span class="faculty_designation fw-normal">Associate Professor
+
 </br>
-               B.E., M.E.</br>
-19 years experience
+               B.Tech, M.Tech, Ph.D.(Engg.)
 </br></br>
 As the Head of the Department of Information Technology at MCKV Institute of Engineering, I take immense pride in leading a department that has consistently upheld academic excellence, innovation, and professional growth since its establishment in 1999. Over the years, the department has grown remarkably with a large and vibrant student community, a strong alumni network contributing across academia and industry, and a team of highly qualified and dedicated faculty members committed to quality education and research.</br></br>
 

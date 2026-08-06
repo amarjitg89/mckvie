@@ -1,6 +1,6 @@
 @extends('layout.master-template')
 
-@section('title','MBA - MCKV Institute of Engineering')
+@section('title','Master of Business Administration (MBA) - MCKV Institute of Engineering')
 
 @section('content')
      <!--##########  Banner Start ############# -->   
@@ -40,7 +40,7 @@
                   
                  
                   <div class="red mainhome_title mb-3 text-start">Course <span class="fw-normal">Overview</span></div>
-                  <div class="home_about_txt text-start text-md-justify mb-3">
+                  <div class="home_about_txt text-justify text-md-justify mb-3">
                MCKV Institute of Engineering offers a 2-year Full-Time Master of Business Administration (MBA) degree programme. It combines both core and specialization courses in the areas of (i) Marketing Management (major & minor specializations), (ii) Financial Management (major & minor specializations), (iii) Human Resource Management or HRM (major & minor specializations), (iv) Business Analytics (v) Hospital Administration (minor if HRM is major specialization), and (vi) Pharmaceutical Management (minor if Marketing Management is major specialization).</br></br>
               
               This programme educates students through syllabi that are vetted and recommended highly by professionals from both the academic and corporate worlds and make them industry ready.</div> 
@@ -121,7 +121,7 @@
           
        <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0 ">
                    
-  <img src="{{asset('images/mba_course_new.webp')}}" alt="" class="w-100">
+  <img src="{{asset('images/4.webp')}}" alt="" class="w-100">
                    
                    
                </div>  
@@ -130,10 +130,10 @@
           <div class="col-xl-8 col-lg-8 col-md-8 col-12 px-sm-3 px-0">
              <div class="col-12">
               
-              <div class="home_about_txt  text-start mb-3 text-dark text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  ">
                   
                   
- <div class="mainhome_title text-start mb-sm-3 mb-3">
+ <div class="mainhome_title text-justify mb-sm-3 mb-3">
                   
                
                   
@@ -216,7 +216,7 @@ Candidates applying for MBA programs should have passed Bachelor’s Degree/ Hon
      
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 mb-sm-4 mb-3 px-0">
-<div class="home_about_txt text-justify text-white text-start">
+<div class="home_about_txt text-justify text-white text-justify">
 To be recognized as a Centre of Excellence that endeavours to create a unique identity by not only catering to students’ needs for enhancing managerial acumen and soft skills, but also by grooming them holistically for success in professional life.
 
                       
@@ -233,7 +233,7 @@ To be recognized as a Centre of Excellence that endeavours to create a unique id
           </div>
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 px-0">
-<div class="home_about_txt text-start text-white">
+<div class="home_about_txt text-justify text-white">
 <ul>
     <li>To encourage a teaching learning process for proper dissemination of knowledge leading to employability enhancement.</li>
     <li>To make the students understand the role of Language and Communication and Managerial Skills in the modern globalized world.</li>
@@ -310,13 +310,13 @@ To be recognized as a Centre of Excellence that endeavours to create a unique id
       <div class="row m-0 justify-content-center align-items-center">
           
           
-          <div class="col-xl-8 col-lg-8 col-md-8 col-12  ps-sm-0 pe-sm-3 ps-0 pe-0 ">
+          <div class="col-xl-8 col-lg-8 col-md-8 col-12  ps-sm-0 pe-sm-3 ps-0 pe-0 pe-sm-5">
              <div class="col-12">
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm ">
                   
                   
- <div class="mainhome_title text-start mb-sm-3 mb-3">
+ <div class="mainhome_title text-justify mb-sm-3 mb-3">
                   
                
                   
@@ -326,12 +326,12 @@ To be recognized as a Centre of Excellence that endeavours to create a unique id
 
 
 <ul>
- <li>To gain contemporary knowledge of the Business Concepts and their application in problem solving.</li>
-  <li>To apply different tools for decision making required for solving complex managerial problems with a passion to innovate.</li>  
-   <li>To develop leaders who are able to adapt to the needs of the dynamic; domestic and global Business contexts.</li> 
+ <li><b>PEO-I:</b> To gain contemporary knowledge of the Business Concepts and their application in problem solving.</li>
+  <li><b>PEO-II:</b> To apply different tools for decision making required for solving complex managerial problems with a passion to innovate.</li>  
+   <li><b>PEO-III:</b> To develop leaders who are able to adapt to the needs of the dynamic; domestic and global Business contexts.</li> 
    
-   <li>To develop students who are competent to take up independent entrepreneurial ventures.</li>
-   <li>To produce industry ready graduates having the highest ethical standards and concern for environment.</li>
+   <li><b>PEO-IV:</b> To develop students who are competent to take up independent entrepreneurial ventures.</li>
+   <li><b>PEO-V:</b> To produce industry ready graduates having the highest ethical standards and concern for environment.</li>
      
     
 </ul>
@@ -357,7 +357,7 @@ To be recognized as a Centre of Excellence that endeavours to create a unique id
                   
                <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 px-0  order-first order-md-2">
                    
-  <img src="{{asset('images/mba-education-objective.webp')}}" alt="" class="w-100">
+  <img src="{{asset('images/SJA_0100_new.webp')}}" alt="" class="w-100">
                    
                    
                </div>   
@@ -410,7 +410,7 @@ To be recognized as a Centre of Excellence that endeavours to create a unique id
                    <span class="red">Programme <span class="fw-normal">Outcomes</span></span></div>     
                  
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm ">
 
 On completing the program successfully, the student will be able to:</br></br>
 
@@ -488,7 +488,7 @@ On completing the program successfully, the student will be able to:</br></br>
           
          <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0 ">
                    
-  <img src="{{asset('images/mba-programe-outcomes.webp')}}" alt="" class="w-100">
+  <img src="{{asset('images/SJA_0092.webp')}}" alt="" class="w-100">
                    
                    
                </div>  
@@ -497,10 +497,10 @@ On completing the program successfully, the student will be able to:</br></br>
           <div class="col-xl-8 col-lg-8 col-md-8 col-12 px-sm-3 px-0">
              <div class="col-12">
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm ">
                   
                   
- <div class="mainhome_title text-start mb-sm-3 mb-3">
+ <div class="mainhome_title text-justify mb-sm-3 mb-3">
                   
                
                   
@@ -510,30 +510,30 @@ On completing the program successfully, the student will be able to:</br></br>
 
 
 <ul>
- <li><b>PSO : MARKETING</b> </br>Competency in Managing Marketing and interdisciplinary courses, equipped with classical & contemporary frameworks to analyze, conceptualize and develop marketing strategy in a creative, ethical & sustainable business environment.
+ <li><b>PSO-I : MARKETING</b> </br>Competency in Managing Marketing and interdisciplinary courses, equipped with classical & contemporary frameworks to analyze, conceptualize and develop marketing strategy in a creative, ethical & sustainable business environment.
 </li>
-  <li><b>PSO : FINANCE</b></br> Professionally equipped with business, people and leadership skills to understand and implement knowledge associated with financial markets, services, institutions, instruments, corporate & personal finance.
+  <li><b>PSO-II : FINANCE</b></br> Professionally equipped with business, people and leadership skills to understand and implement knowledge associated with financial markets, services, institutions, instruments, corporate & personal finance.
 
 </li> 
 
-<li><b>PSO : HRM</b></br>
+<li><b>PSO-III : HRM</b></br>
 Professional competencies in managing Human Resource and allied field with an ability to develop Organizational Policies, Processes, Evaluation Techniques in accordance with contemporary legal framework in accordance with national & global perspective.
 
 </li>
 
-<li><b>PSO : BUSINESS ANALYTICS</b></br>
+<li><b>PSO-IV : BUSINESS ANALYTICS</b></br>
 Professionally competent to apply data analytical techniques, understand quantitative and qualitative tools, work on utilizing statistical data, visualization of data to navigate and solve problems in the business environment.
 
 </li>
 
-<li><b>PSO : HOSPITAL ADMINISTRATION</b></br>
+<li><b>PSO-V : HOSPITAL ADMINISTRATION</b></br>
 Professional competencies in managing administration of hospital departments (clinical, non-clinical, and support services) to enhance the operational efficiencies through quality management, patient record management, as well as compliance with the regulatory framework of India.
 
 </li>
 
 <li>
     
-    <b>PSO : PHARMACEUTICAL MANAGEMENT</b></br>
+    <b>PSO-VI : PHARMACEUTICAL MANAGEMENT</b></br>
     
     Professional competencies in managing issues related to Pharmacovigilance, Pharmacoepidemiology, Pharmaceutical Logistics, and Supply Chain Management including Drug Stores Management, as well as Compliance with the Regulatory Framework of India.
     

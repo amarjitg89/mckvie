@@ -60,7 +60,7 @@
                             <i class="fas fa-link"></i>
                         </div>
                         <div class="flex-grow-1">
-                            <div class="mb-0 fw-bold text-dark lh-sm"> IT Student Chapter </div>
+                            <div class="mb-0 fw-bold text-dark lh-sm"> IE(I) student chapter </div>
                         </div>
                     </a>
                 </div>

@@ -1,6 +1,6 @@
 @extends('layout.master-template')
 
-@section('title','IT Student Chapter - MCKV Institute of Engineering')
+@section('title','IE(I) student chapter - MCKV Institute of Engineering')
 
 @section('content')
      <!--##########  Banner Start ############# -->   

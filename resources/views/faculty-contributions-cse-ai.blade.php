@@ -81,6 +81,8 @@
    <ul>
        <li>M. K. Das, A. Halder, <b>S. Goswami</b>, P. Das, and P. Das, "Machine Learning Algorithms: Theory and Practice", Book published on 6th July 2025, ISBN: 978-93-6940-421-6 by Bluepen International Publisher.
 </li>
+
+<li>N. Das, C. Chakrabarti, <b>D. S. Dev</b>, N. Paitya, B. Pramanik, and P. Banik, "Generative AI in Data Science: Models, Methods, and Use Cases". Book Published on 30/May/2026, ISBN: 978-93-7424-790-7 by Crown Publishing.</li>
        
    </ul></br> 
     

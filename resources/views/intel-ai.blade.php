@@ -62,7 +62,7 @@
                
          
                
-            <img src="{{asset('images/Picture 4 (Centre of Excellence - Intel Unnati (AI Lab) – 1).webp')}}" class="w-100" alt="...">   
+            <img src="{{asset('images/SJA_0107_new.webp')}}" class="w-100" alt="...">   
                
                
                
@@ -173,7 +173,139 @@ As a part of Intel® Unnati Program, Intel® Unnati 5-Day Faculty Development Pr
              
              
              
-             
+     <div class="row g-4 mt-4">
+         
+       <div class="col-md-4 col-12">
+               <a href="{{asset('images/Intel-Unnati-Lab1.webp')}}" data-fancybox="group1" > 
+   <div class="image-container">
+                    <img src="{{asset('images/Intel-Unnati-Lab1.webp')}}" alt="">
+                    <div class="hover-overlay">
+                        <div class="magnify-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>  
+   </a> 
+  
+                  
+              </div>
+              
+              
+        <div class="col-md-4 col-12">
+               <a href="{{asset('images/Intel-Unnati-Lab2.webp')}}" data-fancybox="group1" > 
+   <div class="image-container">
+                    <img src="{{asset('images/Intel-Unnati-Lab2.webp')}}" alt="">
+                    <div class="hover-overlay">
+                        <div class="magnify-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>  
+   </a> 
+  
+                  
+              </div>        
+              
+         <div class="col-md-4 col-12">
+               <a href="{{asset('images/Intel-Unnati-Lab3.webp')}}" data-fancybox="group1" > 
+   <div class="image-container">
+                    <img src="{{asset('images/Intel-Unnati-Lab3.webp')}}" alt="">
+                    <div class="hover-overlay">
+                        <div class="magnify-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>  
+   </a> 
+  
+                  
+              </div>
+              
+          <div class="col-md-4 col-12">
+               <a href="{{asset('images/Intel-Unnati-Lab4.webp')}}" data-fancybox="group1" > 
+   <div class="image-container">
+                    <img src="{{asset('images/Intel-Unnati-Lab4.webp')}}" alt="">
+                    <div class="hover-overlay">
+                        <div class="magnify-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>  
+   </a> 
+  
+                  
+              </div>  
+              
+              
+         <div class="col-md-4 col-12">
+               <a href="{{asset('images/Intel-Unnati-Lab5.webp')}}" data-fancybox="group1" > 
+   <div class="image-container">
+                    <img src="{{asset('images/Intel-Unnati-Lab5.webp')}}" alt="">
+                    <div class="hover-overlay">
+                        <div class="magnify-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>  
+   </a> 
+  
+                  
+              </div>    
+              
+              
+          <div class="col-md-4 col-12">
+               <a href="{{asset('images/Intel-Unnati-Lab6.webp')}}" data-fancybox="group1" > 
+   <div class="image-container">
+                    <img src="{{asset('images/Intel-Unnati-Lab6.webp')}}" alt="">
+                    <div class="hover-overlay">
+                        <div class="magnify-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>  
+   </a> 
+  
+                  
+              </div>    
+              
+         
+         </div>         
              
              
              

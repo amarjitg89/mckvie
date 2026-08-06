@@ -1,6 +1,6 @@
 @extends('layout.master-template')
 
-@section('title','BBA - MCKV Institute of Engineering')
+@section('title','Bachelor of Business Administration (BBA) - MCKV Institute of Engineering')
 
 @section('content')
      <!--##########  Banner Start ############# -->   
@@ -40,7 +40,7 @@
                   
                  
                   <div class="red mainhome_title mb-3 text-start">Course <span class="fw-normal">Overview</span></div>
-                  <div class="home_about_txt text-start text-md-justify mb-3">
+                  <div class="home_about_txt text-justify text-md-justify mb-3">
               MCKV Institute of Engineering offers Four-year Bachelor of Business Administration (BBA) degree programme approved by All India Council for Technical Education (AICTE) in alignment with National Education Policy (NEP), 2020.</br>
               
              The curriculum is structured as:</br>
@@ -131,7 +131,7 @@
           
        <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0 ">
                    
-  <img src="{{asset('images/bba-course-new.webp')}}" alt="" class="w-100">
+  <img src="{{asset('images/management.webp')}}" alt="" class="w-100">
                    
                    
                </div>  
@@ -140,10 +140,10 @@
           <div class="col-xl-8 col-lg-8 col-md-8 col-12 px-sm-3 px-0">
              <div class="col-12">
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm ">
                   
                   
- <div class="mainhome_title text-start mb-sm-3 mb-3">
+ <div class="mainhome_title text-justify mb-sm-3 mb-3">
                   
                
                   
@@ -231,7 +231,7 @@
      
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 mb-sm-4 mb-3 px-0">
-<div class="home_about_txt text-justify text-white text-start">
+<div class="home_about_txt text-justify text-white text-justify">
 To be recognized as a Centre of Excellence that endeavours to create a unique identity by not only catering to students’ needs for enhancing managerial acumen and soft skills, but also by grooming them holistically for success in professional life.
 
                       
@@ -248,7 +248,7 @@ To be recognized as a Centre of Excellence that endeavours to create a unique id
           </div>
 
 <div class="col-xl-12 col-lg-12 col-sm-12 col-12 px-0">
-<div class="home_about_txt text-start text-white">
+<div class="home_about_txt text-justify text-white">
 <ul>
     <li>To encourage a teaching learning process for proper dissemination of knowledge leading to employability enhancement.</li>
     <li>To make the students understand the role of Language and Communication and Managerial Skills in the modern globalized world.</li>
@@ -331,7 +331,7 @@ To be recognized as a Centre of Excellence that endeavours to create a unique id
               <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
                   
                   
- <div class="mainhome_title text-start mb-sm-3 mb-3">
+ <div class="mainhome_title text-justify mb-sm-3 mb-3">
                   
                
                   
@@ -341,12 +341,12 @@ To be recognized as a Centre of Excellence that endeavours to create a unique id
 
 
 <ul>
- <li>To get up-to-date understanding of business concepts and how they are used to solve business problems.</li>
-  <li>To apply various managerial decision-making techniques necessary to resolve intricate administrative issues.</li>  
-   <li>To develop future business leaders who can adjust to the demands of both domestic and international business environments.</li> 
+ <li><b>PEO-I:</b> To get up-to-date understanding of business concepts and how they are used to solve business problems.</li>
+  <li><b>PEO-II:</b> To apply various managerial decision-making techniques necessary to resolve intricate administrative issues.</li>  
+   <li><b>PEO-III:</b> To develop future business leaders who can adjust to the demands of both domestic and international business environments.</li> 
    
-   <li>To develop students who are capable of starting their own businesses on their own.</li>
-   <li>To generate graduates who are prepared for the workforce and who uphold the highest moral standards and environmental consciousness.</li>
+   <li><b>PEO-IV:</b> To develop students who are capable of starting their own businesses on their own.</li>
+   <li><b>PEO-V:</b> To generate graduates who are prepared for the workforce and who uphold the highest moral standards and environmental consciousness.</li>
      
     
 </ul>
@@ -372,7 +372,7 @@ To be recognized as a Centre of Excellence that endeavours to create a unique id
                   
                <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 px-0  order-first order-md-2">
                    
-  <img src="{{asset('images/bba-Programme-Educational-Objective.webp')}}" alt="" class="w-100">
+  <img src="{{asset('images/SJA_0098.webp')}}" alt="" class="w-100">
                    
                    
                </div>   
@@ -425,7 +425,7 @@ To be recognized as a Centre of Excellence that endeavours to create a unique id
                    <span class="red">Programme <span class="fw-normal">Outcomes</span></span></div>     
                  
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm ">
 
 On completing the program successfully, the student will be able to :</br></br>
 
@@ -511,7 +511,7 @@ On completing the program successfully, the student will be able to :</br></br>
           
          <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0 ">
                    
-  <img src="{{asset('images/mba-programe-outcomes.webp')}}" alt="" class="w-100">
+  <img src="{{asset('images/SJA_0101.webp')}}" alt="" class="w-100">
                    
                    
                </div>  
@@ -520,10 +520,10 @@ On completing the program successfully, the student will be able to :</br></br>
           <div class="col-xl-8 col-lg-8 col-md-8 col-12 px-sm-3 px-0">
              <div class="col-12">
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm ">
                   
                   
- <div class="mainhome_title text-start mb-sm-3 mb-3">
+ <div class="mainhome_title text-justify mb-sm-3 mb-3">
                   
                
                   
@@ -534,12 +534,12 @@ On completing the program successfully, the student will be able to :</br></br>
 
 The students will develop :</br></br>
 <ul>
- <li><b>PSO: Marketing Management</b> </br>Proficiency in marketing management and multidisciplinary tools, with both traditional and modern frameworks, to analyse, ideate, and execute operational plans in an innovative, moral, and sustainable company setting.
+ <li><b>PSO-I: Marketing Management</b> </br>Proficiency in marketing management and multidisciplinary tools, with both traditional and modern frameworks, to analyse, ideate, and execute operational plans in an innovative, moral, and sustainable company setting.
 </li>
-  <li><b>PSO: Financial Management</b></br> Possessing the business, interpersonal, and leadership abilities necessary to carry out financial operations in the area of financial markets, services, organisations, tools, and personal and corporate finance.
+  <li><b>PSO-II: Financial Management</b></br> Possessing the business, interpersonal, and leadership abilities necessary to carry out financial operations in the area of financial markets, services, organisations, tools, and personal and corporate finance.
 </li> 
 
-<li><b>PSO: Human Resource Management</b></br>
+<li><b>PSO-III: Human Resource Management</b></br>
 Professional skills in human resource management and related fields, including the capacity to execute operational plans, comply with the procedures, and follow evaluation methods that adhere to current legal frameworks at national and international levels.
 
 </li>

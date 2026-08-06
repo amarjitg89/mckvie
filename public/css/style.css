@@ -450,7 +450,7 @@ color:#000;
     float: left;
     width: 100%;
     height: auto;
-       text-align: left;
+       text-align: justify;
     font-size: 22px;
     line-height: 28px;
     color: #0F2B4C;
@@ -1598,8 +1598,8 @@ line-height:26px;
     width: 100%;
     height: auto;
     float: left;
-   
-        background-image: url(../images/placement-strip-banner.webp);
+   background-image: url(../images/placement-strip-banner1.webp);
+  
     background-repeat: no-repeat;
     background-position: center center;
     /*background-attachment: fixed;*/
@@ -1812,7 +1812,7 @@ font-size:14px !important;
 }
 
 .submenu_heading{
-font-size:17px !important;    
+font-size:16px !important;    
 }
 
 .header_social{
@@ -2158,8 +2158,8 @@ height:240px;
 
 .scroll-top {
   position: fixed;
-  bottom: 30px;
-  right: 10px;
+  bottom: 25px;
+  left: 10px;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -2554,7 +2554,7 @@ background-color: rgba(0, 14, 30, 0.6);
    
 } 
 .banner_font {
-        font-size: 32px !important;
+        font-size: 26px !important;
     }
     
 .faculty_designation{
@@ -2597,7 +2597,7 @@ font-size:12px;
 color:#000;
 font-weight:600;
 display: -webkit-box;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2875,7 +2875,7 @@ section .achivement .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.dis
             border: 1px solid #e9ecef;
             border-radius: 0px;
             overflow: hidden;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease !important;
             margin-bottom: 2.5rem;
         }
 
@@ -2960,7 +2960,7 @@ section .achivement .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.dis
                 padding: 1rem;
             }
             .img-wrapper {
-                min-height: 200px;
+                min-height: 180px;
             }
             
           .facility-title{
@@ -4133,7 +4133,230 @@ section .achivement .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.dis
         text-overflow: ellipsis;
     }
         
-        
+   /* Custom Toggle Text Link */
+    .btn-read-more {
+      background: transparent;
+      border: none;
+      padding: 0;
+      color: #be123c;
+      font-weight: 700;
+      font-size: 1rem;
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      transition: color 0.2s ease;
+      cursor: pointer;
+    }
+
+    .btn-read-more:hover {
+      color: #881337;
+      text-decoration: underline;
+    }
+
+    .btn-read-more i {
+      transition: transform 0.3s ease;
+      display: inline-block;
+    }
+
+    .btn-read-more.active i {
+      transform: rotate(180deg);
+    } 
+    
+    
+    .clamp-content {
+      max-height: 310px; /* Equivalent to roughly 8-10 lines + bullets */
+      overflow: hidden;
+      transition: max-height 0.5s ease-in-out;
+      position: relative;
+    }
+
+    .clamp-content.expanded {
+      max-height: 2000px; /* Big enough to show full content */
+    }
+
+    .clamp-content:not(.expanded)::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 90px;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 90%);
+      pointer-events: none;
+    }
+    
+    
+    
+/* ---------- FAQ ---------- */
+  .faq-item{border:1px solid #d9d9d9; margin-bottom:5px;}
+  .faq-item summary{
+    list-style:none;cursor:pointer;padding:15px; display:flex;
+    justify-content:space-between;align-items:center;font-weight:600;font-size:15px;color:#EBDCE4; background-color:#d9d9d9;
+  }
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary .plus{
+    font-size:22px;color:#D4264D;flex-shrink:0;margin-left:15px;
+    transition:transform .2s ease;
+  }
+  .faq-item[open] summary .plus{transform:rotate(45deg);}
+  .faq-item .faq-a{padding:20px;color:#726E78;font-size:15.5px; background-color:#f2f2f2;  }    
+    
+    
+   .faq-item summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    font-size: 15px;
+    color: #26232E;
+    
+} 
+    
+
+
+/* Custom Faculty Card Component */
+        .faculty-card {
+            display: flex;
+            align-items: center;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .faculty-card:hover {
+            transform: translateY(-4px);
+        }
+
+        /* Profile Image Styling */
+        .faculty-img-wrapper {
+            position: relative;
+            z-index: 2;
+            width: 150px;
+            height: 170px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            background-color: #fff;
+        }
+
+        .faculty-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+        }
+
+        /* Info Container Styling */
+        .faculty-info {
+            position: relative;
+            z-index: 1;
+            background-color: #e2e3e5; /* Gray background matching the design */
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            padding: 1.25rem 1.25rem 1.25rem 1.75rem;
+            margin-left: -20px; /* Overlap effect with image */
+            flex-grow: 1;
+            height: 150px; /* Fixed height matching the photo wrapper on desktop */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .faculty-name {
+            font-size: 1rem;
+            font-weight: 800;
+            color: #000;
+            margin-bottom: 0.25rem;
+        }
+
+        .faculty-designation {
+            color: #e63946; /* Vibrant pinkish-red text */
+            font-size: 0.925rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            text-align:left;
+        }
+
+        .faculty-details {
+            font-size: 0.80rem;
+            color: #2b2b2b;
+            line-height: 1.5;
+            text-align:left;
+        }
+
+        .faculty-details p {
+            margin-bottom: 0.2rem;
+        }
+
+        .faculty-details p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Mobile responsiveness adjustments */
+        @media (max-width: 576px) {
+            .faculty-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .faculty-img-wrapper {
+                width: 160px;
+                height: 180px;
+                margin-bottom: -25px; /* Overlap vertically on mobile */
+            }
+
+            .faculty-info {
+                width: 100%;
+                height: auto;
+                margin-left: 0;
+                border-radius: 20px;
+                padding-top: 2rem;
+                padding-left: 1.25rem;
+            }
+            
+           .faculty-designation {
+               text-align:center;
+           }
+           
+           .faculty-details{
+              text-align:center; 
+           }
+            
+            
+            
+            
+        }
+
+
+
+
+ /* Scroll Reveal Animation Styles */
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(50px) !important;
+            will-change: opacity, transform;
+            transition: opacity var(--reveal-duration) cubic-bezier(0.22, 1, 0.36, 1) !important,
+                        transform var(--reveal-duration) cubic-bezier(0.22, 1, 0.36, 1) !important;
+        }
+
+        .scroll-reveal.active {
+            opacity: 1;
+            transform: translateY(0) !important;
+        }
+
+        /* Initial 4 cards remain visible right away */
+        .initial-visible {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+        }
+    
+    
  
 
 @media only screen and (max-width:1200px){
@@ -5189,7 +5412,7 @@ section.highlights .owl-next {
 } 
 
  .banner_font {
-font-size: 17px !important;
+font-size: 15px !important;
 }
 
 .subbannertext{

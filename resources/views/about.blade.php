@@ -58,7 +58,7 @@
                
          
                
-            <img src="{{asset('images/about1.webp')}}" class="w-100" alt="...">   
+            <img src="{{asset('images/MCKVIE Building Image.webp?v=1')}}" class="w-100" alt="...">   
                
                
                
@@ -125,8 +125,8 @@
 
               
    <ul>
-            <li>Majors/Minors: Marketing, Finance, and Human Resource Management (HRM).</li>
-            <li>Minor Only: Business Analytics.</li>
+            <li>Majors/Minors: Marketing, Finance, and Human Resource Management (HRM), Business Analytics”</li>
+            <!--<li>Minor Only: Business Analytics.</li>-->
             <li>Interdisciplinary Minors: Hospital Administration (combined with HRM Major) and Pharmaceutical Management (combined with Marketing Major).
 </li>
           </ul>          
@@ -209,7 +209,7 @@
 </li>
 <li><b>Food:</b> A variety of restaurants catering to different tastes are situated within a 5-minute walking distance of the campus.
 </li> 
-<li><b>Shopping & Entertainment:</b> Major shopping malls and multiplex cinemas (like INOX) are just a short distance away.
+<li><b>Shopping & Entertainment:</b> Major shopping malls and multiplex cinemas are just a short distance away. 
 </li> 
     
 </ul> 

@@ -35,7 +35,7 @@
                   
                  <div class="blue mainhome_title mb-3 text-start fw-normal">About <span class="red fw-bold">Library</span></div>
                  
-                  <div class="home_about_txt text-start text-md-justify">
+                  <div class="home_about_txt text-justify text-md-justify">
                  The Central Library is the knowledge hub of the institution and plays a vital role in supporting academic, research, and learning activities. The library is committed to providing quality information resources, modern facilities, and user-oriented services to students, faculty members, researchers, and staff.
 </br></br>
                 
@@ -51,7 +51,7 @@
                
          
                
-            <img src="{{asset('images/about-library.webp')}}" class="w-100" alt="...">   
+            <img src="{{asset('images/SJA_04.webp')}}" class="w-100" alt="...">   
                
                
                
@@ -76,6 +76,15 @@
             </br></br>
             
            The library continuously strives to adopt modern technologies and improve its resources and services to meet the evolving information needs of the academic community.
+           
+           </br></br>
+           
+           <ul>
+               <li><a href="https://mckvie.lsneo.in/" target="_blank">Web OPAC : Click here</a></li>
+               <li><a href="https://mckvie.knimbus.com/" target="_blank">Remote Access (e-Library) : Click here</a></li>
+               <li><a href="https://sites.google.com/mckvie.edu.in/new-arrival/home" target="_blank">New Arrivals - July - December 2025 : Click here</a></li>
+               
+           </ul>
                       
                   </div> 
                   
@@ -217,7 +226,7 @@
                   
                <div class="col-xl-5 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0">
                    
-  <img src="{{asset('images/image 18.jpg')}}" alt="" class="w-100 ">
+  <img src="{{asset('images/library-objective.jpg')}}" alt="" class="w-100 ">
                    
                    
                </div>   
@@ -225,7 +234,7 @@
              <div class="col-xl-7 col-lg-8 col-md-8 col-12  px-sm-3 px-0">
              <div class="col-12">
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm ">
  <div class="mainhome_title mb-sm-3 mb-3">
    <span class="red">Objectives</span></div>  
    
@@ -577,9 +586,9 @@
 </div>  
   
  <div class="item">
-    <a href="{{asset('images/library/lib_gal5.400x0.jpg')}}" data-fancybox="classroom"> 
+    <a href="{{asset('images/library/Library1.jpg')}}" data-fancybox="classroom"> 
    <div class="image-container">
-                    <img src="{{asset('images/library/lib_gal5.400x0.jpg')}}" alt="">
+                    <img src="{{asset('images/library/Library1.jpg')}}" alt="">
                     <div class="hover-overlay">
                         <div class="magnify-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -600,9 +609,9 @@
 </div>
 
  <div class="item">
-    <a href="{{asset('images/library/lib_gal3.400x0.jpg')}}" data-fancybox="classroom"> 
+    <a href="{{asset('images/library/library3.jpg')}}" data-fancybox="classroom"> 
    <div class="image-container">
-                    <img src="{{asset('images/library/lib_gal3.400x0.jpg')}}" alt="">
+                    <img src="{{asset('images/library/library3.jpg')}}" alt="">
                     <div class="hover-overlay">
                         <div class="magnify-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -623,9 +632,9 @@
 </div>
 
  <div class="item">
-    <a href="{{asset('images/library/lib_gal2.400x0.jpg')}}" data-fancybox="classroom"> 
+    <a href="{{asset('images/library/library4.jpg')}}" data-fancybox="classroom"> 
    <div class="image-container">
-                    <img src="{{asset('images/library/lib_gal2.400x0.jpg')}}" alt="">
+                    <img src="{{asset('images/library/library4.jpg')}}" alt="">
                     <div class="hover-overlay">
                         <div class="magnify-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -645,120 +654,7 @@
 
 </div>
 
-<div class="item">
-    <a href="{{asset('images/library/lib_gal1.400x0.jpg')}}" data-fancybox="classroom"> 
-   <div class="image-container">
-                    <img src="{{asset('images/library/lib_gal1.400x0.jpg')}}" alt="">
-                    <div class="hover-overlay">
-                        <div class="magnify-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="11" cy="11" r="8"></circle>
-                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                <line x1="11" y1="8" x2="11" y2="14"></line>
-                                <line x1="8" y1="11" x2="14" y2="11"></line>
-                            </svg>
-                        </div>
-                        
-                    </div>
-                </div>  
-   </a>  
-     
-   
-   
 
-</div>
-
-<div class="item">
-    <a href="{{asset('images/library/library-215.400x0.jpg')}}" data-fancybox="classroom"> 
-   <div class="image-container">
-                    <img src="{{asset('images/library/library-215.400x0.jpg')}}" alt="">
-                    <div class="hover-overlay">
-                        <div class="magnify-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="11" cy="11" r="8"></circle>
-                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                <line x1="11" y1="8" x2="11" y2="14"></line>
-                                <line x1="8" y1="11" x2="14" y2="11"></line>
-                            </svg>
-                        </div>
-                        
-                    </div>
-                </div>  
-   </a>  
-     
-   
-   
-
-</div>
-
-<div class="item">
-    <a href="{{asset('images/library/library-197.400x0.jpg')}}" data-fancybox="classroom"> 
-   <div class="image-container">
-                    <img src="{{asset('images/library/library-197.400x0.jpg')}}" alt="">
-                    <div class="hover-overlay">
-                        <div class="magnify-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="11" cy="11" r="8"></circle>
-                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                <line x1="11" y1="8" x2="11" y2="14"></line>
-                                <line x1="8" y1="11" x2="14" y2="11"></line>
-                            </svg>
-                        </div>
-                        
-                    </div>
-                </div>  
-   </a>  
-     
-   
-   
-
-</div>
-
-<div class="item">
-    <a href="{{asset('images/library/library-189.400x0.jpg')}}" data-fancybox="classroom"> 
-   <div class="image-container">
-                    <img src="{{asset('images/library/library-189.400x0.jpg')}}" alt="">
-                    <div class="hover-overlay">
-                        <div class="magnify-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="11" cy="11" r="8"></circle>
-                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                <line x1="11" y1="8" x2="11" y2="14"></line>
-                                <line x1="8" y1="11" x2="14" y2="11"></line>
-                            </svg>
-                        </div>
-                        
-                    </div>
-                </div>  
-   </a>  
-     
-   
-   
-
-</div>
-
-<div class="item">
-    <a href="{{asset('images/library/library-189.400x0.jpg')}}" data-fancybox="classroom"> 
-   <div class="image-container">
-                    <img src="{{asset('images/library/library-189.400x0.jpg')}}" alt="">
-                    <div class="hover-overlay">
-                        <div class="magnify-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="11" cy="11" r="8"></circle>
-                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                <line x1="11" y1="8" x2="11" y2="14"></line>
-                                <line x1="8" y1="11" x2="14" y2="11"></line>
-                            </svg>
-                        </div>
-                        
-                    </div>
-                </div>  
-   </a>  
-     
-   
-   
-
-</div>
     
 </div> 
     

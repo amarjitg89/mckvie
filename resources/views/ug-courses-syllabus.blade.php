@@ -1,6 +1,6 @@
 @extends('layout.master-template')
 
-@section('title','AICTE UG Syllabus under Autonomy and Course Curriculum - MCKV Institute of Engineering')
+@section('title','Curriculum Structure and Detailed Syllabus for UG courses - MCKV Institute of Engineering')
 
 @section('content')
      <!--##########  Banner Start ############# -->   
@@ -144,10 +144,10 @@
                                 </a>
                             </td>
                             <td>
-                               <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130152/BV_AS21.pdf" target="_blank" class="pdf-download-link" >
+                              <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110511/AUE21.pdf" target="_blank" class="pdf-download-link" >
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i>
-                                   BV_AS21.pdf
-                                </a>-->
+                                  AUE21.pdf
+                                </a>
                             </td>
                              <td>
                                <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130146/BV_AS-22.pdf" target="_blank" class="pdf-download-link" >
@@ -188,7 +188,7 @@
                         
                         
                       <!-- Row 2: CSE -->
-                        <tr>
+                    <tr>
                             <td class="text-secondary fw-semibold">2</td>
                             <td>
                                 <div class="fw-bold text-dark-emphasis text-truncate1 lh-sm" >CSE</div>
@@ -222,10 +222,10 @@
                                 </a>
                             </td>
                             <td>
-                               <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130152/BV_AS21.pdf" target="_blank" class="pdf-download-link" >
+                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110456/CSE21.pdf" target="_blank" class="pdf-download-link" >
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i>
-                                   BV_AS21.pdf
-                                </a>-->
+                                   CSE21.pdf
+                                </a>
                             </td>
                              <td>
                                <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130146/BV_AS-22.pdf" target="_blank" class="pdf-download-link" >
@@ -266,7 +266,7 @@
                      
                    
                  <!-- Row 3: CSE-DS -->
-                        <tr>
+                <tr>
                             <td class="text-secondary fw-semibold">3</td>
                             <td>
                                 <div class="fw-bold text-dark-emphasis text-truncate1 lh-sm" >CSE-DS</div>
@@ -300,10 +300,10 @@
                                 </a>
                             </td>
                             <td>
-                               <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130152/BV_AS21.pdf" target="_blank" class="pdf-download-link" >
+                              <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110501/CSEDS21.pdf" target="_blank" class="pdf-download-link" >
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i>
-                                   BV_AS21.pdf
-                                </a>-->
+                                   CSE-DS21.pdf
+                                </a>
                             </td>
                              <td>
                                <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130146/BV_AS-22.pdf" target="_blank" class="pdf-download-link" >
@@ -343,7 +343,7 @@
                         </tr> 
                         
                <!-- Row 4: ECE -->
-                        <tr>
+               <tr>
                             <td class="text-secondary fw-semibold">4</td>
                             <td>
                                 <div class="fw-bold text-dark-emphasis text-truncate1 lh-sm" >ECE</div>
@@ -377,10 +377,10 @@
                                 </a>
                             </td>
                             <td>
-                               <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130152/BV_AS21.pdf" target="_blank" class="pdf-download-link" >
+                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110446/ECE21.pdf" target="_blank" class="pdf-download-link" >
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i>
-                                   BV_AS21.pdf
-                                </a>-->
+                                  ECE21.pdf
+                                </a>
                             </td>
                              <td>
                                <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130146/BV_AS-22.pdf" target="_blank" class="pdf-download-link" >
@@ -420,7 +420,7 @@
                         </tr>  
                         
             <!-- Row 5: EE -->
-                        <tr>
+            <tr>
                             <td class="text-secondary fw-semibold">5</td>
                             <td>
                                 <div class="fw-bold text-dark-emphasis text-truncate1 lh-sm" >EE</div>
@@ -454,10 +454,10 @@
                                 </a>
                             </td>
                             <td>
-                               <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130152/BV_AS21.pdf" target="_blank" class="pdf-download-link" >
+                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110451/EE21.pdf" target="_blank" class="pdf-download-link" >
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i>
-                                   BV_AS21.pdf
-                                </a>-->
+                                  EE21.pdf
+                                </a>
                             </td>
                              <td>
                                <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130146/BV_AS-22.pdf" target="_blank" class="pdf-download-link" >
@@ -531,10 +531,10 @@
                                 </a>
                             </td>
                             <td>
-                               <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130152/BV_AS21.pdf" target="_blank" class="pdf-download-link" >
+                               <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110442/IT21.pdf" target="_blank" class="pdf-download-link" >
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i>
-                                   BV_AS21.pdf
-                                </a>-->
+                                   IT21.pdf
+                                </a>
                             </td>
                              <td>
                                <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130146/BV_AS-22.pdf" target="_blank" class="pdf-download-link" >
@@ -573,7 +573,7 @@
                             </td>
                         </tr>  
                         
-             <!-- Row 7: IT -->
+             <!-- Row 7: ME -->
              <tr>
                             <td class="text-secondary fw-semibold">7</td>
                             <td>
@@ -608,10 +608,10 @@
                                 </a>
                             </td>
                             <td>
-                               <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130152/BV_AS21.pdf" target="_blank" class="pdf-download-link" >
+                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110436/ME21.pdf" target="_blank" class="pdf-download-link" >
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i>
-                                   BV_AS21.pdf
-                                </a>-->
+                                  ME21.pdf
+                                </a>
                             </td>
                              <td>
                                <!-- <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2023/01/25130146/BV_AS-22.pdf" target="_blank" class="pdf-download-link" >
@@ -686,7 +686,7 @@
                                 </a>
                             </td>
                             <td>
-                             <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/06/24123723/3rd-Sem-BBA.pdf" target="_blank" class="pdf-download-link" >
+                             <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/15174537/BBA21.pdf" target="_blank" class="pdf-download-link" >
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i>
                                    BBA21.pdf
                                 </a>
@@ -1134,7 +1134,7 @@
                                 </a>
                             </td>
                             <td>
-                                <a href="https://lsplwebsitedata.s3.ap-south-1.amazonaws.com/mckvi-wp-data/wp-content/uploads/2023/01/31152821/CSEAIML11-1.pdf" target="_blank" class="pdf-download-link" >
+                                <a href="https://lsplwebsitedata.s3.ap-south-1.amazonaws.com/mckvi-wp-data/wp-content/uploads/2023/01/25132233/CSE11.pdf" target="_blank" class="pdf-download-link" >
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i>
                                    CSEAIML11.pdf
                                 </a>
@@ -1652,8 +1652,8 @@
             <!-- MOBILE/TABLET VIEW (Visible on Medium and Small Screens < 992px) -->
             <div class="d-block d-lg-none" id="mobileCardContainer">
                 
-                <!-- Card Row 1: B.Voc Automobile Servicing -->
-                <div class="mobile-card-item" data-search-content="">
+<!-- Card Row 1: AUE -->
+ <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
                             <span class="text-primary fw-bold font-monospace text-xs" style="font-size: 0.75rem;">#1</span>
@@ -1704,7 +1704,12 @@
                                 </a>
                             </div>
                            
-                            
+                            <div class="col-6 col-sm-3">
+                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">3RD SEMESTER</span>
+                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110511/AUE21.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
+                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> AUE21.pdf
+                                </a>
+                            </div>
                             
                         </div>
                     </div>
@@ -1712,7 +1717,7 @@
                 
                 
                 
-  <!-- Card Row 2: B.Voc Software Development -->
+  <!-- Card Row 2: CSE -->
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -1764,6 +1769,14 @@
                                 </a>
                             </div>
                            
+                             <div class="col-6 col-sm-3">
+                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">3RD SEMESTER</span>
+                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110456/CSE21.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
+                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> CSE21.pdf
+                                </a>
+                            </div>
+                            
+                            
                             
                             
                         </div>
@@ -1771,7 +1784,7 @@
                 </div>              
                 
 
-  <!-- Card Row 3: B.Voc Software Development -->
+  <!-- Card Row 3: CSE-DS -->
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -1822,6 +1835,14 @@
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> CSE-DS12.pdf
                                 </a>
                             </div>
+                            
+                            
+                            <div class="col-6 col-sm-3">
+                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">3RD SEMESTER</span>
+                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110501/CSEDS21.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
+                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> CSE-DS21.pdf
+                                </a>
+                            </div>
                            
                             
                             
@@ -1830,7 +1851,7 @@
                 </div>
                 
                 
-    <!-- Card Row 4: B.Voc Software Development -->
+    <!-- Card Row 4: ECE -->
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -1882,6 +1903,17 @@ ECE</h6>
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> ECE12.pdf
                                 </a>
                             </div>
+                            
+                           <div class="col-6 col-sm-3">
+                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">3RD SEMESTER</span>
+                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110446/ECE21.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
+                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> ECE21.pdf
+                                </a>
+                            </div>  
+                            
+                            
+                            
+                            
                            
                             
                             
@@ -1889,7 +1921,7 @@ ECE</h6>
                     </div>
                 </div>               
                 
-   <!-- Card Row 5: B.Voc Software Development -->
+   <!-- Card Row 5: EE -->
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -1941,14 +1973,29 @@ EE</h6>
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> EE12.pdf
                                 </a>
                             </div>
+                            
+                            
+                           <div class="col-6 col-sm-3">
+                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">2ND SEMESTER</span>
+                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110451/EE21.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
+                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> EE21.pdf
+                                </a>
+                            </div>  
+                            
+                            
+                            
                            
                             
                             
                         </div>
                     </div>
                 </div>  
+                
+                
+                
+                
 
- <!-- Card Row 6: B.Voc Software Development -->
+ <!-- Card Row 6: IT -->
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -2000,6 +2047,13 @@ IT</h6>
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> IT12.pdf
                                 </a>
                             </div>
+                            
+                            <div class="col-6 col-sm-3">
+                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">3RD SEMESTER</span>
+                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110442/IT21.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
+                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> IT21.pdf
+                                </a>
+                            </div>
                            
                             
                             
@@ -2007,7 +2061,10 @@ IT</h6>
                     </div>
                 </div>
                 
- <!-- Card Row 7: B.Voc Software Development -->
+                
+                
+                
+ <!-- Card Row 7: ME -->
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -2059,14 +2116,26 @@ ME</h6>
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> ME12.pdf
                                 </a>
                             </div>
+                            
+                            
+                            
+                            <div class="col-6 col-sm-3">
+                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">3RD SEMESTER</span>
+                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/23110436/ME21.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
+                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> ME21.pdf
+                                </a>
+                            </div>
                            
                             
                             
                         </div>
                     </div>
-                </div>                
+                </div>  
                 
-   <!-- Card Row 8: B.Voc Software Development -->
+                
+                
+                
+   <!-- Card Row 8: BBA -->
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -2121,7 +2190,7 @@ BBA</h6>
                             
                   <div class="col-6 col-sm-3">
                                 <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">3RD SEMESTER</span>
-                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/06/24123723/3rd-Sem-BBA.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
+                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2026/07/15174537/BBA21.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
                                     <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> BBA21.pdf
                                 </a>
                             </div>
@@ -2166,8 +2235,14 @@ BBA</h6>
                             
                         </div>
                     </div>
-                </div>                 
-    <!-- Card Row 9: B.Voc Software Development -->
+                </div> 
+                
+                
+                
+                
+                
+                
+    <!-- Card Row 9: MBA -->
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -2241,7 +2316,9 @@ MBA</h6>
                 </div> 
                 
                 
-    <!-- Card Row 1: B.Voc Software Development -->
+                
+                
+    <!-- Card Row 1: BBA -->
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -2341,8 +2418,15 @@ BBA</h6>
                             
                         </div>
                     </div>
-                </div>                 
-   <!-- Card Row 2: B.Voc Software Development -->
+                </div>  
+                
+                
+                
+                
+                
+                
+   <!-- Card Row 2: AI & ML -->
+   
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -2442,8 +2526,18 @@ AI & ML</h6>
                             
                         </div>
                     </div>
-                </div>                   
-  <!-- Card Row 3: B.Voc Software Development -->
+                </div>  
+                
+                
+                
+                
+                
+                
+                
+                
+  <!-- Card Row 3: Automobile Engineering -->
+  
+  
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -2543,9 +2637,16 @@ Automobile Engineering</h6>
                             
                         </div>
                     </div>
-                </div>                 
+                </div>  
                 
-   <!-- Card Row 4: B.Voc Software Development -->
+                
+                
+                
+                
+                
+                
+   <!-- Card Row 4: Computer Science & Engineering -->
+   
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -2648,109 +2749,9 @@ Computer Science & Engineering</h6>
                 </div>  
                 
                 
-   <!-- Card Row 4: B.Voc Software Development -->
-  <div class="mobile-card-item" data-search-content="">
-                    <div class="d-flex justify-content-between align-items-start mb-3">
-                        <div>
-                            <span class="text-primary fw-bold font-monospace text-xs" style="font-size: 0.75rem;">#4</span>
-                            <h6 class="fw-bold text-dark-emphasis mb-1 mt-1">	
-Computer Science & Engineering</h6>
-                           
-                        </div>
-                        <div class="text-end">
-                            <span class="badge-academic-year font-monospace d-inline-block mb-1">2020-2021</span>
-                            <div class="text-muted font-monospace lh-sm" style="font-size: 0.68rem;">Updated: 02-07-2024</div>
-                        </div>
-                    </div>
-
-                    <!-- Curriculum Core Documents -->
-                    <div class="mb-3">
-                       
-                        <div class="row g-2">
-                            <div class="col-6">
-                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">CREDIT DISTRIBUTION</span>
-                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2024/07/09144122/CSE_C.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
-                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i>CSE_C.pdf
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">CURRICULUM STRUCTURE</span>
-                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2024/07/09144120/CSE.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
-                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> CSE.pdf
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Semester Breakdown Syllabi -->
-                    <div>
-                        <div class="mobile-section-title">
-                            <i class="bi bi-layers-half text-success"></i> Semester Syllabus
-                        </div>
-                        <div class="row g-2">
-                            <div class="col-6 col-sm-3">
-                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">1ST SEMESTER</span>
-                                <a href="https://lsplwebsitedata.s3.ap-south-1.amazonaws.com/mckvi-wp-data/wp-content/uploads/2023/01/25132233/CSE11.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
-                                   <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> CSE11.pdf
-                                </a>
-                            </div>
-                            <div class="col-6 col-sm-3">
-                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">2ND SEMESTER</span>
-                                <a href="https://lsplwebsitedata.s3.ap-south-1.amazonaws.com/mckvi-wp-data/wp-content/uploads/2023/01/25132235/CSE12.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
-                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> CSE12.pdf
-                                </a>
-                            </div>
-                            
-                  <div class="col-6 col-sm-3">
-                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">3RD SEMESTER</span>
-                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2024/07/09144124/CSE21.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
-                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> CSE21.pdf
-                                </a>
-                            </div>
-                            
-             <div class="col-6 col-sm-3">
-                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">4TH SEMESTER</span>
-                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2024/07/09144127/CSE22.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
-                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> CSE22.pdf
-                                </a>
-                            </div> 
-                            
-                            
-            <div class="col-6 col-sm-3">
-                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">5TH SEMESTER</span>
-                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2024/07/09144129/CSE31.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
-                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> CSE31.pdf
-                                </a>
-                            </div>                  
-                            
-            <div class="col-6 col-sm-3">
-                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">6TH SEMESTER</span>
-                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2024/07/09144131/CSE32.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
-                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> CSE32.pdf
-                                </a>
-                            </div>                                
-            <div class="col-6 col-sm-3">
-                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">7TH SEMESTER</span>
-                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2024/07/09144133/CSE41.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
-                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> CSE41.pdf
-                                </a>
-                            </div>                         
-                            
-            <div class="col-6 col-sm-3">
-                                <span class="text-muted d-block font-monospace mb-1" style="font-size: 0.65rem;">8TH SEMESTER</span>
-                                <a href="https://d3otflr9ot901s.cloudfront.net/mckvi-wp-data/wp-content/uploads/2024/07/09144135/CSE42.pdf" target="_blank" class="pdf-download-link w-100 max-w-100" >
-                                    <i class="bi bi-file-earmark-pdf-fill pdf-icon-accent-red"></i> CSE42.pdf
-                                </a>
-                            </div>                 
-                            
-                           
-                            
-                            
-                        </div>
-                    </div>
-                </div>             
+             
                 
-  <!-- Card Row 5: B.Voc Software Development -->
+  <!-- Card Row 5: Computer Science & Engineering - AI&ML -->
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -2852,7 +2853,13 @@ Computer Science & Engineering - AI&ML</h6>
                     </div>
                 </div> 
                 
-   <!-- Card Row 6: B.Voc Software Development -->
+                
+                
+                
+                
+                
+   <!-- Card Row 6: Computer Science & Engineering (Data Science) -->
+   
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -2952,10 +2959,14 @@ Computer Science & Engineering (Data Science)</h6>
                             
                         </div>
                     </div>
-                </div>               
+                </div>  
                 
                 
-     <!-- Card Row 7: B.Voc Software Development -->
+                
+                
+                
+     <!-- Card Row 7: Electronics & Communication Engineering -->
+     
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -3057,7 +3068,12 @@ Electronics & Communication Engineering</h6>
                     </div>
                 </div> 
                 
-  <!-- Card Row 8: B.Voc Software Development -->
+                
+                
+                
+                
+  <!-- Card Row 8: Electronics & Communication (VLSI Design) -->
+  
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -3157,9 +3173,14 @@ Electronics & Communication (VLSI Design)</h6>
                             
                         </div>
                     </div>
-                </div>                
+                </div> 
                 
- <!-- Card Row 9: B.Voc Software Development -->
+                
+                
+                
+                
+ <!-- Card Row 9: Electrical Engineering -->
+ 
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -3259,9 +3280,13 @@ Electrical Engineering</h6>
                             
                         </div>
                     </div>
-                </div>                
+                </div>  
                 
- <!-- Card Row 10: B.Voc Software Development -->
+                
+                
+                
+ <!-- Card Row 10: Information Technology -->
+ 
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
@@ -3361,9 +3386,13 @@ Information Technology</h6>
                             
                         </div>
                     </div>
-                </div>                  
+                </div> 
                 
-  <!-- Card Row 11: B.Voc Software Development -->
+                
+                
+                
+  <!-- Card Row 11: Mechanical Engineering -->
+  
   <div class="mobile-card-item" data-search-content="">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>

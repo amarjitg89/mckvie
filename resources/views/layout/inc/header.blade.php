@@ -6,7 +6,7 @@
        
     <div class="container">
      <div class="row">
-         <div class="col-lg-5 col-sm-6 col-12"><div class="top_head_txt"><i class="bi bi-telephone " ></i><a href="tel:9007017339" class="text-white"> +91 9007017339 </a> 
+         <div class="col-lg-5 col-sm-6 col-12"><div class="top_head_txt"><i class="bi bi-telephone " ></i><a href="tel:8100836863" class="text-white"> +91 8100836863 </a> 
  &nbsp; | &nbsp;<i class="bi bi-envelope me-1" ></i><a href="mailto:admission@mckvie.edu.in
 " class="text-white">admission@mckvie.edu.in</a></div></div>
          
@@ -29,7 +29,7 @@
        
    </div>   
    
-   <div class="sticky_header">
+   <div class="sticky_header ">
          
    <div class="bottom_head">
        
@@ -49,7 +49,7 @@
                 <div class="col-sm-3 ps-0"><img src="{{asset('images/noun-call.png')}}" class="w-100" /></div>
                 <div class="col-sm-9 p-0">
                  <span class="admission_enquiry_font text-white ">Admission Enquiry</span> 
-                 <span class="admission_pg_font text-white fw-bold"><a href="tel:9007017339" class="text-white">+91 9007017339</a></span>
+                 <span class="admission_pg_font text-white fw-bold"><a href="tel:8100836863" class="text-white">+91 8100836863</a></span>
                     
                     
                 </div>
@@ -122,14 +122,14 @@
 
                       <ul>
  <li><a href="{{url('/department/automobile-engineering')}}" class="submenu red fw-bold submenu_heading p-0">Automobile Engineering</a></li>
-  <li class="submenu_bottomgap"><a href="{{url('/course/automobile-engineering')}}" class="submenu text-dark p-0">Automobile Engineering</a></li>
-  <li><a href="{{url('/department/computer-science-engineering')}}" class="submenu red fw-bold submenu_heading p-0">Computer Science & Engineering</a></li>
+  <li class="submenu_bottomgap"><a href="{{url('/course/automobile-engineering')}}" class="submenu text-dark p-0">B.Tech in Automobile Engineering</a></li>
+  <li><a href="{{url('/department/computer-science-engineering')}}" class="submenu red fw-bold submenu_heading p-0">Computer Science and Engineering</a></li>
                           
-                <li><a href="{{url('/course/btech-computer-science-engineering')}}" class="submenu text-dark p-0">B.Tech Computer Science and Engineering</a></li>
-                <li><a href="{{url('/course/btech-computer-science-engineering-data-science')}}" class="submenu text-dark p-0">B.Tech Computer Science and Engineering (Data Science)</a></li>
+                <li><a href="{{url('/course/btech-computer-science-engineering')}}" class="submenu text-dark p-0">B.Tech in Computer Science and Engineering</a></li>
+                <li><a href="{{url('/course/btech-computer-science-engineering-data-science')}}" class="submenu text-dark p-0">B.Tech in Computer Science and Engineering (Data Science)</a></li>
                 <li><a href="{{url('/course/btech-computer-science-engineering-ai')}}" class="submenu text-dark p-0">B.Tech in Computer Science and Engineering (Artificial Intelligence & Machine Learning)</a></li>
                
-                
+                <li><a href="{{url('/course/mtech-ai-datascience')}}" class="submenu text-dark p-0">M.Tech in Artificial Intelligence and Data Science</a></li>
 
                         
 
@@ -146,14 +146,14 @@
                       <ul>
  <li><a href="{{url('/department/electronics-communication-engineering')}}" class="submenu red fw-bold submenu_heading p-0">Electronics and Communications Engineering</a></li>
   <li ><a href="{{url('/course/btech-electronics-communication-engineering')}}" class="submenu text-dark p-0">B.Tech in Electronics and Communications Engineering</a></li>
-   <li class="submenu_bottomgap"><a href="{{url('/course/mtech-electronics-communication-engineering')}}" class="submenu text-dark p-0">M.Tech in Electronics & Communications Engineering</a></li>
+   <li class="submenu_bottomgap"><a href="{{url('/course/mtech-electronics-communication-engineering')}}" class="submenu text-dark p-0">M.Tech in Electronics and Communications Engineering</a></li>
   <li><a href="{{url('/department/electrical-engineering')}}" class="submenu red fw-bold submenu_heading p-0">Electrical Engineering</a></li>
                           
-                <li class="submenu_bottomgap"><a href="{{url('/course/electrical-engineering')}}" class="submenu text-dark p-0">Electrical Engineering</a></li>
-  <li><a href="{{url('/department/mechanical-engineering')}}" class="submenu red fw-bold submenu_heading p-0">Mechanical Engineering</a></li>             
-                
-                <li><a href="{{url('/course/mechanical-engineering')}}" class="submenu text-dark p-0">Mechanical Engineering</a></li>
-               
+                <li class="submenu_bottomgap"><a href="{{url('/course/electrical-engineering')}}" class="submenu text-dark p-0">B.Tech in Electrical Engineering</a></li>
+  
+                <li><a href="{{url('/department/information-technology')}}" class="submenu red fw-bold submenu_heading p-0">Information Technology</a></li>
+  
+   <li ><a href="{{url('/course/information-technology')}}" class="submenu text-dark p-0">B.Tech in Information Technology</a></li>
                       </ul>
 
                     </div>
@@ -163,20 +163,22 @@
                     <div class="col-lg-4">
 
                       <ul>
- <li><a href="{{url('/department/information-technology')}}" class="submenu red fw-bold submenu_heading p-0">Information Technology</a></li>
-  
-   <li class="submenu_bottomgap"><a href="{{url('/course/information-technology')}}" class="submenu text-dark p-0">Information Technology</a></li>
+                          
+                          <li><a href="{{url('/department/mechanical-engineering')}}" class="submenu red fw-bold submenu_heading p-0">Mechanical Engineering</a></li>             
+                
+                <li class="submenu_bottomgap"><a href="{{url('/course/mechanical-engineering')}}" class="submenu text-dark p-0">B.Tech in Mechanical Engineering</a></li>
+
   <!--<li><a href="" class="submenu red fw-bold submenu_heading p-0">B.Voc</a></li>
                   <li><a href="" class="submenu text-dark p-0">B. Voc Automobile Servicing</a></li>         
                 <li class="submenu_bottomgap"><a href="" class="submenu text-dark p-0">B. Voc Software Development</a></li>-->
-  <li><a href="{{url('/department/management')}}" class="submenu red fw-bold submenu_heading p-0">Management </a></li>             
+  <li><a href="{{url('/department/management')}}" class="submenu red fw-bold submenu_heading p-0">Management Science </a></li>             
                 
                 <li><a href="{{url('/course/mba')}}" class="submenu text-dark p-0">MBA </a></li>
                  <li class="submenu_bottomgap"><a href="{{url('/course/bba')}}" class="submenu text-dark p-0">BBA </a></li>
 
-                  <li><a href="{{url('/department/basic-science-and-humanities')}}" class="submenu red fw-bold submenu_heading p-0">Basic Science & Humanities </a></li>             
+                  <li><a href="{{url('/department/basic-science-and-humanities')}}" class="submenu red fw-bold submenu_heading p-0">Basic Science and Humanities </a></li>             
                 
-                <li><a href="{{url('/course/basic-science-and-humanities')}}" class="submenu text-dark p-0">Basic Science & Humanities </a></li> 
+                <li><a href="{{url('/course/basic-science-and-humanities')}}" class="submenu text-dark p-0">Basic Science and Humanities </a></li> 
                
                       </ul>
 
@@ -221,7 +223,7 @@
               <label for="showDrop" class="mobile-item">Admissions <i class="fa-solid fa-caret-down text-white ms-1 caret" ></i></label>
               <ul class="drop-menu">
                 <!--<li><a href="{{url('/admission-cell')}}" class="submenu text-dark">Admission Cell</a></li>-->
-                <li><a href="https://mckv1.ucanapply.com/univer/public/secure?app_id=UElZMDAwMDA1MQ==" target="_blank" class="submenu text-dark">Online Admissions</a></li>
+                <!--<li><a href="https://mckv1.ucanapply.com/univer/public/secure?app_id=UElZMDAwMDA1MQ==" target="_blank" class="submenu text-dark">Online Admissions</a></li>-->
                 <li><a href="{{url('/admission')}}" class="submenu text-dark">Admissions</a></li>
                 <li><a href="{{url('/admission-procedure')}}" class="submenu text-dark">Admission Procedure</a></li>
                
@@ -245,7 +247,7 @@
                 <li><a href="{{url('/achievements')}}" class="submenu text-dark">Achievements</a></li>
                
                 <li><a href="{{url('/mckvie-rotaract-club')}}" class="submenu text-dark">MCKVIE Risers Club</a></li>
-               <li><a href="{{url('/seminars-workshops')}}" class="submenu text-dark">Seminars & Workshops</a></li>
+               <li><a href="{{url('/seminars-workshops')}}" class="submenu text-dark">Eminent Visitors</a></li>
                 <li><a href="{{url('/technotica')}}" class="submenu text-dark">Technical Events</a></li>
                
                 <li><a href="{{url('/student-chapters')}}" class="submenu text-dark">Student Chapters</a></li>
@@ -283,7 +285,7 @@
             
            <li><a href="{{url('/library')}}">Library</a></li>
            
-            <li>
+           <!-- <li>
               <a href="" class="desktop-item">Press & Media <i class="fa-solid fa-caret-down  ms-1 caret"></i></a>
               <input type="checkbox" id="showDrop">
               <label for="showDrop" class="mobile-item">Press & Media  <i class="fa-solid fa-caret-down text-white ms-1 caret"></i></label>
@@ -302,7 +304,9 @@
                 <li><a href="" class="submenu text-dark">Year 2012-2013</a></li>
                
               </ul>
-            </li>     
+            </li> -->
+            
+             <li><a href="{{url('/press-media')}}">Press & Media</a></li>
            
             <li><a href="{{url('/contact-us')}}">Contact Us</a></li>
             
@@ -331,7 +335,7 @@
        
     <div class="container">
      <div class="row">
-         <div class="col-lg-5 col-sm-6 col-12"><div class="top_head_txt"><i class="bi bi-telephone" ></i><a href="tel:9007017339" class="text-white"> +91 9007017339 </a> 
+         <div class="col-lg-5 col-sm-6 col-12"><div class="top_head_txt"><i class="bi bi-telephone" ></i><a href="tel:8100836863" class="text-white"> +91 8100836863 </a> 
  &nbsp; | &nbsp;<i class="bi bi-envelope me-1" ></i><a href="mailto:admission@mckvie.edu.in
 " class="text-white">admission@mckvie.edu.in</a></div></div>
          
@@ -427,40 +431,53 @@
        		
 		<li><a class="nav-link yellow fw-bold" href="{{url('/department/automobile-engineering')}}">Automobile Engineering</a></li>
 		
-			<li><a class="menu_color nav-link " href="{{url('/course/automobile-engineering')}}">Automobile Engineering</a></li>
+			<li><a class="menu_color nav-link " href="{{url('/course/automobile-engineering')}}">B.Tech in Automobile Engineering</a></li>
 			
-				<li><a class="nav-link yellow fw-bold" href="{{url('/department/computer-science-engineering')}}">Computer Science & Engineering</a></li>
+				<li><a class="nav-link yellow fw-bold" href="{{url('/department/computer-science-engineering')}}">Computer Science and Engineering</a></li>
 		
-            <li><a class="menu_color nav-link lh-sm" href="{{url('/course/btech-computer-science-engineering')}}">B.Tech Computer Science and Engineering</a></li>
+            <li><a class="menu_color nav-link lh-sm" href="{{url('/course/btech-computer-science-engineering')}}">B.Tech in Computer Science and Engineering</a></li>
             
-            <li><a class="menu_color nav-link lh-sm" href="{{url('/course/btech-computer-science-engineering-data-science')}}">B.Tech Computer Science and Engineering (Data Science)</a></li>
+            <li><a class="menu_color nav-link lh-sm" href="{{url('/course/btech-computer-science-engineering-data-science')}}">B.Tech in Computer Science and Engineering (Data Science)</a></li>
              <li><a class="menu_color nav-link lh-sm" href="{{url('/course/btech-computer-science-engineering-ai')}}">B.Tech in Computer Science and Engineering (Artificial Intelligence & Machine Learning)</a></li>
+             
+             <li><a class="menu_color nav-link lh-sm" href="{{url('/course/mtech-ai-datascience')}}">M.Tech in Artificial Intelligence and Data Science</a></li>
+             
+             
+             
+             
+             
+             
+             
              
              	<li><a class="nav-link yellow fw-bold lh-sm" href="{{url('/department/electronics-communication-engineering')}}">Electronics and Communications Engineering</a></li>
              <li><a class="menu_color nav-link lh-sm" href="{{url('/course/btech-electronics-communication-engineering')}}">B.Tech in Electronics and Communications Engineering</a></li>
-             <li><a class="menu_color nav-link lh-sm" href="{{url('/course/mtech-electronics-communication-engineering')}}">M.Tech in Electronics & Communications Engineering</a></li>
+             <li><a class="menu_color nav-link lh-sm" href="{{url('/course/mtech-electronics-communication-engineering')}}">M.Tech in Electronics and Communications Engineering</a></li>
 		
 			<li><a class="nav-link yellow fw-bold lh-sm" href="{{url('/department/electrical-engineering')}}">Electrical Engineering</a></li>
 		
-            <li><a class="menu_color nav-link" href="{{url('/course/electrical-engineering')}}">Electrical Engineering</a></li>
+            <li><a class="menu_color nav-link" href="{{url('/course/electrical-engineering')}}">B.Tech in Electrical Engineering</a></li>
+            
+            
+            <li><a class="nav-link yellow fw-bold lh-sm" href="{{url('/department/information-technology')}}">Information Technology</a></li>
+             <li><a class="menu_color nav-link" href="{{url('/course/information-technology')}}">B.Tech in Information Technology</a></li>
+            
             
             <li><a class="nav-link yellow fw-bold lh-sm" href="{{url('/department/mechanical-engineering')}}">Mechanical Engineering</a></li>
             
-            <li><a class="menu_color nav-link" href="{{url('/course/mechanical-engineering')}}">Mechanical Engineering</a></li>
-             <li><a class="nav-link yellow fw-bold lh-sm" href="{{url('/department/information-technology')}}">Information Technology</a></li>
-             <li><a class="menu_color nav-link" href="{{url('/course/information-technology')}}">Information Technology</a></li>
+            <li><a class="menu_color nav-link" href="{{url('/course/mechanical-engineering')}}">B.Tech in Mechanical Engineering</a></li>
+             
              
              <!--<li><a class="nav-link yellow fw-bold lh-sm" href="">B.Voc</a></li>
              <li><a class="menu_color nav-link" href="">B. Voc Automobile Servicing</a></li>
               <li><a class="menu_color nav-link" href="">B. Voc Software Development</a></li>-->
-              <li><a class="nav-link yellow fw-bold lh-sm" href="{{url('/department/management')}}">Management </a></li>
+              <li><a class="nav-link yellow fw-bold lh-sm" href="{{url('/department/management')}}">Management Science</a></li>
               
                <li><a class="menu_color nav-link" href="{{url('/course/mba')}}">MBA </a></li>
             <li><a class="menu_color nav-link" href="{{url('/course/bba')}}">BBA </a></li>
 
-            <li><a class="nav-link yellow fw-bold lh-sm" href="{{url('/department/basic-science-and-humanities')}}">Basic Science & Humanities </a></li>
+            <li><a class="nav-link yellow fw-bold lh-sm" href="{{url('/department/basic-science-and-humanities')}}">Basic Science and Humanities </a></li>
               
-               <li><a class="menu_color nav-link" href="{{url('/course/basic-science-and-humanities')}}">Basic Science & Humanities </a></li>
+               <li><a class="menu_color nav-link" href="{{url('/course/basic-science-and-humanities')}}">Basic Science and Humanities </a></li>
          
 		</ul>
 	</li>	
@@ -497,7 +514,7 @@
 		
 		<!--	<li><a class="menu_color nav-link " href="{{url('/admission-cell')}}">Admission Cell</a></li>-->
 		
-            <li><a class="menu_color nav-link" href="https://mckv1.ucanapply.com/univer/public/secure?app_id=UElZMDAwMDA1MQ==" target="_blank">Online Admissions</a></li>
+            <!--<li><a class="menu_color nav-link" href="https://mckv1.ucanapply.com/univer/public/secure?app_id=UElZMDAwMDA1MQ==" target="_blank">Online Admissions</a></li>-->
             
             <li><a class="menu_color nav-link" href="{{url('/admission')}}">Admissions</a></li>
              <li><a class="menu_color nav-link" href="{{url('/admission-procedure')}}">Admission Procedure</a></li>
@@ -521,7 +538,7 @@
             <li><a class="menu_color nav-link" href="{{url('/games-and-sports')}}">Games & Sports</a></li>
              <li><a class="menu_color nav-link" href="{{url('/achievements')}}">Achievements</a></li>
              <li><a class="menu_color nav-link" href="{{url('/mckvie-rotaract-club')}}">MCKVIE Risers Club</a></li>
-             <li><a class="menu_color nav-link " href="{{url('/seminars-workshops')}}">Seminars & Workshops</a></li>
+             <li><a class="menu_color nav-link " href="{{url('/seminars-workshops')}}">Eminent Visitors</a></li>
              
               <li><a class="menu_color nav-link" href="{{url('/technotica')}}">Technical Events</a></li>
              <li><a class="menu_color nav-link" href="{{url('/student-chapters')}}">Student Chapters</a></li>
@@ -562,7 +579,7 @@
 	</li>
 	
 
-<li class="nav-item has-submenu">
+<!--<li class="nav-item has-submenu">
 		<a class="nav-link lh-sm" href="#" >Press & Media  &nbsp; <i class="fa-solid fa-caret-down"></i></a>
 		
 			<ul class="submenu collapse">
@@ -586,10 +603,12 @@
              <li><a class="menu_color nav-link " href="">Year 2012-2013</a></li>
 		
 		</ul>
-	</li>	
+	</li>-->	
 	
 
-	
+	 <li class="nav-item">
+		<a class="nav-link lh-sm" href="{{url('/press-media')}}" >Press & Media </a>
+	</li>	
 	
 	
 	

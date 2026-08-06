@@ -46,7 +46,7 @@
 
  <!-- Main css -->
 
-<link href="{{asset('css/style.css')}}?v=7" rel="stylesheet" type="text/css" />
+<link href="{{asset('css/style.css')}}?v=30" rel="stylesheet" type="text/css" />
 <link href="{{asset('css/megamenu.css')}}" rel="stylesheet" type="text/css" />
 
 
@@ -72,6 +72,25 @@
 </body>
 
  <script src="{{asset('js/app.js')}}"></script>
+ 
+ <script>
+     
+ const faqs = document.querySelectorAll('.faq-item');
+
+faqs.forEach((faq) => {
+    faq.addEventListener('toggle', function () {
+        if (this.open) {
+            faqs.forEach((item) => {
+                if (item !== this) {
+                    item.open = false;
+                }
+            });
+        }
+    });
+});    
+     
+     
+ </script>
 
 <script>
 
@@ -218,7 +237,14 @@ $(window).scroll(function () {
       Fancybox.bind('[data-fancybox="ca3"]', {
         //
       });    
-    </script>   
+    </script> 
+    
+    
+    <script>
+      Fancybox.bind('[data-fancybox="ca4"]', {
+        //
+      });    
+    </script>  
     
     
 
@@ -335,6 +361,53 @@ $(window).scroll(function () {
         },
         1000: {
           items:5,
+			mouseDrag: true,
+
+            touchDrag: true,
+
+
+        }
+      }
+    });
+
+  })
+</script>
+
+
+
+<script>
+  $(document).ready(function () {
+    var owl = $('#accreditations');
+    owl.owlCarousel({
+      // items: 4,
+     // stagePadding: 50,
+      loop: true,
+       margin: 20,
+      autoplay: false,
+      autoplayTimeout: 3000,
+       smartSpeed: 2000,
+            dotsSpeed: 600,
+            slideBy: 1,
+     // nav: true,
+    dots: false,
+      autoplayHoverPause: true,
+    //  navText: ["<img src='{{asset('images/s-arrow1.svg')}}'>", "<img src='{{asset('images/s-arrow2.svg')}}'>"],
+      responsive: {
+        0: {
+          items: 2,
+          mouseDrag: false,
+          dots: true,
+          autoplay: true,
+          touchDrag: true,
+        },
+        600: {
+          items:4,
+			mouseDrag: true,
+
+            touchDrag: true,
+        },
+        1000: {
+          items:4,
 			mouseDrag: true,
 
             touchDrag: true,
@@ -728,7 +801,15 @@ requestAnimationFrame(raf)
       Fancybox.bind('[data-fancybox="group1"]', {
         //
       });    
-    </script>  
+    </script> 
+    
+    
+ <script>
+      Fancybox.bind('[data-fancybox="group2"]', {
+        //
+      });    
+    </script>    
+    
     
     
    <script>
@@ -750,7 +831,154 @@ requestAnimationFrame(raf)
      
   }
 });
-  </script>   
+  </script>  
+  
+  
+ <script>
+    /**
+     * Toggle Read More / Read Less functionality
+     */
+    function toggleReadMore() {
+      const content = document.getElementById('technoticaContent');
+      const btnText = document.getElementById('btnText');
+      const btnIcon = document.getElementById('btnIcon');
+      const btn = document.getElementById('readMoreBtn');
+
+      // Toggle expanded class
+      content.classList.toggle('expanded');
+      btn.classList.toggle('active');
+
+      if (content.classList.contains('expanded')) {
+        btnText.textContent = 'Read Less';
+        btnIcon.classList.remove('bi-chevron-down');
+        btnIcon.classList.add('bi-chevron-up');
+      } else {
+        btnText.textContent = 'Read More';
+        btnIcon.classList.remove('bi-chevron-up');
+        btnIcon.classList.add('bi-chevron-down');
+
+        // Smooth scroll back to section top if collapsed
+        content.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+
+    /**
+     * Copy Code to Clipboard
+     */
+    function copyCode() {
+      const codeText = document.getElementById('codeSnippet').innerText;
+      
+      // Fallback copy mechanism for iframe compatibility
+      const tempTextArea = document.createElement('textarea');
+      tempTextArea.value = codeText;
+      document.body.appendChild(tempTextArea);
+      tempTextArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempTextArea);
+
+      // Show toast
+      const toastEl = document.getElementById('toastMsg');
+      toastEl.style.display = 'block';
+      setTimeout(() => {
+        toastEl.style.display = 'none';
+      }, 2500);
+    }
+  </script> 
+  
+  
+ <script>
+    /**
+     * Toggle Read More / Read Less functionality
+     */
+    function toggleReadMore1() {
+      const content = document.getElementById('technoticaContent1');
+      const btnText = document.getElementById('btnText');
+      const btnIcon = document.getElementById('btnIcon');
+      const btn = document.getElementById('readMoreBtn1');
+
+      // Toggle expanded class
+      content.classList.toggle('expanded');
+      btn.classList.toggle('active');
+
+      if (content.classList.contains('expanded')) {
+        btnText.textContent = 'Read Less';
+        btnIcon.classList.remove('bi-chevron-down');
+        btnIcon.classList.add('bi-chevron-up');
+      } else {
+        btnText.textContent = 'Read More';
+        btnIcon.classList.remove('bi-chevron-up');
+        btnIcon.classList.add('bi-chevron-down');
+
+        // Smooth scroll back to section top if collapsed
+        content.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+
+    /**
+     * Copy Code to Clipboard
+     */
+    function copyCode() {
+      const codeText = document.getElementById('codeSnippet').innerText;
+      
+      // Fallback copy mechanism for iframe compatibility
+      const tempTextArea = document.createElement('textarea');
+      tempTextArea.value = codeText;
+      document.body.appendChild(tempTextArea);
+      tempTextArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempTextArea);
+
+      // Show toast
+      const toastEl = document.getElementById('toastMsg');
+      toastEl.style.display = 'block';
+      setTimeout(() => {
+        toastEl.style.display = 'none';
+      }, 2500);
+    }
+  </script>  
+  
+  
+  
+  
+  
+   <!-- JavaScript for Intersection Observer Scroll Reveal Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            initScrollReveal();
+        });
+
+        /**
+         * Setup IntersectionObserver to reveal/hide event divs 
+         * based on whether they are in the viewport
+         */
+        function initScrollReveal() {
+            const observerOptions = {
+                root: null, 
+                rootMargin: '0px 0px -150px 0px', // Adjusted to trigger slightly earlier
+                threshold: 0.1 
+            };
+
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        // Reveal when scrolling down into view
+                        entry.target.classList.add('active');
+                    } else {
+                        // Hide when scrolling up out of view
+                        entry.target.classList.remove('active');
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all cards (including initial ones if you want them to hide on scroll-up)
+            const allCards = document.querySelectorAll('.scroll-reveal');
+            allCards.forEach(card => {
+                revealObserver.observe(card);
+            });
+        }
+    </script> 
+  
+  
 
 
 <script>
@@ -782,7 +1010,7 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 </script>
-<!---Course Enquiry Success message---->
+   <!---Course Enquiry Success message---->
      @section('script')
       @if(session('course_message'))
       <script>        
@@ -797,8 +1025,8 @@ function backToTop() {
                         });
        
       </script>
- @endif
-<!---Alumni Registration Form Success message---->
+ @endif 
+ <!---Alumni Registration Form Success message---->
      @section('script')
       @if(session('alumni_message'))
       <script>        
@@ -814,7 +1042,6 @@ function backToTop() {
        
       </script>
  @endif
-
  <!---Grievance Form Success message---->
      @section('script')
       @if(session('grievance_message'))

@@ -420,7 +420,7 @@ Membership</li>
 
 <li>Mr. Partha Pratim Saha	(Assistant Professor) LMFOSET, IMCSI Membership</li> 
 
-<li>Mr. Niloy Kr. Nag (Assistant Professor) MIE Membership</li> 
+<li>Mr. Nilay Kr. Nag (Assistant Professor) MIE Membership</li> 
 
 <li>Dr. Shrabanti Kundu (Assistant Professor) MIETE Membership</li> 
 

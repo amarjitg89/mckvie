@@ -1,6 +1,6 @@
 @extends('layout.master-template')
 
-@section('title','Automobile Engineering - MCKV Institute of Engineering')
+@section('title','B.Tech in Automobile Engineering - MCKV Institute of Engineering')
 
 @section('content')
      <!--##########  Banner Start ############# -->   
@@ -40,7 +40,7 @@
                   
                  
                   <div class="red mainhome_title mb-3 text-start">Course <span class="fw-normal">Overview</span></div>
-                  <div class="home_about_txt text-start text-md-justify mb-3">
+                  <div class="home_about_txt text-justify text-md-justify mb-3">
                Automobile Engineering is a dynamic and fast-evolving field focused on product design, functionality, and integrated technologies. The program at MCKV Institute of Engineering offers an industry-oriented curriculum that builds strong fundamentals and advanced knowledge in automotive engines, vehicle dynamics, electric and hybrid vehicles, and manufacturing systems.</br>
               
               Students benefit from well-equipped laboratories, hands-on workshops, live projects, and internships. Specializations include Automotive Design & Manufacturing and Thermal Engineering. Open electives such as Artificial Intelligence, Machine Learning, Robotics, and 3D Printing promote interdisciplinary learning.
@@ -141,7 +141,7 @@
                   
                <div class="col-xl-5 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0">
                    
-  <img src="{{asset('images/automobile-course-new1.webp?v=1')}}" alt="" class="w-100 prinsiple">
+  <img src="{{asset('images/IMG_2737.webp?v=1')}}" alt="" class="w-100 prinsiple">
                    
                    
                </div>   
@@ -149,7 +149,7 @@
              <div class="col-xl-7 col-lg-8 col-md-8 col-12  px-sm-3 px-0">
              <div class="col-12">
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm  ">
 
 
  <ul>
@@ -342,7 +342,7 @@ To emerge as a center of excellence in Automobile Engineering for producing well
               <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
                   
                   
- <div class="mainhome_title text-start mb-sm-3 mb-3">
+ <div class="mainhome_title text-justify mb-sm-3 mb-3">
                   
                
                   
@@ -352,9 +352,9 @@ To emerge as a center of excellence in Automobile Engineering for producing well
 
 
 <ul>
- <li>Graduates of the program will have successful industrial and professional career.</li>
-  <li>Graduates will pursue higher study and research for societal needs.</li>  
-   <li>Graduates will undergo lifelong learning and adapt technological changes relevant in their domain.</li>  
+ <li><b>PEO-I:</b> Graduates of the program will have successful industrial and professional career.</li>
+  <li><b>PEO-II:</b> Graduates will pursue higher study and research for societal needs.</li>  
+   <li><b>PEO-III:</b> Graduates will undergo lifelong learning and adapt technological changes relevant in their domain.</li>  
      
     
 </ul>
@@ -380,8 +380,7 @@ To emerge as a center of excellence in Automobile Engineering for producing well
                   
                <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 px-0  order-first order-md-2">
                    
-  <img src="{{asset('images/automobile-Programme-Educational-Objective.webp
-')}} " alt="" class="w-100">
+  <img src="{{asset('images/SJA_02.webp')}} " alt="" class="w-100">
                    
                    
                </div>   
@@ -429,7 +428,7 @@ To emerge as a center of excellence in Automobile Engineering for producing well
              <div class="col-xl-12 col-lg-12 col-md-12 col-12 px-0">
              <div class="col-12">
                  
-             <div class="mainhome_title text-start mb-sm-4 mb-3">
+             <div class="mainhome_title text-justify mb-sm-4 mb-3">
                
                    <span class="red">Programme <span class="fw-normal">Outcomes</span></span></div>     
                  
@@ -440,37 +439,37 @@ Engineering Graduates will be able to:</br></br>
 
 
 <ul>
- <li><b>Engineering knowledge:</b> Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems.</li>
+ <li><b>PO-I:</b> <b>Engineering knowledge:</b> Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems.</li>
  
-  <li><b>Problem analysis:</b>  Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions with consideration for sustainable development. (WK1 to WK4)
+  <li><b>PO-II:</b> <b>Problem analysis:</b>  Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions with consideration for sustainable development. (WK1 to WK4)
 
 </li>
 
-<li><b>Design/development of solutions:</b> Design creative solutions for complex engineering problems and design/develop systems/components/processes to meet identified needs with consideration for the public health and safety, whole-life cost, net zero carbon, culture, society and environment as required. (WK5)
+<li><b>PO-III:</b> <b>Design/development of solutions:</b> Design creative solutions for complex engineering problems and design/develop systems/components/processes to meet identified needs with consideration for the public health and safety, whole-life cost, net zero carbon, culture, society and environment as required. (WK5)
 
 </li>  
 
 
 
-   <li><b>Conduct investigations of complex problems:</b> Conduct investigations of complex engineering problems using research-based knowledge including design of experiments, modelling, analysis & interpretation of data to provide valid conclusions. (WK8).
+   <li><b>PO-IV:</b> <b>Conduct investigations of complex problems:</b> Conduct investigations of complex engineering problems using research-based knowledge including design of experiments, modelling, analysis & interpretation of data to provide valid conclusions. (WK8).
 </li>  
     
-     <li><b>Engineering Tool Usage:</b> Create, select and apply appropriate techniques, resources and modern engineering & IT tools, including prediction and modelling recognizing their limitations to solve complex engineering problems. (WK2 and WK6)
+     <li><b>PO-V:</b> <b>Engineering Tool Usage:</b> Create, select and apply appropriate techniques, resources and modern engineering & IT tools, including prediction and modelling recognizing their limitations to solve complex engineering problems. (WK2 and WK6)
 </li>  
-      <li><b>The Engineer and The World:</b> Analyze and evaluate societal and environmental aspects while solving complex engineering problems for its impact on sustainability with reference to economy, health, safety, legal frame work, culture and environment. (WK1, WK5, and WK7).
+      <li><b>PO-VI:</b> <b>The Engineer and The World:</b> Analyze and evaluate societal and environmental aspects while solving complex engineering problems for its impact on sustainability with reference to economy, health, safety, legal frame work, culture and environment. (WK1, WK5, and WK7).
 
 </li> 
 
-<li><b>Ethics:</b> Apply ethical principles and commit to professional ethics, human values, diversity and inclusion; adhere to national & international laws. (WK9)
+<li><b>PO-VII:</b> <b>Ethics:</b> Apply ethical principles and commit to professional ethics, human values, diversity and inclusion; adhere to national & international laws. (WK9)
 </li>
-<li><b>Individual and Collaborative Team work:</b> Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams.
+<li><b>PO-VIII:</b> <b>Individual and Collaborative Team work:</b> Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams.
 </li>
-<li><b>Communication:</b> Communicate effectively and inclusively within the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations considering cultural, language, and learning differences.
+<li><b>PO-IX:</b> <b>Communication:</b> Communicate effectively and inclusively within the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations considering cultural, language, and learning differences.
 
 </li>
-<li><b>Project Management and Finance:</b> Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments.
+<li><b>PO-X:</b> <b>Project Management and Finance:</b> Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments.
 </li>
-<li><b>Life-Long Learning:</b> Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change. (WK8).
+<li><b>PO-XI:</b> <b>Life-Long Learning:</b> Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change. (WK8).
 
 </li>
 
@@ -528,7 +527,7 @@ Engineering Graduates will be able to:</br></br>
           
          <div class="col-xl-4 col-lg-4 col-md-4 col-12 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0 ">
                    
-  <img src="{{asset('images/automobile-Programme-Specific-Outcomes.webp')}}" alt="" class="w-100">
+  <img src="{{asset('images/SJA_03.webp')}}" alt="" class="w-100">
                    
                    
                </div>  
@@ -537,7 +536,7 @@ Engineering Graduates will be able to:</br></br>
           <div class="col-xl-8 col-lg-8 col-md-8 col-12 px-sm-3 px-0">
              <div class="col-12">
               
-              <div class="home_about_txt  text-start mb-3 text-dark  lh-sm text-start ">
+              <div class="home_about_txt  text-justify mb-3 text-dark  lh-sm ">
                   
                   
  <div class="mainhome_title text-start mb-sm-3 mb-3">

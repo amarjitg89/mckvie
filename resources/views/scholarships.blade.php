@@ -50,7 +50,7 @@
                    <div class="home_about_txt w-100">
                       
             
-           <div class="blue mainhome_title mb-3 text-start fw-normal"> <span class="red fw-bold">Different Scholarships Offered by Governmental and Non-Governmental Organizations  </span></div>
+           <div class="blue mainhome_title mb-3 text-start fw-normal"> <span class="red fw-bold">Different Scholarships offered by Government and Non-Government Organizations  </span></div>
            
            <span class="fs-5 fw-bold blue w-100 mb-3 d-flex fw-bolder">Swami Vivekananda Scholarship</span>
            
@@ -198,8 +198,8 @@ There are two types of scholarship under AICTE Swanath Scholarship which are as 
            Please visit the portal given at left hand side.</br> </br>
            
            <ul>
-              <li>For recent announcement (14-02-2023) of scholarship schemes : <a href="{{asset('pdf/Notice-for-Scholarship.pdf')}}" target="_blank">click here</a></li>
-               <li>For recent announcement of scholarship schemes : <a href="{{asset('pdf/Scholarship-Notice.pdf')}}" target="_blank">click here</a></li> 
+              <li>For recent announcement (14-02-2023) of scholarship schemes : <a href="https://lsplwebsitedata.s3.ap-south-1.amazonaws.com/mckvi-wp-data/wp-content/uploads/2023/02/15214432/Notice-for-Scholarship.pdf" target="_blank">click here</a></li>
+               <li>For recent announcement of scholarship schemes : <a href="https://lsplwebsitedata.s3.ap-south-1.amazonaws.com/mckvi-wp-data/wp-content/uploads/2023/01/25120523/Scholarship-Notice.pdf" target="_blank">click here</a></li> 
            </ul>
            
            Students who have applied for renew/new have to submit the application along with the relevant documents at the Student Cell for further action.</br></br>

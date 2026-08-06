@@ -18,49 +18,8 @@
   
    <!--##########  Notice Start ############# --> 
 
- @include('render-department-notice')
- {{-- <section>
-
- <div class="mainbody_div py-2 blue_body" >
-
- <div class="container">
-
-  <div class="row m-0 p-0">
-
-      <div class="col-xl-1 col-lg-1 col-sm-2 col-3 px-0"><div class="text-start red fw-bold" >Notice :</div></div>
-
-      
-
-       <div class="col-xl-11 col-lg-11 col-sm-10 col-9 ps-0"><div class="text-start text-white" >
-          <marquee scrollamount="3">
-
-			<a href="" class="text-white">	Report of UTOPIA 2k24</a>&nbsp;  |&nbsp; <a href="" class="text-white">Report on Handwritten Document Analysis</a> &nbsp;  |&nbsp; <a href="" class="text-white">  The Art of Living @MCKV</a> &nbsp;  |&nbsp;<a href="" class="text-white">  Google Developer Group on Campus @MCKVIE</a>
-
-		
-
-</marquee>
-
-
-
-
-
-</div></div>
-
-  </div>   
-
-     
-
-     
-
-     
-
- </div>    
-
-</div>     
-
- 
-
- </section>  --}}
+  
+  @include('render-department-notice') 
   
   
  <!--##########  Notice End ############# -->  
@@ -87,7 +46,7 @@
                   
                  
                   <div class="red mainhome_title mb-3 text-start">Department <span class="blue fw-normal">Overview</span></div>
-                  <div class="home_about_txt text-start text-md-justify">
+                  <div class="home_about_txt text-justify text-md-justify">
                 Established in 2003, MCKV Institute of Engineering is a pioneer in introducing Automobile Engineering education in Eastern India. The department offers an AICTE-approved 4-year B.Tech. program under the affiliation of MAKAUT. With a team of young, dynamic, and experienced faculty members, the department is committed to delivering quality education while nurturing innovation in areas such as product design, functional utility, and integrated automotive technologies.</br></br>
                 
               The department is equipped with state-of-the-art laboratories that support both fundamental and advanced learning. Key facilities include the Engine Testing & Pollution Measurement Lab and the Vehicle Maintenance Lab, featuring setups for wheel balancing, wheel alignment, and headlight focusing. In addition, students gain hands-on experience in basic laboratories such as Chassis Components Lab, Engine Components Lab, and Design Lab, ensuring a strong practical foundation.      
@@ -113,7 +72,7 @@
  <div class="row m-0 justify-content-start ">      
              
         <div class="col-12 px-0 mt-4">
-         <div class="home_about_txt text-start text-md-justify">    
+         <div class="home_about_txt text-justify text-md-justify">    
          The department maintains strong industry linkages through collaborative laboratories and training centres established with leading organizations such as Ather Energy Limited (EV Lab), Volvo Eicher Commercial Vehicles Ltd., Bosch Limited, BMW India, Hyundai Motors, and Dassault Systems. These partnerships enable students to receive industry-relevant training in Electric Vehicles, Automotive Electrical & Electronics, and Advanced Automotive Technologies.</br></br>
          
          Flagship initiatives include the MCKVIE-VECV Centre for Automotive Technology (since 2012), BOSCH-MCKVIE Joint Certification Centre (since 2018), and the Ather Energy-MCKVIE Joint Centre for Electric Vehicles (operational since February 2026). These centres significantly enhance students’ technical competencies and employability.</br></br>
@@ -276,12 +235,12 @@ To emerge as a center of excellence in Automobile Engineering for producing well
                <div class="col-lg-12 col-md-12 col-12 px-0">
                 <div class="home_aboutdiv bg-white p-3">
                <div class="row m-0 p-0 align-items-center align-items-md-start  justify-content-start">
-                   <div class="col-xl-4 col-lg-3 col-sm-4 col-12 p-0"> <img src="{{asset('images/course/automobile-course-new1.webp')}}" class="eventimg_css" alt="..."></div>
+                   <div class="col-xl-4 col-lg-3 col-sm-4 col-12 p-0"> <img src="{{asset('images/course/IMG_2737.webp')}}" class="eventimg_css" alt="..."></div>
                <div class="col-xl-8 col-lg-9 col-sm-8 col-12 px-sm-4 py-sm-0 px-0 pt-4">
                    
                   
                   <div class="red maincourse_title mb-3 text-start">B.Tech in Automobile Engineering</div>
-                  <div class="home_about_txt text-start">
+                  <div class="home_about_txt text-justify">
                A dynamic 4-year undergraduate program designed to develop strong engineering fundamentals in automotive design, manufacturing, and cutting-edge technologies such as electric and hybrid vehicles. The curriculum blends theory with hands-on learning through modern laboratories, live projects, and industry exposure.
                </br></br>
                
@@ -351,7 +310,7 @@ To emerge as a center of excellence in Automobile Engineering for producing well
                   
                <div class="col-xl-2 col-lg-3 col-md-4 col-6 mb-lg-0 mb-3 ps-sm-0 pe-sm-3 ps-0 pe-0">
                    
-  <img src="{{asset('images/faculty/Mr. Tapas Kumar Biswas.jpg')}}" alt="" class="w-100 prinsiple">
+  <img src="{{asset('images/faculty/Mr. Nirvik Banerjee.jpg')}}" alt="" class="w-100 prinsiple">
                    
                    
                </div>   
@@ -359,9 +318,9 @@ To emerge as a center of excellence in Automobile Engineering for producing well
             <div class="col-xl-10 col-lg-9 col-md-8 col-12 8 px-sm-3 px-0">
              <div class="col-12">
               <div class="mainhome_title text-start mb-2 text-white">Message from Head of Department</div>
-              <div class="mainhome_title text-start mb-3 text-white fs-6 fw-bold lh-sm text-start text-md-justify">Tapas Kumar Biswas</br>
-              <span class="faculty_designation fw-normal">Head of the Department & Assistant Professor</br>
-               Pursuing Ph.D.; over 20 years of teaching and academic experience.</br></br>
+              <div class="mainhome_title mb-3 text-white fs-6 fw-bold lh-sm text-justify text-md-justify">Mr. Nirvik Banerjee</br>
+              <span class="faculty_designation fw-normal"> Assistant Professor</br>
+               M.Tech., Pursuing Ph. D</br></br>
 Welcome to the Department of Automobile Engineering at MCKV Institute of Engineering. We are committed to delivering quality education through a balanced approach of strong theoretical knowledge and practical exposure. With experienced faculty, modern laboratories, and active industry collaborations, the department focuses on emerging areas such as electric vehicles and advanced automotive technologies. Students are encouraged to participate in hands-on projects, internships, and technical competitions to enhance their skills. Our aim is to develop competent, innovative, and industry-ready engineers and entrepreneurs who can meet the evolving demands of the automotive and mobility sector.
 
 

@@ -127,7 +127,7 @@
       
       <li>A. Sen, <b>N. Banerjee</b>, A. Samanta, N. Roy, D. Pramanik, S. Biswas, and R. Biswas, “Multi-criteria decision-making for laser metal-polymer welding: A MACONT approach,” in International Conference on Mechanical Engineering, 2024, pp. 565–579.</li>
       
-  </ul></br></br>
+  </ul></br>
   
    <span class="fs-6 fw-bolder  w-100 mb-3 d-flex blue">Book Chapter Publications</span>
    
@@ -137,7 +137,21 @@
        
    </ul>
    
+   </br>
+   
+  <span class="fs-6 fw-bolder  w-100 mb-3 d-flex blue">Book </span> 
+   
+   <ul>
+       <li><b>Sudipto Chaki</b>, Sujit Ghosal. “Modelling and Optimisation of Laser Assisted Oxygen (LASOX) Cutting: A soft computing-based approach”, Springer Briefs in Computational Intelligence, Springer Verlag, Switzerland, (2019). DOI:10.1007/978-3-030-04903-4 </li>
+        
+       
+   </ul>
+   
    </br></br>
+   
+   
+   
+   
    
   <span class="fs-5 fw-bold  w-100 mb-3 d-flex red ">Intellectual Property Rights</span>
   

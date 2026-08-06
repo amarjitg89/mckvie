@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\CourseEnquiry;
 use App\Models\AlumniRegistration;
 use App\Models\CorporateTieUp;
 use App\Models\Course;
-use App\Models\CourseEnquiry;
 use App\Models\Department;
 use App\Models\Enquiry;
 use App\Models\Event;
@@ -79,11 +79,11 @@ class WebsiteController extends Controller
         return response()->json(['htmlcont'=>$Cont]);
     }
      public function cse_dept(Request $request)
-    {        
+    {
         $banner_img='CSE-department.webp';
         $banner_img_mob='CSE-department-mob.webp';
-        $banner_heading='Computer Science & Engineering';
-        $banner_subheading='Departments & Programmes / Computer Science & Engineering';
+        $banner_heading='Computer Science and Engineering';
+        $banner_subheading='Departments & Programmes / Computer Science and Engineering';
         $path = $request->path();
         $slug = basename($path);
         $Notice=Notice::where("active",'1')->where("department_slug",$slug)->orderBy("created_at","asc")->get();
@@ -104,8 +104,8 @@ class WebsiteController extends Controller
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
         $banner_img='CSE-department.webp';
         $banner_img_mob='CSE-department-mob.webp';
-        $banner_heading='B.TECH Computer Science & Engineering';
-        $banner_subheading='Departments & Programmes / Computer Science & Engineering / B.Tech Computer Science & Engineering';
+        $banner_heading='B.TECH in Computer Science and Engineering';
+        $banner_subheading='Departments & Programmes / Computer Science and Engineering / B.Tech in Computer Science and Engineering';
         return view('computer-science-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
     } 
 
@@ -124,8 +124,8 @@ class WebsiteController extends Controller
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
         $banner_img='CSE-data-science.webp';
         $banner_img_mob='CSE-data-science-mobile.webp';
-        $banner_heading='B.Tech Computer Science and Engineering (Data Science)';
-        $banner_subheading='Departments & Programmes / Computer Science & Engineering / B.Tech Computer Science and Engineering (Data Science)';
+        $banner_heading='B.Tech in Computer Science and Engineering (Data Science)';
+        $banner_subheading='Departments & Programmes / Computer Science and Engineering / B.Tech Computer in Science and Engineering (Data Science)';
         return view('computer-science-engineering-data-science',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
     }
 
@@ -144,7 +144,7 @@ class WebsiteController extends Controller
         $banner_img='CSE(AI&ML) Page Banner {Desktop 1450 x 330 px}.webp';
         $banner_img_mob='CSE-ai-mobile.webp';
         $banner_heading='B.Tech in Computer Science and Engineering (Artificial Intelligence & Machine Learning)';
-        $banner_subheading='Departments & Programmes / Computer Science & Engineering / B.Tech in Computer Science and Engineering (Artificial Intelligence & Machine Learning)';
+        $banner_subheading='Departments & Programmes / Computer Science and Engineering / B.Tech in Computer Science and Engineering (Artificial Intelligence & Machine Learning)';
         return view('computer-science-engineering-ai',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
     }
 
@@ -166,6 +166,22 @@ class WebsiteController extends Controller
         $path = $request->path();
         $slug = basename($path);
         $get_faculty=Faculty::where("course_slug",$slug)->where("active",'1')->where("hod","0")->OrderBy('sequence','asc')->get();
+        /*$get_faculty = Faculty::where("course_slug", $slug)
+    ->where("active", '1')
+    ->orderByRaw("
+       CASE 
+            WHEN LOWER(designation) LIKE '%professor%' 
+                 AND LOWER(designation) NOT LIKE '%associate%' 
+                 AND LOWER(designation) NOT LIKE '%assistant%' THEN 1
+            WHEN LOWER(designation) LIKE '%associate%' THEN 2
+            WHEN LOWER(designation) LIKE '%assistant%' THEN 3
+            ELSE 4
+        END ASC
+    ")
+    ->where("hod","0")
+    ->orderBy('sequence', 'asc')
+    ->orderBy('faculty_name', 'asc')
+    ->get();*/
         $get_hod=Faculty::where("course_slug",$slug)->where("active",'1')->where("hod","1")->first();
         $get_corporate=CorporateTieUp::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_recruiter=Recruiter::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
@@ -175,8 +191,8 @@ class WebsiteController extends Controller
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
         $banner_img='automobile-banner.webp';
         $banner_img_mob='automobile-banner-mob.webp';
-        $banner_heading='Automobile Engineering';
-        $banner_subheading='Departments & Programmes / Automobile Engineering';
+        $banner_heading='B.Tech in Automobile Engineering';
+        $banner_subheading='Departments & Programmes / B.Tech in Automobile Engineering';
         return view('course-automobile-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
     }
 
@@ -207,8 +223,8 @@ class WebsiteController extends Controller
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
         $banner_img='electrical-banner.webp';
         $banner_img_mob='electrical-banner-mob.webp';
-        $banner_heading='Electrical Engineering';
-        $banner_subheading='Departments & Programmes / Electrical Engineering';
+        $banner_heading='B.Tech in Electrical Engineering';
+        $banner_subheading='Departments & Programmes / B.Tech in Electrical Engineering';
         return view('course-electrical-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
     }
 
@@ -239,8 +255,8 @@ public function mechanical_cour(Request $request)
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
         $banner_img='mechanical-banner.webp';
         $banner_img_mob='mechanical-banner-mob.webp';
-        $banner_heading='Mechanical Engineering';
-        $banner_subheading='Departments & Programmes / Mechanical Engineering';
+        $banner_heading='B.Tech in Mechanical Engineering';
+        $banner_subheading='Departments & Programmes / B.Tech in Mechanical Engineering';
         return view('course-mechanical-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
     }
 
@@ -323,8 +339,8 @@ public function it_dept(Request $request)
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
        $banner_img='it-banner.webp';
         $banner_img_mob='it-banner-mob.webp';
-        $banner_heading='Information Technology';
-        $banner_subheading='Departments & Programmes / Information Technology';
+        $banner_heading='B.Tech in Information Technology';
+        $banner_subheading='Departments & Programmes / B.Tech in Information Technology';
         return view('course-information-technology',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
     }
 
@@ -332,8 +348,8 @@ public function it_dept(Request $request)
     {
         $banner_img='management-banner.webp';
         $banner_img_mob='management-banner-mob.webp';
-        $banner_heading='Management';
-        $banner_subheading='Departments & Programmes / Management';
+        $banner_heading='Management Science';
+        $banner_subheading='Departments & Programmes / Management Science';
         $path = $request->path();
         $slug = basename($path);
         $Notice=Notice::where("active",'1')->where("department_slug",$slug)->orderBy("created_at","asc")->get();
@@ -355,8 +371,8 @@ public function it_dept(Request $request)
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
        $banner_img='management-banner.webp';
         $banner_img_mob='management-banner-mob.webp';
-        $banner_heading='MBA';
-        $banner_subheading='Departments & Programmes / Management / MBA';
+        $banner_heading='Master of Business Administration (MBA)';
+        $banner_subheading='Departments & Programmes / Management Science / Master of Business Administration (MBA)';
         return view('course-mba',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
     }
 
@@ -374,8 +390,8 @@ public function it_dept(Request $request)
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
        $banner_img='management-banner.webp';
         $banner_img_mob='management-banner-mob.webp';
-        $banner_heading='BBA';
-        $banner_subheading='Departments & Programmes / Management / BBA';
+        $banner_heading='Bachelor of Business Administration (BBA)';
+        $banner_subheading='Departments & Programmes / Management Science / Bachelor of Business Administration (BBA)';
         return view('course-bba',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
     }
 
@@ -384,8 +400,8 @@ public function it_dept(Request $request)
     {
         $banner_img='humaniti-banner.webp';
         $banner_img_mob='humaniti-banner-mob.webp';
-        $banner_heading='Basic Science & Humanities';
-        $banner_subheading='Departments & Programmes / Basic Science & Humanities';
+        $banner_heading='Basic Science and Humanities';
+        $banner_subheading='Departments & Programmes / Basic Science and Humanities';
         $path = $request->path();
         $slug = basename($path);
         $Notice=Notice::where("active",'1')->where("department_slug",$slug)->orderBy("created_at","asc")->get();
@@ -406,8 +422,8 @@ public function it_dept(Request $request)
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
        $banner_img='humaniti-banner.webp';
         $banner_img_mob='humaniti-banner-mob.webp';
-        $banner_heading='Basic Science & Humanities';
-        $banner_subheading='Departments & Programmes / Basic Science & Humanities';
+        $banner_heading='Basic Science and Humanities';
+        $banner_subheading='Departments & Programmes / Basic Science and Humanities';
         return view('course-basic-science',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
     }
 
@@ -432,6 +448,29 @@ public function it_dept(Request $request)
         $banner_subheading='About Us /  Organisational Structure';
         return view('organisational-structure',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
     } 
+    
+    
+   public function  mtech_ai(Request $request)
+    {
+        $path = $request->path();
+        $slug = basename($path);
+        $get_faculty=Faculty::where("course_slug",$slug)->where("active",'1')->where("hod","0")->OrderBy('sequence','asc')->get();
+        $get_hod=Faculty::where("course_slug",$slug)->where("active",'1')->where("hod","1")->first();
+        $get_corporate=CorporateTieUp::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
+        $get_recruiter=Recruiter::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
+        $get_lab=Lab::where("course_slug",$slug)->where("active",'1')->get();
+        $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
+        $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
+        $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
+        $banner_img='about-banner.webp';
+        $banner_img_mob='about-mobile-banner.webp';
+        $banner_heading=' M.Tech in Artificial Intelligence and Data Science';
+        $banner_subheading='Departments & Programmes / Computer Science and Engineering / M.Tech in Artificial Intelligence and Data Science';
+        return view('course-mtech-ai-datascience',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+    } 
+    
+    
+    
 
     public function inspire()
     {
@@ -565,7 +604,7 @@ public function it_dept(Request $request)
          $banner_img_mob='achievements-banner-mobile.webp';
         $banner_heading='Achievements';
         $banner_subheading='Campus Life / Achievements';
-        return view('student-achievements',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
+        return view('achievements',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
     }
 
     public function rotaract()
@@ -581,8 +620,8 @@ public function it_dept(Request $request)
     {
         $banner_img='seminars-banner.webp';
          $banner_img_mob='seminars-banner-mobile.webp';
-        $banner_heading='Seminars & Workshops';
-        $banner_subheading='Campus Life / Seminars & Workshops';
+        $banner_heading='Eminent Visitors';
+        $banner_subheading='Campus Life / Eminent Visitors';
         return view('seminars-workshops',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
     }
 
@@ -1008,7 +1047,7 @@ public function facultycontribution_ae()
         $banner_img='CSE-data-science.webp';
         $banner_img_mob='CSE-data-science-mobile.webp';
         $banner_heading='Faculty Contributions (Data Science)';
-        $banner_subheading='Departments & Programmes / Computer Science & Engineering / B.Tech Computer Science and Engineering (Data Science) / Faculty Contributions';
+        $banner_subheading='Departments & Programmes / Computer Science and Engineering / B.Tech Computer Science and Engineering (Data Science) / Faculty Contributions';
         return view('faculty-contribution-data-science',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
     }
     
@@ -1017,8 +1056,8 @@ public function facultycontribution_ae()
     {
         $banner_img='CSE-department.webp';
         $banner_img_mob='CSE-department-mob.webp';
-        $banner_heading='Faculty Contributions Computer Science & Engineering';
-        $banner_subheading='Departments & Programmes / Computer Science & Engineering / B.Tech Computer Science & Engineering  / Faculty Contributions';
+        $banner_heading='Faculty Contributions Computer Science and Engineering';
+        $banner_subheading='Departments & Programmes / Computer Science and Engineering / B.Tech Computer Science and Engineering  / Faculty Contributions';
         return view('faculty-contributions-cse',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
     }
     
@@ -1028,7 +1067,7 @@ public function facultycontribution_ae()
         $banner_img='CSE(AI&ML) Page Banner {Desktop 1450 x 330 px}.webp';
         $banner_img_mob='CSE-ai-mobile.webp';
         $banner_heading='Faculty Contributions Artificial Intelligence & Machine Learning';
-        $banner_subheading='Departments & Programmes / Computer Science & Engineering / Artificial Intelligence & Machine Learning / Faculty Contributions';
+        $banner_subheading='Departments & Programmes / Computer Science and Engineering / Artificial Intelligence and Machine Learning / Faculty Contributions';
         return view('faculty-contributions-cse-ai',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
     }
     
@@ -1092,6 +1131,17 @@ public function facultycontribution_ae()
     
     
     
+     public function facultycontribution_basic_science()
+    {
+        $banner_img='management-banner.webp';
+        $banner_img_mob='management-banner-mob.webp';
+        $banner_heading='Faculty Contributions Basic Science and Humanities';
+        $banner_subheading='Departments & Programmes / Basic Science and Humanities / Faculty Contributions';
+        return view('faculty-contribution-basic-science-and-humanities',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
+    }
+    
+    
+    
     public function ev_lab()
     {
         $banner_img='admission-banner.webp';
@@ -1123,8 +1173,8 @@ public function facultycontribution_ae()
     {
         $banner_img='about-banner.webp';
          $banner_img_mob='about-mobile-banner.webp';
-        $banner_heading='AICTE UG Syllabus under Autonomy and Course Curriculum';
-        $banner_subheading='Academics / Syllabus / AICTE UG Syllabus under Autonomy and Course Curriculum';
+        $banner_heading='Curriculum Structure and Detailed Syllabus for UG courses';
+        $banner_subheading='Academics / Syllabus / Curriculum Structure and Detailed Syllabus for UG courses';
         return view('ug-courses-syllabus',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
     }
 
@@ -1151,8 +1201,8 @@ public function it_chapters()
     {
         $banner_img='student-chapter-banner.webp';
          $banner_img_mob='student-chapter-banner-mobile.webp';
-        $banner_heading='IT Student Chapter';
-        $banner_subheading='Campus Life / Student Chapters / IT Student Chapter';
+        $banner_heading='IE(I) student chapter';
+        $banner_subheading='Campus Life / Student Chapters / IE(I) student chapter';
         return view('it-student-chapter',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
     }
 
@@ -1254,14 +1304,31 @@ public function iete_chapters()
         return view('spic-macay-heritage-club',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
     } 
     
-        public function iic()
+     public function iic()
     {
         $banner_img='admission-banner.webp';
          $banner_img_mob='admission-banner-mobile.webp';
         $banner_heading='Institution’s Innovation Council (IIC)';
         $banner_subheading='Institution’s Innovation Council (IIC)';
         return view('iic',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
-    }   
+    } 
+    
+    
+    public function aqar_supplimentary()
+    {
+        $banner_img='admission-banner.webp';
+         $banner_img_mob='admission-banner-mobile.webp';
+        $banner_heading='AQAR-Supplimentary-docs';
+        $banner_subheading='AQAR-Supplimentary-docs';
+        return view('aqar-supplimentary-docs',compact('banner_img','banner_img_mob','banner_heading','banner_subheading'));
+    }  
+    
+    
+    
+    
+    
+    
+    
     
     public function ins_course_enquiry(Request $request)
     {
@@ -1295,7 +1362,7 @@ public function iete_chapters()
         return back()->with('course_message','Enquiry Has Been Successfully Submitted.');
     }
 
-   public function ins_alumni_enquiry(Request $request)
+public function ins_alumni_enquiry(Request $request)
    {
         $request->validate(
             [
@@ -1322,7 +1389,7 @@ public function iete_chapters()
 
         return back()->with('alumni_message','Alumni Registration Form Has Been Successfully Submitted.');
    }
-
+   
    public function ins_grievance_enquiry(Request $request)
    {
         $request->validate(
@@ -1351,5 +1418,6 @@ public function iete_chapters()
 
         return back()->with('grievance_message','Grievance Redressal Form Has Been Successfully Submitted.');
    }
+
 }
 

@@ -138,7 +138,9 @@
                 <div class="facility-content">
                     <h3 class="facility-title">Language & <span class="red fw-bold">Communication Lab</span></h3>
                     <p class="facility-text">
-                        Swami Vivekananda Centre for Positive Thinking is a spacious and peaceful meditation hall set up for students of MCKVIE to introspect on Swamiji's Teachings and practice guided meditation to build their spiritual strength.
+                        State-of-the-art language lab at MCKVIE is equipped with smart electronic equipment facilities to help students develop their communication skills and ace language abilities to become industry-ready professionals.
+
+
                     </p>
                 </div>
             </div>

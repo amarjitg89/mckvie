@@ -121,14 +121,18 @@ Route::get('/startup-club',[App\Http\Controllers\WebsiteController::class,'start
 Route::get('/spic-macay-heritage-club',[App\Http\Controllers\WebsiteController::class,'heritage_club']);
 Route::get('/iic',[App\Http\Controllers\WebsiteController::class,'iic']);
 
+Route::get('/aqar-supplimentary-docs',[App\Http\Controllers\WebsiteController::class,'aqar_supplimentary']);
+
+Route::get('/faculty-contribution-basic-science-and-humanities',[App\Http\Controllers\WebsiteController::class,'facultycontribution_basic_science']);
+Route::get('/course/mtech-ai-datascience',[App\Http\Controllers\WebsiteController::class,'mtech_ai']);
+
 //=========Amarjit===========//
 
 Route::post('/ins_enquiry_form',[App\Http\Controllers\WebsiteController::class,'ins_enquiry']);
+Route::post('/get_course',[App\Http\Controllers\WebsiteController::class,'course_render']);
 Route::post('/ins_course_enquiry_form',[App\Http\Controllers\WebsiteController::class,'ins_course_enquiry']);
 Route::post('/ins_alumni_form',[App\Http\Controllers\WebsiteController::class,'ins_alumni_enquiry']);
 Route::post('/ins_grievance_form',[App\Http\Controllers\WebsiteController::class,'ins_grievance_enquiry']);
-Route::post('/get_course',[App\Http\Controllers\WebsiteController::class,'course_render']);
-
 
 Route::get('/cache', function()
 		   {

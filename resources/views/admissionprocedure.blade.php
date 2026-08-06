@@ -127,8 +127,25 @@ Passed B.Voc/3-year D.Voc. Stream in the same or allied sector [as given in the 
         
  <span class="fs-5 fw-bold red w-100 mb-3 d-flex">M.Tech :</span>
  
+<ul>
+    
+<li><b>M.Tech in Electronics and Communication Engineering :</b></br>
 B.E./ B.Tech in Electronics and Communication Engineering or M.Sc. in Electronics / Physics (with Electronics specialization).
-</br></br>
+
+</li>  
+
+<li><b>M.Tech in Artificial Intelligence and Data Science:</b></br>
+
+Bachelor’s degree in Engineering / Technology from recognized institutions approved by AICTE / UGC / Government.</br>
+OR</br>
+Master’s degree in Science / Technology / MCA from institutions approved by UGC / AICTE / Government.
+
+</li>
+    
+    
+    
+</ul>
+</br>
  
  <span class="fs-5 fw-bold red w-100 mb-3 d-flex">MBA :</span> 
             
