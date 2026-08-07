@@ -4,7 +4,15 @@
     <div class="container">
                 <h1 class="blue mainheading mb-2 fw-bolder banner_font heading_font text-start text-uppercase">{{$banner_heading}}</h1>
                 <p class="blue subbannertext text-start lh-sm"><a href="{{url('/')}}" class="blue">Home</a> /
-                 <a href="{{url('/department/'.$dept_slug)}}" class="blue"> {{$banner_subheading}}</a> @isset($banner_subheading2)/ <a href="{{url('/course/'.$slug)}}" class="blue">{{$banner_subheading2}}</a>@endisset</p>
+                 @isset($dept_slug)
+           <a href="{{ url('/department/' . $dept_slug) }}" class="blue">{{ $banner_subheading }}</a>
+        @else
+           <span class="blue">{{ $banner_subheading }}</span>
+        @endisset
+                 @isset($banner_subheading2)
+                 / <a href="{{url('/course/'.$slug)}}" class="blue">{{$banner_subheading2}}</a>
+                 @endisset
+                </p>
             </div> 
       
       
