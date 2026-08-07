@@ -80,14 +80,16 @@ class WebsiteController extends Controller
     }
      public function cse_dept(Request $request)
     {
+        $path = $request->path();
+        $slug = basename($path);
+        $Dept=Department::where('department_slug',$slug)->where('active','1')->first();
         $banner_img='CSE-department.webp';
         $banner_img_mob='CSE-department-mob.webp';
         $banner_heading='Computer Science and Engineering';
-        $banner_subheading='Departments & Programmes / Computer Science and Engineering';
-        $path = $request->path();
-        $slug = basename($path);
+        $banner_subheading=$Dept->department_name;        
         $Notice=Notice::where("active",'1')->where("department_slug",$slug)->orderBy("created_at","asc")->get();
-        return view('department',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice'));
+        $dept_slug=$Dept->department_slug;
+        return view('department',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice','dept_slug'));
     } 
 
      public function cse_cour(Request $request)
@@ -102,11 +104,14 @@ class WebsiteController extends Controller
         $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
+        $Course=Course::where("course_slug",$slug)->where("active",'1')->first();
         $banner_img='CSE-department.webp';
         $banner_img_mob='CSE-department-mob.webp';
         $banner_heading='B.TECH in Computer Science and Engineering';
-        $banner_subheading='Departments & Programmes / Computer Science and Engineering / B.Tech in Computer Science and Engineering';
-        return view('computer-science-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+        $banner_subheading=$Course->depts->department_name;
+        $banner_subheading2=$Course->course_name;
+        $dept_slug=$Course->depts->department_slug;
+        return view('computer-science-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories','banner_subheading2','dept_slug'));
     } 
 
 
@@ -122,11 +127,14 @@ class WebsiteController extends Controller
         $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
+        $Course=Course::where("course_slug",$slug)->where("active",'1')->first();        
         $banner_img='CSE-data-science.webp';
         $banner_img_mob='CSE-data-science-mobile.webp';
         $banner_heading='B.Tech in Computer Science and Engineering (Data Science)';
-        $banner_subheading='Departments & Programmes / Computer Science and Engineering / B.Tech Computer in Science and Engineering (Data Science)';
-        return view('computer-science-engineering-data-science',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+        $banner_subheading=$Course->depts->department_name;
+        $banner_subheading2=$Course->course_name;
+        $dept_slug=$Course->depts->department_slug;
+        return view('computer-science-engineering-data-science',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories','banner_subheading2','dept_slug'));
     }
 
      public function cse_ai_cour(Request $request)
@@ -141,47 +149,36 @@ class WebsiteController extends Controller
         $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
+        $Course=Course::where("course_slug",$slug)->where("active",'1')->first();
         $banner_img='CSE(AI&ML) Page Banner {Desktop 1450 x 330 px}.webp';
         $banner_img_mob='CSE-ai-mobile.webp';
         $banner_heading='B.Tech in Computer Science and Engineering (Artificial Intelligence & Machine Learning)';
-        $banner_subheading='Departments & Programmes / Computer Science and Engineering / B.Tech in Computer Science and Engineering (Artificial Intelligence & Machine Learning)';
-        return view('computer-science-engineering-ai',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+        $banner_subheading=$Course->depts->department_name;
+        $banner_subheading2=$Course->course_name;
+        $dept_slug=$Course->depts->department_slug;
+        return view('computer-science-engineering-ai',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories','banner_subheading2','dept_slug'));
     }
 
 
     public function automobile_dept(Request $request)
     {
+        $path = $request->path();
+        $slug = basename($path);
+        $Dept=Department::where('department_slug',$slug)->where('active','1')->first();
         $banner_img='automobile-banner.webp';
         $banner_img_mob='automobile-banner-mob.webp';
         $banner_heading='Automobile Engineering';
-        $banner_subheading='Departments & Programmes / Automobile Engineering';
-        $path = $request->path();
-        $slug = basename($path);
+        $banner_subheading=$Dept->department_name;
+        $dept_slug=$Dept->department_slug;        
         $Notice=Notice::where("active",'1')->where("department_slug",$slug)->orderBy("created_at","asc")->get();
-        return view('automobile-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice'));
+        return view('automobile-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice','dept_slug'));
     } 
 
     public function automobile_cour(Request $request)
     {
         $path = $request->path();
         $slug = basename($path);
-        $get_faculty=Faculty::where("course_slug",$slug)->where("active",'1')->where("hod","0")->OrderBy('sequence','asc')->get();
-        /*$get_faculty = Faculty::where("course_slug", $slug)
-    ->where("active", '1')
-    ->orderByRaw("
-       CASE 
-            WHEN LOWER(designation) LIKE '%professor%' 
-                 AND LOWER(designation) NOT LIKE '%associate%' 
-                 AND LOWER(designation) NOT LIKE '%assistant%' THEN 1
-            WHEN LOWER(designation) LIKE '%associate%' THEN 2
-            WHEN LOWER(designation) LIKE '%assistant%' THEN 3
-            ELSE 4
-        END ASC
-    ")
-    ->where("hod","0")
-    ->orderBy('sequence', 'asc')
-    ->orderBy('faculty_name', 'asc')
-    ->get();*/
+        $get_faculty=Faculty::where("course_slug",$slug)->where("active",'1')->where("hod","0")->OrderBy('sequence','asc')->get();        
         $get_hod=Faculty::where("course_slug",$slug)->where("active",'1')->where("hod","1")->first();
         $get_corporate=CorporateTieUp::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_recruiter=Recruiter::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
@@ -189,24 +186,30 @@ class WebsiteController extends Controller
         $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
+        $Course=Course::where("course_slug",$slug)->where("active",'1')->first();
         $banner_img='automobile-banner.webp';
         $banner_img_mob='automobile-banner-mob.webp';
         $banner_heading='B.Tech in Automobile Engineering';
-        $banner_subheading='Departments & Programmes / B.Tech in Automobile Engineering';
-        return view('course-automobile-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+        $banner_subheading=$Course->depts->department_name;
+        $banner_subheading2=$Course->course_name;
+        $dept_slug=$Course->depts->department_slug;
+        return view('course-automobile-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories','banner_subheading2','dept_slug'));
     }
 
 
     public function electrical_dept(Request $request)
     {
+        $path = $request->path();
+        $slug = basename($path);
+        $Dept=Department::where('department_slug',$slug)->where('active','1')->first();
         $banner_img='electrical-banner.webp';
         $banner_img_mob='electrical-banner-mob.webp';
         $banner_heading='Electrical Engineering';
-        $banner_subheading='Departments & Programmes / Electrical Engineering';
-        $path = $request->path();
-        $slug = basename($path);
+        $banner_subheading=$Dept->department_name;
+        $dept_slug=$Dept->department_slug;        
         $Notice=Notice::where("active",'1')->where("department_slug",$slug)->orderBy("created_at","asc")->get();
-        return view('electrical-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice'));
+
+        return view('electrical-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice','dept_slug'));
     } 
 
     public function electrical_cour(Request $request)
@@ -221,23 +224,28 @@ class WebsiteController extends Controller
         $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
+        $Course=Course::where("course_slug",$slug)->where("active",'1')->first();
         $banner_img='electrical-banner.webp';
         $banner_img_mob='electrical-banner-mob.webp';
         $banner_heading='B.Tech in Electrical Engineering';
-        $banner_subheading='Departments & Programmes / B.Tech in Electrical Engineering';
-        return view('course-electrical-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+        $banner_subheading=$Course->depts->department_name;
+        $banner_subheading2=$Course->course_name;
+        $dept_slug=$Course->depts->department_slug;
+        return view('course-electrical-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories','banner_subheading2','dept_slug'));
     }
 
      public function mechanical_dept(Request $request)
     {
+        $path = $request->path();
+        $slug = basename($path);
+        $Dept=Department::where('department_slug',$slug)->where('active','1')->first();
         $banner_img='mechanical-banner.webp';
         $banner_img_mob='mechanical-banner-mob.webp';
         $banner_heading='Mechanical Engineering';
-        $banner_subheading='Departments & Programmes / Mechanical Engineering';
-        $path = $request->path();
-        $slug = basename($path);
+        $banner_subheading=$Dept->department_name;
+        $dept_slug=$Dept->department_slug;        
         $Notice=Notice::where("active",'1')->where("department_slug",$slug)->orderBy("created_at","asc")->get();
-        return view('mechanical-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice'));
+        return view('mechanical-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice','dept_slug'));
     } 
 
 
@@ -253,24 +261,29 @@ public function mechanical_cour(Request $request)
         $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
+        $Course=Course::where("course_slug",$slug)->where("active",'1')->first();
         $banner_img='mechanical-banner.webp';
         $banner_img_mob='mechanical-banner-mob.webp';
         $banner_heading='B.Tech in Mechanical Engineering';
-        $banner_subheading='Departments & Programmes / B.Tech in Mechanical Engineering';
-        return view('course-mechanical-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+        $banner_subheading=$Course->depts->department_name;
+        $banner_subheading2=$Course->course_name;
+        $dept_slug=$Course->depts->department_slug;
+        return view('course-mechanical-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories','banner_subheading2','dept_slug'));
     }
 
 
     public function electronics_dept(Request $request)
     {
+        $path = $request->path();
+        $slug = basename($path);
+        $Dept=Department::where('department_slug',$slug)->where('active','1')->first();
         $banner_img='communication-banner.webp';
         $banner_img_mob='communication-banner-mob.webp';
         $banner_heading='Electronics and Communications Engineering';
-        $banner_subheading='Departments & Programmes / Electronics and Communications Engineering';
-        $path = $request->path();
-        $slug = basename($path);
+        $banner_subheading=$Dept->department_name;
+        $dept_slug=$Dept->department_slug;        
         $Notice=Notice::where("active",'1')->where("department_slug",$slug)->orderBy("created_at","asc")->get();
-        return view('communication-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice'));
+        return view('communication-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice','dept_slug'));
     } 
 
 
@@ -286,11 +299,14 @@ public function mechanical_cour(Request $request)
         $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
-       $banner_img='Banner.webp';
+       $Course=Course::where("course_slug",$slug)->where("active",'1')->first();
+        $banner_img='Banner.webp';
         $banner_img_mob='Banner-mob.webp';
         $banner_heading='B.Tech in Electronics and Communications Engineering';
-        $banner_subheading='Departments & Programmes / Electronics and Communications Engineering / B.Tech in Electronics and Communications Engineering';
-        return view('course-btech-communication-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+        $banner_subheading=$Course->depts->department_name;
+        $banner_subheading2=$Course->course_name;
+        $dept_slug=$Course->depts->department_slug;
+        return view('course-btech-communication-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories','banner_subheading2','dept_slug'));
     }
 
         public function mtech_electronics_cour(Request $request)
@@ -305,23 +321,28 @@ public function mechanical_cour(Request $request)
         $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
-       $banner_img='communication-banner.webp';
+       $Course=Course::where("course_slug",$slug)->where("active",'1')->first();
+        $banner_img='communication-banner.webp';
         $banner_img_mob='communication-banner-mob.webp';
         $banner_heading='M.Tech in Electronics and Communications Engineering';
-        $banner_subheading='Departments & Programmes / Electronics and Communications Engineering / M.Tech in Electronics and Communications Engineering';
-        return view('course-mtech-communication-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+        $banner_subheading=$Course->depts->department_name;
+        $banner_subheading2=$Course->course_name;
+        $dept_slug=$Course->depts->department_slug;
+        return view('course-mtech-communication-engineering',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories','banner_subheading2','dept_slug'));
     }
 
 public function it_dept(Request $request)
     {
+        $path = $request->path();
+        $slug = basename($path);
+        $Dept=Department::where('department_slug',$slug)->where('active','1')->first();
         $banner_img='it-banner.webp';
         $banner_img_mob='it-banner-mob.webp';
         $banner_heading='Information Technology';
-        $banner_subheading='Departments & Programmes / Information Technology';
-        $path = $request->path();
-        $slug = basename($path);
+        $banner_subheading=$Dept->department_name;
+        $dept_slug=$Dept->department_slug;        
         $Notice=Notice::where("active",'1')->where("department_slug",$slug)->orderBy("created_at","asc")->get();
-        return view('information-technology',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice'));
+        return view('information-technology',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice','dept_slug'));
     } 
 
 
@@ -337,23 +358,28 @@ public function it_dept(Request $request)
         $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
-       $banner_img='it-banner.webp';
+        $Course=Course::where("course_slug",$slug)->where("active",'1')->first();
+        $banner_img='it-banner.webp';
         $banner_img_mob='it-banner-mob.webp';
         $banner_heading='B.Tech in Information Technology';
-        $banner_subheading='Departments & Programmes / B.Tech in Information Technology';
-        return view('course-information-technology',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+        $banner_subheading=$Course->depts->department_name;
+        $banner_subheading2=$Course->course_name;
+        $dept_slug=$Course->depts->department_slug;
+        return view('course-information-technology',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories','banner_subheading2','dept_slug'));
     }
 
     public function management_dept(Request $request)
     {
+        $path = $request->path();
+        $slug = basename($path);
+        $Dept=Department::where('department_slug',$slug)->where('active','1')->first();
         $banner_img='management-banner.webp';
         $banner_img_mob='management-banner-mob.webp';
         $banner_heading='Management Science';
-        $banner_subheading='Departments & Programmes / Management Science';
-        $path = $request->path();
-        $slug = basename($path);
+        $banner_subheading=$Dept->department_name;
+        $dept_slug=$Dept->department_slug;
         $Notice=Notice::where("active",'1')->where("department_slug",$slug)->orderBy("created_at","asc")->get();
-        return view('management',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice'));
+        return view('management',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice','dept_slug'));
     } 
 
 
@@ -369,11 +395,14 @@ public function it_dept(Request $request)
         $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
-       $banner_img='management-banner.webp';
+       $Course=Course::where("course_slug",$slug)->where("active",'1')->first();
+        $banner_img='management-banner.webp';
         $banner_img_mob='management-banner-mob.webp';
         $banner_heading='Master of Business Administration (MBA)';
-        $banner_subheading='Departments & Programmes / Management Science / Master of Business Administration (MBA)';
-        return view('course-mba',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+        $banner_subheading=$Course->depts->department_name;
+        $banner_subheading2=$Course->course_name;
+        $dept_slug=$Course->depts->department_slug;
+        return view('course-mba',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories','banner_subheading2','dept_slug'));
     }
 
  public function bba_cour(Request $request)
@@ -388,24 +417,29 @@ public function it_dept(Request $request)
         $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
-       $banner_img='management-banner.webp';
+       $Course=Course::where("course_slug",$slug)->where("active",'1')->first();
+        $banner_img='management-banner.webp';
         $banner_img_mob='management-banner-mob.webp';
         $banner_heading='Bachelor of Business Administration (BBA)';
-        $banner_subheading='Departments & Programmes / Management Science / Bachelor of Business Administration (BBA)';
-        return view('course-bba',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+        $banner_subheading=$Course->depts->department_name;
+        $banner_subheading2=$Course->course_name;
+        $dept_slug=$Course->depts->department_slug;
+        return view('course-bba',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories','banner_subheading2','dept_slug'));
     }
 
 
      public function humanities_dept(Request $request)
     {
+        $path = $request->path();
+        $slug = basename($path);
+        $Dept=Department::where('department_slug',$slug)->where('active','1')->first();
         $banner_img='humaniti-banner.webp';
         $banner_img_mob='humaniti-banner-mob.webp';
         $banner_heading='Basic Science and Humanities';
-        $banner_subheading='Departments & Programmes / Basic Science and Humanities';
-        $path = $request->path();
-        $slug = basename($path);
+        $banner_subheading=$Dept->department_name;
+        $dept_slug=$Dept->department_slug;        
         $Notice=Notice::where("active",'1')->where("department_slug",$slug)->orderBy("created_at","asc")->get();
-        return view('basic-science',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice'));
+        return view('basic-science',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','Notice','dept_slug'));
     } 
 
     public function humanities_cour(Request $request)
@@ -420,11 +454,14 @@ public function it_dept(Request $request)
         $get_event=Event::where("course_slug",$slug)->where("active",'1')->orderBy("sequence","asc")->get();
         $get_acheivement=StudentAcheivement::where("course_slug",$slug)->where("active",'1')->limit(3)->get();
         $get_success_stories=SuccessStories::where("course_slug",$slug)->where("active",'1')->get();
-       $banner_img='humaniti-banner.webp';
+       $Course=Course::where("course_slug",$slug)->where("active",'1')->first();
+        $banner_img='humaniti-banner.webp';
         $banner_img_mob='humaniti-banner-mob.webp';
         $banner_heading='Basic Science and Humanities';
-        $banner_subheading='Departments & Programmes / Basic Science and Humanities';
-        return view('course-basic-science',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories'));
+        $banner_subheading=$Course->depts->department_name;
+        $banner_subheading2=$Course->course_name;
+        $dept_slug=$Course->depts->department_slug;
+        return view('course-basic-science',compact('banner_img','banner_img_mob','banner_heading','banner_subheading','slug','get_faculty','get_hod','get_corporate','get_recruiter','get_lab','get_event','get_acheivement','get_success_stories','banner_subheading2','dept_slug'));
     }
 
 
